@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pets_eqs>
+    <pets>
+        <pet id="000" editable="true">
+            <Name>武圣关羽</Name>
+            <Grade>dress</Grade>
+            <Property>
+                <FourDimension>50</FourDimension>
+                <AllStrengthen>15</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+                <White>5</White>
+            </Property>
+            <Edit>
+                <Selection index="0" default="0" title="技能:">
+                    <Option value="0" title="开启技能:">
+                        <FighterAndPet>10</FighterAndPet>
+                    </Option>
+                    <Option value="1" title="不开技能">
+                    </Option>
+                </Selection>
+            </Edit>
+        </pet>
+        <pet id="001" editable="true">
+            <Name>艾莉丝</Name>
+            <Grade>dress</Grade>
+            <Property>
+                <PhyAtta>35</PhyAtta>
+                <MagAtta>35</MagAtta>
+                <IndAtta>55</IndAtta>
+                <AllStrengthen>15</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+                <White>8</White>
+            </Property>
+            <Edit>
+                <Selection index="0" default="0" title="技能:">
+                    <Option value="0" title="开启技能:">
+                        <FighterAndPet>10</FighterAndPet>
+                    </Option>
+                    <Option value="1" title="不开技能">
+                    </Option>
+                </Selection>
+            </Edit>
+        </pet>
+        <pet id="002" editable="true">
+            <Name>雪兔蒂娅</Name>
+            <Grade>dress</Grade>
+            <Property>
+                <FourDimension>100</FourDimension>
+                <AllStrengthen>20</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+                <White>10</White>
+            </Property>
+            <Edit>
+                <Selection index="0" default="0" title="技能:">
+                    <Option value="0" title="开启技能:">
+                        <FighterAndPet>10</FighterAndPet>
+                    </Option>
+                    <Option value="1" title="不开技能">
+                    </Option>
+                </Selection>
+            </Edit>
+        </pet>
+        <pet id="003" editable="true">
+            <Name>冰雪魔法师蒂娅</Name>
+            <Grade>dress</Grade>
+            <Property>
+                <FourDimension>110</FourDimension>
+                <AllStrengthen>22</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+                <White>12</White>
+            </Property>
+            <Edit>
+                <Selection index="0" default="0" title="技能:">
+                    <Option value="0" title="开启技能:">
+                        <FighterAndPet>10</FighterAndPet>
+                    </Option>
+                    <Option value="1" title="不开技能">
+                    </Option>
+                </Selection>
+            </Edit>
+        </pet>
+        <pet id="004" editable="true">
+            <Name>吟游诗人薇泽达</Name>
+            <Grade>dress</Grade>
+            <Property>
+                <FourDimension>120</FourDimension>
+                <AllStrengthen>24</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+                <White>12</White>
+            </Property>
+            <Edit>
+                <Selection index="0" default="0" title="技能:">
+                    <Option value="0" title="开启技能:">
+                        <FighterAndPet>10</FighterAndPet>
+                    </Option>
+                    <Option value="1" title="不开技能">
+                    </Option>
+                </Selection>
+            </Edit>
+        </pet>
+        <pet id="005" editable="true">
+            <Name>太初之音薇泽达</Name>
+            <Grade>dress</Grade>
+            <Property>
+                <FourDimension>120</FourDimension>
+                <AllStrengthen>24</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+                <White>15</White>
+                <AllDamage>5</AllDamage>
+            </Property>
+            <Edit>
+                <Selection index="0" default="0" title="技能:">
+                    <Option value="0" title="开启技能:">
+                        <FighterAndPet>10</FighterAndPet>
+                    </Option>
+                    <Option value="1" title="不开技能">
+                    </Option>
+                </Selection>
+            </Edit>
+        </pet>
+        <pet id="006" editable="true">
+            <Name>弓手维多利亚</Name>
+            <Grade>dress</Grade>
+            <Property>
+                <FourDimension>140</FourDimension>
+                <AllStrengthen>24</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+                <White>12</White>
+                <StrengthIntelligencePercent>10</StrengthIntelligencePercent>
+                <Cd type="range" start="1" end="100">-5</Cd>
+            </Property>
+            <Edit>
+                <Selection index="0" default="0" title="技能:">
+                    <Option value="0" title="开启技能:">
+                        <FighterAndPet>10</FighterAndPet>
+                    </Option>
+                    <Option value="1" title="不开技能">
+                    </Option>
+                </Selection>
+            </Edit>
+        </pet>
+        <pet id="007" editable="true">
+            <Name>雷光之箭维多利亚</Name>
+            <Grade>dress</Grade>
+            <Property>
+                <FourDimension>150</FourDimension>
+                <AllStrengthen>24</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+                <White>15</White>
+                <StrengthIntelligencePercent>12</StrengthIntelligencePercent>
+                <AllDamage>5</AllDamage>
+                <Cd type="range" start="1" end="100">-5</Cd>
+            </Property>
+            <Edit>
+                <Selection index="0" default="0" title="技能:">
+                    <Option value="0" title="开启技能:">
+                        <FighterAndPet>10</FighterAndPet>
+                    </Option>
+                    <Option value="1" title="不开技能">
+                    </Option>
+                </Selection>
+            </Edit>
+        </pet>
+        <pet id="008" editable="true">
+            <Name>神迹 : 太初之音薇泽达</Name>
+            <Grade>dress</Grade>
+            <Property>
+                <FourDimension>120</FourDimension>
+                <AllStrengthen>24</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+                <White>15</White>
+                <StrengthIntelligencePercent>8</StrengthIntelligencePercent>
+                <AllDamage>5</AllDamage>
+                <Cd type="range" start="1" end="100">-5</Cd>
+            </Property>
+            <Edit>
+                <Selection index="0" default="0" title="技能:">
+                    <Option value="0" title="开启技能:">
+                        <FighterAndPet>10</FighterAndPet>
+                    </Option>
+                    <Option value="1" title="不开技能">
+                    </Option>
+                </Selection>
+            </Edit>
+        </pet>
+    </pets>
+    <redequipments>
+        <redequipment id="100">
+            <Name>丈八蛇矛</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <White>7</White>
+            </Property>
+        </redequipment>
+        <redequipment id="101">
+            <Name>炽龙剑</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <White>7</White>
+            </Property>
+        </redequipment>
+        <redequipment id="102">
+            <Name>红色狐尾图腾</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <White>7</White>
+            </Property>
+        </redequipment>
+        <redequipment id="103">
+            <Name>沙罗曼的火焰长剑</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <White>7</White>
+            </Property>
+        </redequipment>
+        <redequipment id="104">
+            <Name>宿命之战袍</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <White>8</White>
+            </Property>
+        </redequipment>
+    </redequipments>
+    <blueequipments>
+        <blueequipment id="200">
+            <Name>雌雄双股剑</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <PhyCrit>5</PhyCrit>
+                <MagCrit>5</MagCrit>
+            </Property>
+        </blueequipment>
+        <blueequipment id="201">
+            <Name>青龙氅</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <PhyCrit>5</PhyCrit>
+                <MagCrit>5</MagCrit>
+            </Property>
+        </blueequipment>
+        <blueequipment id="202">
+            <Name>蓝色兔耳图腾</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <PhyCrit>6</PhyCrit>
+                <MagCrit>6</MagCrit>
+            </Property>
+        </blueequipment>
+        <blueequipment id="203">
+            <Name>温蒂妮的露珠披风</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <PhyCrit>6</PhyCrit>
+                <MagCrit>6</MagCrit>
+            </Property>
+        </blueequipment>
+        <blueequipment id="204">
+            <Name>哭泣之眼耳坠</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <PhyCrit>6</PhyCrit>
+                <MagCrit>6</MagCrit>
+                <FourDimension>20</FourDimension>
+            </Property>
+        </blueequipment>
+        <blueequipment id="210">
+            <Name>蓝色卡片</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <Strength>25</Strength>
+                <Intelligence>25</Intelligence>
+            </Property>
+        </blueequipment>
+    </blueequipments>
+    <greenequipments>
+        <greenequipment id="300">
+            <Name>青龙偃月刀</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <PhyAtta>30</PhyAtta>
+                <MagAtta>30</MagAtta>
+                <AllStrengthen>18</AllStrengthen>
+            </Property>
+        </greenequipment>
+        <greenequipment id="301">
+            <Name>苍龙爪</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <PhyAtta>30</PhyAtta>
+                <MagAtta>30</MagAtta>
+                <AllStrengthen>18</AllStrengthen>
+            </Property>
+        </greenequipment>
+        <greenequipment id="302">
+            <Name>绿色鹰翼图腾</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <PhyAtta>30</PhyAtta>
+                <MagAtta>30</MagAtta>
+                <IndAtta>40</IndAtta>
+                <AllStrengthen>20</AllStrengthen>
+            </Property>
+        </greenequipment>
+        <greenequipment id="303">
+            <Name>西尔芙的季风铠甲</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <PhyAtta>30</PhyAtta>
+                <MagAtta>30</MagAtta>
+                <IndAtta>40</IndAtta>
+                <AllStrengthen>20</AllStrengthen>
+            </Property>
+        </greenequipment>
+        <greenequipment id="304">
+            <Name>征服者的战意竹筒</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <PhyAtta>40</PhyAtta>
+                <MagAtta>40</MagAtta>
+                <IndAtta>40</IndAtta>
+                <AllStrengthen>20</AllStrengthen>
+            </Property>
+        </greenequipment>
+    </greenequipments>
+</pets_eqs>

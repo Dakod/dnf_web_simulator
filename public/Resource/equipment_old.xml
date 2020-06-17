@@ -1,0 +1,2159 @@
+<?xml version="1.0" encoding="UTF-8" ?><!--
+装备编码规则
+前两位代表装备类型 05 武器 01上衣 ...
+第三位代表类型  050 太刀 010布甲上衣
+之后三位表示装备等级
+最后两位表示顺序号
+例如: 05009000 圣耀救赎太刀
+-->
+<equipments>
+    <weapon>
+        <swordman>
+            <equipment id='05010000' editable="true">
+                <Name>太极天帝剑</Name>
+                <Grade>epic</Grade>
+                <Type>太刀</Type>
+                <Level>100</Level>
+                <PhyAtta>1167</PhyAtta>
+                <MagAtta>1290</MagAtta>
+                <IndAtta>770</IndAtta>
+                <Strength>81</Strength>
+                <Intelligence>122</Intelligence>
+                <PhyCrit>2</PhyCrit>
+                <SkillAtta>30</SkillAtta>
+                <TriAttaPercent>40</TriAttaPercent>
+                <StrengthPercent>10</StrengthPercent>
+                <IntelligencePercent>10</IntelligencePercent>
+
+                <Edit>
+                    <Selection index="0" default="0" title="阴气/阳气:">
+                        <Option value="0" title="阴气:">
+                            <AllDamage>21</AllDamage>
+                        </Option>
+                        <Option value="1" title="阳气:">
+                            <SkillAtta>23</SkillAtta>
+                        </Option>
+                    </Selection>
+                    <Input index="1" title="神话属性1:">
+                        <White min="2" max="10" step="1">10</White>
+                    </Input>
+                    <Input index="2" title="神话属性2:">
+                        <SkillLevel min="5" max="45" step="5" type="range" start="1" condition="全部">1</SkillLevel>
+                    </Input>
+                    <Input index="3" title="测试属性:">
+                        <PhyCrit min="1" max="100">120</PhyCrit>
+                    </Input>
+                    <Selection index="4" default="0" title="阴气/阳气:">
+                        <Option value="0" title="阴气:">
+                            <AllDamage>21</AllDamage>
+                        </Option>
+                        <Option value="1" title="阳气:">
+                            <SkillAtta>23</SkillAtta>
+                        </Option>
+                    </Selection>
+                    <Selection index="5" default="0" title="阴气/阳气:">
+                        <Option value="0" title="阴气:">
+                            <AllDamage>21</AllDamage>
+                        </Option>
+                        <Option value="1" title="阳气:">
+                            <SkillAtta>23</SkillAtta>
+                        </Option>
+                    </Selection>
+                </Edit>
+
+            </equipment>
+            <equipment id='05009000'>
+                <Name>圣耀救赎太刀</Name>
+                <Grade>epic</Grade>
+                <Type>太刀</Type>
+                <Level>90</Level>
+                <PhyAtta>1058</PhyAtta>
+                <MagAtta>1169</MagAtta>
+                <IndAtta>686</IndAtta>
+                <Strength>75</Strength>
+                <Intelligence>112</Intelligence>
+                <PhyCrit>2</PhyCrit>
+                <SkillAtta>40</SkillAtta>
+                <SkillAtta>22</SkillAtta>
+                <PropertyAtta>5</PropertyAtta>
+            </equipment>
+            <equipment id='05109000'>
+                <Name>圣耀救赎短剑</Name>
+                <Grade>epic</Grade>
+                <Type>短剑</Type>
+                <Level>90</Level>
+                <PhyAtta>1058</PhyAtta>
+                <MagAtta>1280</MagAtta>
+                <IndAtta>686</IndAtta>
+                <Intelligence>75</Intelligence>
+                <MagCrit>2</MagCrit>
+                <SkillAtta>40</SkillAtta>
+                <SkillAtta>22</SkillAtta>
+                <PropertyAtta>5</PropertyAtta>
+            </equipment>
+            <equipment id='05009500'>
+                <Name>苍穹落幕太刀</Name>
+                <Grade>epic</Grade>
+                <Type>太刀</Type>
+                <Level>95</Level>
+                <PhyAtta>1112</PhyAtta>
+                <MagAtta>1230</MagAtta>
+                <IndAtta>723</IndAtta>
+                <Strength>78</Strength>
+                <Intelligence>117</Intelligence>
+                <PhyCrit>2</PhyCrit>
+                <SkillAtta>45</SkillAtta>
+                <AllDamage>30</AllDamage>
+                <PropertyAtta>5</PropertyAtta>
+            </equipment>
+            <equipment id='05109500'>
+                <Name>苍穹落幕短剑</Name>
+                <Grade>epic</Grade>
+                <Type>短剑</Type>
+                <Level>95</Level>
+                <PhyAtta>1112</PhyAtta>
+                <MagAtta>1346</MagAtta>
+                <IndAtta>723</IndAtta>
+                <Intelligence>78</Intelligence>
+                <MagCrit>2</MagCrit>
+                <SkillAtta>45</SkillAtta>
+                <AllDamage>30</AllDamage>
+                <PropertyAtta>5</PropertyAtta>
+            </equipment>
+            <equipment id='05009501'>
+                <Name>疾风劫</Name>
+                <Grade>epic</Grade>
+                <Type>太刀</Type>
+                <Level>95</Level>
+                <PhyAtta>1112</PhyAtta>
+                <MagAtta>1230</MagAtta>
+                <IndAtta>723</IndAtta>
+                <Strength>78</Strength>
+                <Intelligence>117</Intelligence>
+                <PhyCrit>2</PhyCrit>
+                <SkillLevel type="range" start="1" end="85" condition="全部">1</SkillLevel>
+                <TriAttaPercent>16</TriAttaPercent>
+                <StrengthPercent>12</StrengthPercent>
+                <IntelligencePercent>12</IntelligencePercent>
+                <ExtraCrit>12</ExtraCrit>
+                <ExtraYellow>12</ExtraYellow>
+            </equipment>
+            <equipment id='05109501'>
+                <Name>永恒之王权</Name>
+                <Grade>epic</Grade>
+                <Type>短剑</Type>
+                <Level>95</Level>
+                <PhyAtta>1112</PhyAtta>
+                <MagAtta>1346</MagAtta>
+                <IndAtta>723</IndAtta>
+                <Intelligence>78</Intelligence>
+                <MagCrit>2</MagCrit>
+                <AllStrengthen>40</AllStrengthen>
+                <TriAttaPercent>31</TriAttaPercent>
+                <AllDamage>18</AllDamage>
+            </equipment>
+            <equipment id='05009502'>
+                <Name>黑暗之主太刀</Name>
+                <Grade>epic</Grade>
+                <Type>太刀</Type>
+                <Level>95</Level>
+                <PhyAtta>1112</PhyAtta>
+                <MagAtta>1230</MagAtta>
+                <IndAtta>723</IndAtta>
+                <Strength>78</Strength>
+                <Intelligence>117</Intelligence>
+                <PhyCrit>2</PhyCrit>
+                <SkillAtta>55</SkillAtta>
+                <AllDamage>32</AllDamage>
+                <PropertyAtta>5</PropertyAtta>
+            </equipment>
+            <equipment id='05109502'>
+                <Name>黑暗之主短剑</Name>
+                <Grade>epic</Grade>
+                <Type>短剑</Type>
+                <Level>95</Level>
+                <PhyAtta>1112</PhyAtta>
+                <MagAtta>1346</MagAtta>
+                <IndAtta>723</IndAtta>
+                <Intelligence>78</Intelligence>
+                <MagCrit>2</MagCrit>
+                <SkillAtta>55</SkillAtta>
+                <AllDamage>32</AllDamage>
+                <PropertyAtta>5</PropertyAtta>
+            </equipment>
+        </swordman>
+    </weapon>
+    <armor>
+        <shoulder>
+            <equipment id='00009000' suit="0000">
+                <Name>崩坏的二次元护肩</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>90</Level>
+                <Strength>35</Strength>
+                <Intelligence>43</Intelligence>
+                <ExtraYellow>16</ExtraYellow>
+                <SkillLevel type="range" start="50" end="50" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='00109000' suit="0001">
+                <Name>欧格罗斯的生命肩甲</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>90</Level>
+                <Strength>35</Strength>
+                <Intelligence>35</Intelligence>
+                <LightStrengthen>22</LightStrengthen>
+                <AllDamage>12</AllDamage>
+            </equipment>
+            <equipment id='00209000' suit="0002">
+                <Name>超大陆-潘诺西亚的火山</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>90</Level>
+                <Strength>43</Strength>
+                <Intelligence>29</Intelligence>
+                <ExtraCrit>18</ExtraCrit>
+            </equipment>
+            <equipment id='00309000' suit="0003">
+                <Name>海龙王婆伽罗的战神肩甲</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>90</Level>
+                <Strength>40</Strength>
+                <Intelligence>29</Intelligence>
+                <IceStrengthen>14</IceStrengthen>
+                <SkillAtta>3</SkillAtta>
+                <StrengthNumUp max="12">  <!--强化效果影响的词条-->
+                    <SkillAtta>1</SkillAtta>
+                </StrengthNumUp>
+            </equipment>
+            <equipment id='00409000' suit="0004">
+                <Name>贪婪之手</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>90</Level>
+                <Strength>35</Strength>
+                <Intelligence>35</Intelligence>
+                <White>15</White>
+            </equipment>
+
+            <!--95级-->
+
+            <equipment id='00009500' suit="0010">
+                <Name>苍天之碧:卷云</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>45</Intelligence>
+                <AllDamage>4</AllDamage>
+                <SkillAtta>16</SkillAtta>
+            </equipment>
+            <equipment id='00009501' suit="0020">
+                <Name>超界·苍天之碧:卷云</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>45</Intelligence>
+                <AllDamage>5</AllDamage>
+                <SkillAtta>20</SkillAtta>
+            </equipment>
+            <equipment id='00109500' suit="0011">
+                <Name>雨水:长青的群山</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>37</Strength>
+                <Intelligence>37</Intelligence>
+                <SkillLevel type="range" start="1" end="35" condition="全部">1</SkillLevel>
+                <White>17</White>
+            </equipment>
+            <equipment id='00109501' suit="0021">
+                <Name>超界·雨水:长青的群山</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>37</Strength>
+                <Intelligence>37</Intelligence>
+                <SkillLevel type="range" start="1" end="45" condition="全部">1</SkillLevel>
+                <White>20</White>
+            </equipment>
+            <equipment id='00209500' suit="0012">
+                <Name>北极星的魅力</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>45</Strength>
+                <Intelligence>30</Intelligence>
+                <PhyCrit>8</PhyCrit>
+                <MagCrit>8</MagCrit>
+                <SkillAtta>14</SkillAtta>
+            </equipment>
+            <equipment id='00209501' suit="0022">
+                <Name>超界·北极星的魅力</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>45</Strength>
+                <Intelligence>30</Intelligence>
+                <PhyCrit>12</PhyCrit>
+                <MagCrit>12</MagCrit>
+                <SkillAtta>18</SkillAtta>
+            </equipment>
+            <equipment id='00309500' suit="0013">
+                <Name>梵雅的绝世容颜</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>41</Strength>
+                <Intelligence>30</Intelligence>
+                <SkillAtta>17</SkillAtta>
+            </equipment>
+            <equipment id='00309501' suit="0023">
+                <Name>超界·梵雅的绝世容颜</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>41</Strength>
+                <Intelligence>30</Intelligence>
+                <SkillAtta>23</SkillAtta>
+            </equipment>
+            <equipment id='00409500' suit="0014">
+                <Name>君清石的思念</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>37</Strength>
+                <Intelligence>37</Intelligence>
+                <FireStrengthen>16</FireStrengthen>
+                <SkillAtta>12</SkillAtta>
+            </equipment>
+            <equipment id='00409501' suit="0024">
+                <Name>超界·君清石的思念</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>37</Strength>
+                <Intelligence>37</Intelligence>
+                <FireStrengthen>20</FireStrengthen>
+                <SkillAtta>17</SkillAtta>
+            </equipment>
+
+            <equipment id='00009502' suit="0015">
+                <Name>鸣屋之低语护肩</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>45</Intelligence>
+                <AllStrengthen>12</AllStrengthen>
+                <ExtraYellow>10</ExtraYellow>
+            </equipment>
+            <equipment id='00109502' suit="0016">
+                <Name>霸之下山岳护肩</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>37</Strength>
+                <Intelligence>37</Intelligence>
+                <LightStrengthen>16</LightStrengthen>
+                <ExtraYellow>11</ExtraYellow>
+            </equipment>
+            <equipment id='00209502' suit="0017">
+                <Name>意志之虚妄护肩</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>45</Strength>
+                <Intelligence>30</Intelligence>
+                <TriAttaPercent>16</TriAttaPercent>
+            </equipment>
+            <equipment id='00309502' suit="0018">
+                <Name>伊万的恐怖肩甲</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>41</Strength>
+                <Intelligence>30</Intelligence>
+                <White>13</White>
+            </equipment>
+            <equipment id='00409502' suit="0019">
+                <Name>万年岁月的冰凌肩甲</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>37</Strength>
+                <Intelligence>37</Intelligence>
+                <AllAtta>100</AllAtta>
+                <StrengthPercent>10</StrengthPercent>
+                <IntelligencePercent>10</IntelligencePercent>
+            </equipment>
+        </shoulder>
+        <coat>
+            <equipment id='01009000' suit="0000">
+                <Name>妄想的偏执狂战袍</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>90</Level>
+                <Strength>45</Strength>
+                <Intelligence>53</Intelligence>
+                <SkillLevel type="range" start="1" end="85" condition="全部">1</SkillLevel>
+                <SkillLevel type="range" start="1" end="85" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='01109000' suit="0001">
+                <Name>虚无之空间胸甲</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>90</Level>
+                <Strength>45</Strength>
+                <Intelligence>45</Intelligence>
+                <AllStrengthen>22</AllStrengthen>
+                <StrengthPercent>12</StrengthPercent>
+                <IntelligencePercent>12</IntelligencePercent>
+            </equipment>
+            <equipment id='01209000' suit="0002">
+                <Name>超大陆-瓦巴拉的大地</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>90</Level>
+                <Strength>53</Strength>
+                <Intelligence>35</Intelligence>
+                <SkillLevel type="range" start="1" end="85" condition="全部">1</SkillLevel>
+                <SkillLevel type="range" start="15" end="48" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='01309000' suit="0003">
+                <Name>逆鳞摩那斯的龙王上衣</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>90</Level>
+                <Strength>48</Strength>
+                <Intelligence>35</Intelligence>
+                <White>10</White>
+                <StrengthNumUp max="12">  <!--强化效果影响的词条-->
+                    <White>1</White>
+                </StrengthNumUp>
+            </equipment>
+            <equipment id='01409000' suit="0004">
+                <Name>傲慢之眼</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>90</Level>
+                <Strength>45</Strength>
+                <Intelligence>45</Intelligence>
+                <StrengthPercent>15</StrengthPercent>
+                <IntelligencePercent>15</IntelligencePercent>
+            </equipment>
+
+            <!--95级-->
+
+            <equipment id='01009500' suit="0010">
+                <Name>苍天之碧:卷层云</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>56</Intelligence>
+                <AllDamage>4</AllDamage>
+                <ExtraYellow>16</ExtraYellow>
+            </equipment>
+            <equipment id='01009501' suit="0020">
+                <Name>超界·苍天之碧:卷层云</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>56</Intelligence>
+                <AllDamage>5</AllDamage>
+                <ExtraYellow>21</ExtraYellow>
+            </equipment>
+            <equipment id='01109500' suit="0011">
+                <Name>芒种:绵延的生命</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <SkillLevel type="range" start="1" end="35" condition="全部">1</SkillLevel>
+                <StrengthPercent>16</StrengthPercent>
+                <IntelligencePercent>16</IntelligencePercent>
+            </equipment>
+            <equipment id='01109501' suit="0021">
+                <Name>超界·芒种:绵延的生命</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <SkillLevel type="range" start="1" end="45" condition="全部">1</SkillLevel>
+                <StrengthPercent>20</StrengthPercent>
+                <IntelligencePercent>20</IntelligencePercent>
+            </equipment>
+            <equipment id='01209500' suit="0012">
+                <Name>海豚座的羞涩</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>56</Strength>
+                <Intelligence>37</Intelligence>
+                <SkillLevel type="range" start="85" end="85" condition="全部">1</SkillLevel>
+                <ExtraYellow>14</ExtraYellow>
+            </equipment>
+            <equipment id='01209501' suit="0022">
+                <Name>超界·海豚座的羞涩</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>56</Strength>
+                <Intelligence>37</Intelligence>
+                <SkillLevel type="range" start="85" end="85" condition="全部">1</SkillLevel>
+                <ExtraYellow>20</ExtraYellow>
+            </equipment>
+            <equipment id='01309500' suit="0013">
+                <Name>费诺的愤怒之勇</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>52</Strength>
+                <Intelligence>37</Intelligence>
+                <StrengthPercent>18</StrengthPercent>
+                <IntelligencePercent>18</IntelligencePercent>
+            </equipment>
+            <equipment id='01309501' suit="0023">
+                <Name>超界·费诺的愤怒之勇</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>52</Strength>
+                <Intelligence>37</Intelligence>
+                <StrengthPercent>25</StrengthPercent>
+                <IntelligencePercent>25</IntelligencePercent>
+            </equipment>
+            <equipment id='01409500' suit="0014">
+                <Name>梦纤石的牵绊</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <IceStrengthen>16</IceStrengthen>
+                <ExtraCrit>14</ExtraCrit>
+            </equipment>
+            <equipment id='01409501' suit="0024">
+                <Name>超界·梦纤石的牵绊</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <IceStrengthen>20</IceStrengthen>
+                <ExtraCrit>18</ExtraCrit>
+            </equipment>
+
+            <equipment id='01009502' suit="0015">
+                <Name>狂骨之弑生上衣</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>56</Intelligence>
+                <SkillLevel type="range" start="75" end="85" condition="全部">1</SkillLevel>
+                <StrengthPercent>12</StrengthPercent>
+                <IntelligencePercent>12</IntelligencePercent>
+            </equipment>
+            <equipment id='01109502' suit="0016">
+                <Name>狻猊之烟火胸甲</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <FireStrengthen>16</FireStrengthen>
+                <ExtraCrit>11</ExtraCrit>
+            </equipment>
+            <equipment id='01209502' suit="0017">
+                <Name>希望之规训胸甲</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>56</Strength>
+                <Intelligence>37</Intelligence>
+                <StrengthPercent>17</StrengthPercent>
+                <IntelligencePercent>17</IntelligencePercent>
+            </equipment>
+            <equipment id='01309502' suit="0018">
+                <Name>阿提拉的野心胸甲</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>52</Strength>
+                <Intelligence>37</Intelligence>
+                <TriAttaPercent>18</TriAttaPercent>
+            </equipment>
+            <equipment id='01409502' suit="0019">
+                <Name>万年岁月的雪崩胸甲</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <AllStrengthen>22</AllStrengthen>
+                <White>10</White>
+            </equipment>
+        </coat>
+        <pants>
+            <equipment id='02009000' suit="0000">
+                <Name>执着的自恋狂护腿</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>90</Level>
+                <Strength>45</Strength>
+                <Intelligence>53</Intelligence>
+                <White>16</White>
+            </equipment>
+            <equipment id='02109000' suit="0001">
+                <Name>斯狄尔的超合金腿甲</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>90</Level>
+                <Strength>45</Strength>
+                <Intelligence>45</Intelligence>
+                <DarkStrengthen>22</DarkStrengthen>
+                <TriAttaPercent>12</TriAttaPercent>
+            </equipment>
+            <equipment id='02209000' suit="0002">
+                <Name>超大陆-盘古大陆的地震</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>90</Level>
+                <Strength>53</Strength>
+                <Intelligence>35</Intelligence>
+                <PhyCrit>7</PhyCrit>
+                <MagCrit>7</MagCrit>
+                <ExtraYellow>16</ExtraYellow>
+            </equipment>
+            <equipment id='02309000' suit="0003">
+                <Name>搅拌乳海的婆苏吉的蛇神护腿</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>90</Level>
+                <Strength>48</Strength>
+                <Intelligence>35</Intelligence>
+                <FireStrengthen>14</FireStrengthen>
+                <TriAttaPercent>13</TriAttaPercent>
+            </equipment>
+            <equipment id='02409000' suit="0004">
+                <Name>暴食之口</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>90</Level>
+                <Strength>45</Strength>
+                <Intelligence>45</Intelligence>
+                <TriAttaPercent>17</TriAttaPercent>
+            </equipment>
+
+            <!--95级-->
+
+            <equipment id='02009500' suit="0010">
+                <Name>苍天之碧:层云</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>56</Intelligence>
+                <AllDamage>4</AllDamage>
+                <ExtraCrit>17</ExtraCrit>
+            </equipment>
+            <equipment id='02009501' suit="0020">
+                <Name>超界·苍天之碧:层云</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>56</Intelligence>
+                <AllDamage>5</AllDamage>
+                <ExtraCrit>21</ExtraCrit>
+            </equipment>
+            <equipment id='02109500' suit="0011">
+                <Name>白露:不熄的光明</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <SkillLevel type="range" start="40" end="48" condition="全部">1</SkillLevel>
+                <TriAttaPercent>17</TriAttaPercent>
+            </equipment>
+            <equipment id='02109501' suit="0021">
+                <Name>超界·白露:不熄的光明</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <SkillLevel type="range" start="35" end="48" condition="全部">1</SkillLevel>
+                <TriAttaPercent>21</TriAttaPercent>
+            </equipment>
+            <equipment id='02209500' suit="0012">
+                <Name>织女星的凝望</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>56</Strength>
+                <Intelligence>37</Intelligence>
+                <SkillLevel type="range" start="50" end="50" condition="全部">1</SkillLevel>
+                <ExtraCrit>14</ExtraCrit>
+            </equipment>
+            <equipment id='02209501' suit="0022">
+                <Name>超界·织女星的凝望</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>56</Strength>
+                <Intelligence>37</Intelligence>
+                <SkillLevel type="range" start="50" end="50" condition="全部">1</SkillLevel>
+                <ExtraCrit>20</ExtraCrit>
+            </equipment>
+            <equipment id='02309500' suit="0013">
+                <Name>凯兰崔尔的决断</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>52</Strength>
+                <Intelligence>37</Intelligence>
+                <AllDamage>20</AllDamage>
+            </equipment>
+            <equipment id='02309501' suit="0023">
+                <Name>超界·凯兰崔尔的决断</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>52</Strength>
+                <Intelligence>37</Intelligence>
+                <AllDamage>25</AllDamage>
+            </equipment>
+            <equipment id='02409500' suit="0014">
+                <Name>凤瞳石的轻鸣</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <LightStrengthen>16</LightStrengthen>
+                <TriAttaPercent>13</TriAttaPercent>
+            </equipment>
+            <equipment id='02409501' suit="0024">
+                <Name>超界·凤瞳石的轻鸣</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <LightStrengthen>20</LightStrengthen>
+                <TriAttaPercent>17</TriAttaPercent>
+            </equipment>
+
+            <equipment id='02009502' suit="0015">
+                <Name>木魅之祈灵长裤</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>56</Intelligence>
+                <SkillLevel type="range" start="35" end="50" condition="全部">1</SkillLevel>
+                <StrengthPercent>12</StrengthPercent>
+                <IntelligencePercent>12</IntelligencePercent>
+            </equipment>
+            <equipment id='02109502' suit="0016">
+                <Name>嘲风之祛邪护腿</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <IceStrengthen>16</IceStrengthen>
+                <ExtraCrit>11</ExtraCrit>
+            </equipment>
+            <equipment id='02209502' suit="0017">
+                <Name>理想之执念护腿</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>56</Strength>
+                <Intelligence>37</Intelligence>
+                <TriAttaPercent>17</TriAttaPercent>
+            </equipment>
+            <equipment id='02309502' suit="0018">
+                <Name>尼禄的嗜血腿甲</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>52</Strength>
+                <Intelligence>37</Intelligence>
+                <StrengthPercent>18</StrengthPercent>
+                <IntelligencePercent>18</IntelligencePercent>
+            </equipment>
+            <equipment id='02409502' suit="0019">
+                <Name>万年岁月的寒霜腿甲</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <AllStrengthen>22</AllStrengthen>
+                <White>10</White>
+            </equipment>
+        </pants>
+        <belt>
+            <equipment id='03009000' suit="0000">
+                <Name>死亡的进行曲腰带</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>90</Level>
+                <Strength>26</Strength>
+                <Intelligence>32</Intelligence>
+                <ExtraCrit>16</ExtraCrit>
+                <SkillLevel type="range" start="50" end="50" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='03109000' suit="0001">
+                <Name>维波的凝滞腰带</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>90</Level>
+                <Strength>26</Strength>
+                <Intelligence>26</Intelligence>
+                <ExtraYellow>12</ExtraYellow>
+                <IceStrengthen>22</IceStrengthen>
+            </equipment>
+            <equipment id='03209000' suit="0002">
+                <Name>超大陆-罗迪尼亚的熔岩</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>90</Level>
+                <Strength>32</Strength>
+                <Intelligence>21</Intelligence>
+                <PhyCrit>2</PhyCrit>
+                <MagCrit>2</MagCrit>
+                <StrengthPercent>18</StrengthPercent>
+                <IntelligencePercent>18</IntelligencePercent>
+            </equipment>
+            <equipment id='03309000' suit="0003">
+                <Name>刺杀者德叉伽的龙王腰带</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>90</Level>
+                <Strength>30</Strength>
+                <Intelligence>21</Intelligence>
+                <DarkStrengthen>14</DarkStrengthen>
+                <StrengthPercent>12</StrengthPercent>
+                <IntelligencePercent>12</IntelligencePercent>
+            </equipment>
+            <equipment id='03409000' suit="0004">
+                <Name>嫉妒之舌</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>90</Level>
+                <Strength>26</Strength>
+                <Intelligence>26</Intelligence>
+                <AllDamage>17</AllDamage>
+            </equipment>
+
+            <!--95级-->
+
+            <equipment id='03009500' suit="0010">
+                <Name>苍天之碧:积云</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>33</Intelligence>
+                <AllDamage>4</AllDamage>
+                <StrengthPercent>16</StrengthPercent>
+                <IntelligencePercent>16</IntelligencePercent>
+            </equipment>
+            <equipment id='03009501' suit="0020">
+                <Name>超界·苍天之碧:积云</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>33</Intelligence>
+                <AllDamage>5</AllDamage>
+                <StrengthPercent>20</StrengthPercent>
+                <IntelligencePercent>20</IntelligencePercent>
+            </equipment>
+            <equipment id='03109500' suit="0011">
+                <Name>霜降:凝结的冰霜</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+                <SkillLevel type="range" start="40" end="48" condition="全部">1</SkillLevel>
+                <ExtraYellow>17</ExtraYellow>
+            </equipment>
+            <equipment id='03109501' suit="0021">
+                <Name>超界·霜降:凝结的冰霜</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+                <SkillLevel type="range" start="35" end="48" condition="全部">1</SkillLevel>
+                <ExtraYellow>21</ExtraYellow>
+            </equipment>
+            <equipment id='03209500' suit="0012">
+                <Name>天琴座的高洁</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>33</Strength>
+                <Intelligence>22</Intelligence>
+                <SkillLevel type="range" start="50" end="50" condition="全部">1</SkillLevel>
+                <TriAttaPercent>15</TriAttaPercent>
+            </equipment>
+            <equipment id='03209501' suit="0022">
+                <Name>超界·天琴座的高洁</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>33</Strength>
+                <Intelligence>22</Intelligence>
+                <SkillLevel type="range" start="50" end="50" condition="全部">1</SkillLevel>
+                <TriAttaPercent>21</TriAttaPercent>
+            </equipment>
+            <equipment id='03309500' suit="0013">
+                <Name>维拉的光明净化</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>31</Strength>
+                <Intelligence>22</Intelligence>
+                <ExtraYellow>19</ExtraYellow>
+            </equipment>
+            <equipment id='03309501' suit="0023">
+                <Name>超界·维拉的光明净化</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>31</Strength>
+                <Intelligence>22</Intelligence>
+                <ExtraYellow>24</ExtraYellow>
+            </equipment>
+            <equipment id='03409500' suit="0014">
+                <Name>琥冥石的乖戾</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+                <AllStrengthen>14</AllStrengthen>
+                <StrengthPercent>13</StrengthPercent>
+                <IntelligencePercent>13</IntelligencePercent>
+            </equipment>
+            <equipment id='03409501' suit="0024">
+                <Name>超界·琥冥石的乖戾</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <AllStrengthen>20</AllStrengthen>
+                <StrengthPercent>18</StrengthPercent>
+                <IntelligencePercent>18</IntelligencePercent>
+            </equipment>
+
+            <equipment id='03009502' suit="0015">
+                <Name>烛阴之梦莹腰带</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>33</Intelligence>
+                <AllAtta>62</AllAtta>
+                <AllStrengthen>12</AllStrengthen>
+                <ExtraYellow>5</ExtraYellow>
+            </equipment>
+            <equipment id='03109502' suit="0016">
+                <Name>睚眦之暴戾腰带</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+                <DarkStrengthen>16</DarkStrengthen>
+                <ExtraYellow>11</ExtraYellow>
+            </equipment>
+            <equipment id='03209502' suit="0017">
+                <Name>信念之骄矜腰带</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>33</Strength>
+                <Intelligence>22</Intelligence>
+                <AllAtta>50</AllAtta>
+                <StrengthPercent>13</StrengthPercent>
+                <IntelligencePercent>13</IntelligencePercent>
+            </equipment>
+            <equipment id='03309502' suit="0018">
+                <Name>凯撒的征服腰带</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>31</Strength>
+                <Intelligence>22</Intelligence>
+                <White>13</White>
+            </equipment>
+            <equipment id='03409502' suit="0019">
+                <Name>万年岁月的凛风腰带</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+                <AllStrengthen>18</AllStrengthen>
+                <StrengthPercent>10</StrengthPercent>
+                <IntelligencePercent>10</IntelligencePercent>
+            </equipment>
+        </belt>
+        <shoes>
+            <equipment id='04009000' suit="0000">
+                <Name>人格的伪装者战靴</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>90</Level>
+                <Strength>26</Strength>
+                <Intelligence>32</Intelligence>
+                <TriAttaPercent>16</TriAttaPercent>
+            </equipment>
+            <equipment id='04109000' suit="0001">
+                <Name>布兰兹的业火长靴</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>90</Level>
+                <Strength>26</Strength>
+                <Intelligence>26</Intelligence>
+                <ExtraCrit>12</ExtraCrit>
+                <FireStrengthen>22</FireStrengthen>
+            </equipment>
+            <equipment id='04209000' suit="0002">
+                <Name>超大陆-凯诺兰的地壳</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>90</Level>
+                <Strength>32</Strength>
+                <Intelligence>21</Intelligence>
+                <PhyCrit>2</PhyCrit>
+                <MagCrit>2</MagCrit>
+                <TriAttaPercent>18</TriAttaPercent>
+            </equipment>
+            <equipment id='04309000' suit="0003">
+                <Name>青莲优钵罗的龙神战靴</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>90</Level>
+                <Strength>30</Strength>
+                <Intelligence>21</Intelligence>
+                <LightStrengthen>14</LightStrengthen>
+                <SkillLevel type="range" start="48" end="80" condition="全部">2</SkillLevel>
+            </equipment>
+            <equipment id='04409000' suit="0004">
+                <Name>怠惰之足</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>90</Level>
+                <Strength>26</Strength>
+                <Intelligence>26</Intelligence>
+                <ExtraYellow>15</ExtraYellow>
+            </equipment>
+
+            <!--95级-->
+
+            <equipment id='04009500' suit="0010">
+                <Name>苍天之碧:高积云</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>33</Intelligence>
+                <AllDamage>4</AllDamage>
+                <White>16</White>
+            </equipment>
+            <equipment id='04009501' suit="0020">
+                <Name>超界·苍天之碧:高积云</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>33</Intelligence>
+                <AllDamage>5</AllDamage>
+                <White>21</White>
+            </equipment>
+            <equipment id='04109500' suit="0011">
+                <Name>小寒:澄净的心灵</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+                <SkillLevel type="range" start="1" end="85" condition="全部">1</SkillLevel>
+                <ExtraCrit>7</ExtraCrit>
+            </equipment>
+            <equipment id='04109501' suit="0021">
+                <Name>超界·小寒:澄净的心灵</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+                <SkillLevel type="range" start="1" end="85" condition="全部">1</SkillLevel>
+                <ExtraCrit>11</ExtraCrit>
+            </equipment>
+            <equipment id='04209500' suit="0012">
+                <Name>天鹅座的朦胧</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>33</Strength>
+                <Intelligence>22</Intelligence>
+                <AllStrengthen>30</AllStrengthen>
+                <PhyCrit>2</PhyCrit>
+                <MagCrit>2</MagCrit>
+                <SkillLevel type="range" start="85" end="85" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='04209501' suit="0022">
+                <Name>超界·天鹅座的朦胧</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <Strength>33</Strength>
+                <Intelligence>22</Intelligence>
+                <AllStrengthen>40</AllStrengthen>
+                <PhyCrit>2</PhyCrit>
+                <MagCrit>2</MagCrit>
+                <SkillLevel type="range" start="85" end="85" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='04309500' suit="0013">
+                <Name>伊露维塔的创生</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>33</Strength>
+                <Intelligence>22</Intelligence>
+                <ExtraCrit>19</ExtraCrit>
+            </equipment>
+            <equipment id='04309501' suit="0023">
+                <Name>超界·伊露维塔的创生</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <Strength>33</Strength>
+                <Intelligence>22</Intelligence>
+                <ExtraCrit>24</ExtraCrit>
+            </equipment>
+            <equipment id='04409500' suit="0014">
+                <Name>诛璃石的断杀</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+                <DarkStrengthen>16</DarkStrengthen>
+                <White>14</White>
+            </equipment>
+            <equipment id='04409501' suit="0024">
+                <Name>超界·诛璃石的断杀</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+                <DarkStrengthen>20</DarkStrengthen>
+                <White>18</White>
+            </equipment>
+
+            <equipment id='04009502' suit="0015">
+                <Name>野衾之潜行短靴</Name>
+                <Grade>epic</Grade>
+                <Type>布甲</Type>
+                <Level>95</Level>
+                <Intelligence>33</Intelligence>
+                <AllAtta>62</AllAtta>
+                <AllStrengthen>12</AllStrengthen>
+                <ExtraYellow>5</ExtraYellow>
+            </equipment>
+            <equipment id='04109502' suit="0016">
+                <Name>螭吻之青云短靴</Name>
+                <Grade>epic</Grade>
+                <Type>皮甲</Type>
+                <Level>95</Level>
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+                <AllStrengthen>14</AllStrengthen>
+                <ExtraYellow>11</ExtraYellow>
+            </equipment>
+            <equipment id='04209502' suit="0017">
+                <Name>勇气之冥顽短靴</Name>
+                <Grade>epic</Grade>
+                <Type>轻甲</Type>
+                <Level>95</Level>
+                <AllAtta>50</AllAtta>
+                <Strength>33</Strength>
+                <Intelligence>22</Intelligence>
+                <StrengthPercent>13</StrengthPercent>
+                <IntelligencePercent>13</IntelligencePercent>
+            </equipment>
+            <equipment id='04309502' suit="0018">
+                <Name>卡利古拉的小军靴</Name>
+                <Grade>epic</Grade>
+                <Type>重甲</Type>
+                <Level>95</Level>
+                <AllAtta>200</AllAtta>
+                <Strength>31</Strength>
+                <Intelligence>22</Intelligence>
+                <PhyCrit>5</PhyCrit>
+                <MagCrit>5</MagCrit>
+            </equipment>
+            <equipment id='04409502' suit="0019">
+                <Name>万年岁月的冻土长靴</Name>
+                <Grade>epic</Grade>
+                <Type>板甲</Type>
+                <Level>95</Level>
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+                <AllStrengthen>18</AllStrengthen>
+                <StrengthPercent>10</StrengthPercent>
+                <IntelligencePercent>10</IntelligencePercent>
+            </equipment>
+        </shoes>
+    </armor>
+    <jewelry>
+        <bracelet>
+            <equipment id='06009000' suit="0100">
+                <Name>光:无垠之昼</Name>
+                <Grade>epic</Grade>
+                <Type>手镯</Type>
+                <Level>90</Level>
+                <Strength>43</Strength>
+                <SkillAtta>20</SkillAtta>
+            </equipment>
+            <equipment id='06009500' suit="0101">
+                <Name>雪浪风尘</Name>
+                <Grade>epic</Grade>
+                <Type>手镯</Type>
+                <Level>95</Level>
+                <Strength>45</Strength>
+                <AllStrengthen>16</AllStrengthen>
+                <SkillAtta>18</SkillAtta>
+            </equipment>
+            <equipment id='06009501' suit="0110">
+                <Name>黑云:侵蚀的太阳(伤害)</Name>
+                <Grade>epic</Grade>
+                <Type>手镯</Type>
+                <Level>95</Level>
+                <Strength>45</Strength>
+                <AllStrengthen>28</AllStrengthen>
+                <SkillAtta>18</SkillAtta>
+            </equipment>
+            <equipment id='06009502' suit="0111">
+                <Name>黑云:侵蚀的太阳(技能等级)</Name>
+                <Grade>epic</Grade>
+                <Type>手镯</Type>
+                <Level>95</Level>
+                <Strength>45</Strength>
+                <AllStrengthen>28</AllStrengthen>
+                <SkillAtta>14</SkillAtta>
+                <SkillLevel type="range" start="1" end="48" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='06009503' suit="0112">
+                <Name>黑云:侵蚀的太阳(减CD)</Name>
+                <Grade>epic</Grade>
+                <Type>手镯</Type>
+                <Level>95</Level>
+                <Strength>45</Strength>
+                <AllStrengthen>28</AllStrengthen>
+                <SkillAtta>14</SkillAtta>
+            </equipment>
+
+            <equipment id='06009504' suit="0102">
+                <Name>肆意的谎言</Name>
+                <Grade>epic</Grade>
+                <Type>手镯</Type>
+                <Level>95</Level>
+                <Strength>45</Strength>
+                <ExtraYellow>20</ExtraYellow>
+            </equipment>
+            <equipment id='06009505' suit="0103">
+                <Name>捕梦者</Name>
+                <Grade>epic</Grade>
+                <Type>手镯</Type>
+                <Level>95</Level>
+                <Strength>45</Strength>
+                <AllStrengthen>22</AllStrengthen>
+                <PhyCrit>3</PhyCrit>
+                <MagCrit>3</MagCrit>
+                <ExtraYellow>10</ExtraYellow>
+            </equipment>
+        </bracelet>
+        <necklace>
+            <equipment id='07009000' suit="0100">
+                <Name>引力:万物之拥</Name>
+                <Grade>epic</Grade>
+                <Type>项链</Type>
+                <Level>90</Level>
+                <Intelligence>43</Intelligence>
+                <TriAttaPercent>20</TriAttaPercent>
+            </equipment>
+            <equipment id='07009500' suit="0101">
+                <Name>千寻一醉</Name>
+                <Grade>epic</Grade>
+                <Type>项链</Type>
+                <Level>95</Level>
+                <Intelligence>45</Intelligence>
+                <AllStrengthen>16</AllStrengthen>
+                <StrengthPercent>18</StrengthPercent>
+                <IntelligencePercent>18</IntelligencePercent>
+            </equipment>
+            <equipment id='07009501' suit="0110">
+                <Name>黑潮:分裂的太阳(伤害)</Name>
+                <Grade>epic</Grade>
+                <Type>项链</Type>
+                <Level>95</Level>
+                <Intelligence>45</Intelligence>
+                <AllStrengthen>24</AllStrengthen>
+                <TriAttaPercent>22</TriAttaPercent>
+            </equipment>
+            <equipment id='07009502' suit="0111">
+                <Name>黑潮:分裂的大地(技能等级)</Name>
+                <Grade>epic</Grade>
+                <Type>项链</Type>
+                <Level>95</Level>
+                <Intelligence>45</Intelligence>
+                <AllStrengthen>24</AllStrengthen>
+                <TriAttaPercent>18</TriAttaPercent>
+                <SkillLevel type="range" start="60" end="80" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='07009503' suit="0112">
+                <Name>黑潮:分裂的天空(减CD)</Name>
+                <Grade>epic</Grade>
+                <Type>项链</Type>
+                <Level>95</Level>
+                <Intelligence>45</Intelligence>
+                <AllStrengthen>24</AllStrengthen>
+                <TriAttaPercent>19</TriAttaPercent>
+            </equipment>
+
+            <equipment id='07009504' suit="0102">
+                <Name>霸道的占有</Name>
+                <Grade>epic</Grade>
+                <Type>项链</Type>
+                <Level>95</Level>
+                <Intelligence>45</Intelligence>
+                <White>20</White>
+            </equipment>
+            <equipment id='07009505' suit="0103">
+                <Name>拾梦者</Name>
+                <Grade>epic</Grade>
+                <Type>项链</Type>
+                <Level>95</Level>
+                <Intelligence>45</Intelligence>
+                <AllStrengthen>22</AllStrengthen>
+                <AllDamage>10</AllDamage>
+            </equipment>
+        </necklace>
+        <ring>
+            <equipment id='08009000' suit="0100">
+                <Name>暗:无限之夜</Name>
+                <Grade>epic</Grade>
+                <Type>戒指</Type>
+                <Level>90</Level>
+                <Strength>64</Strength>
+                <Intelligence>64</Intelligence>
+                <StrengthPercent>20</StrengthPercent>
+                <IntelligencePercent>20</IntelligencePercent>
+            </equipment>
+            <equipment id='08009500' suit="0101">
+                <Name>碧水红潮</Name>
+                <Grade>epic</Grade>
+                <Type>戒指</Type>
+                <Level>95</Level>
+                <Strength>67</Strength>
+                <Intelligence>67</Intelligence>
+                <AllStrengthen>16</AllStrengthen>
+                <TriAttaPercent>18</TriAttaPercent>
+            </equipment>
+            <equipment id='08009501' suit="0110">
+                <Name>黑炎:侵蚀的太阳(伤害)</Name>
+                <Grade>epic</Grade>
+                <Type>戒指</Type>
+                <Level>95</Level>
+                <Strength>67</Strength>
+                <Intelligence>67</Intelligence>
+                <AllStrengthen>34</AllStrengthen>
+                <SkillAtta>16</SkillAtta>
+            </equipment>
+            <equipment id='08009502' suit="0111">
+                <Name>黑炎:侵蚀的大地(技能等级)</Name>
+                <Grade>epic</Grade>
+                <Type>戒指</Type>
+                <Level>95</Level>
+                <Strength>67</Strength>
+                <Intelligence>67</Intelligence>
+                <AllStrengthen>34</AllStrengthen>
+                <SkillAtta>10</SkillAtta>
+                <SkillLevel type="range" start="80" end="85" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='08009503' suit="0112">
+                <Name>黑炎:侵蚀的天空(减CD)</Name>
+                <Grade>epic</Grade>
+                <Type>戒指</Type>
+                <Level>95</Level>
+                <Strength>67</Strength>
+                <Intelligence>67</Intelligence>
+                <AllStrengthen>34</AllStrengthen>
+                <SkillAtta>11</SkillAtta>
+            </equipment>
+
+            <equipment id='08009504' suit="0102">
+                <Name>无言的猜忌</Name>
+                <Grade>epic</Grade>
+                <Type>戒指</Type>
+                <Level>95</Level>
+                <Strength>67</Strength>
+                <Intelligence>67</Intelligence>
+                <AllDamage>20</AllDamage>
+            </equipment>
+            <equipment id='08009505' suit="0103">
+                <Name>启梦者</Name>
+                <Grade>epic</Grade>
+                <Type>戒指</Type>
+                <Level>95</Level>
+                <Strength>67</Strength>
+                <Intelligence>67</Intelligence>
+                <AllStrengthen>22</AllStrengthen>
+                <TriAttaPercent>10</TriAttaPercent>
+            </equipment>
+        </ring>
+    </jewelry>
+    <special>
+        <assistant>
+            <equipment id='09009000' suit="0200">
+                <Name>王冠非冠(光)</Name>
+                <Grade>epic</Grade>
+                <Type>辅助装备</Type>
+                <Level>90</Level>
+                <Strength>124</Strength>
+                <Intelligence>124</Intelligence>
+                <AllDamage>20</AllDamage>
+            </equipment>
+            <equipment id='09009001' suit="0201">
+                <Name>王冠非冠(暗)</Name>
+                <Grade>epic</Grade>
+                <Type>辅助装备</Type>
+                <Level>90</Level>
+                <Strength>124</Strength>
+                <Intelligence>124</Intelligence>
+                <AllDamage>20</AllDamage>
+            </equipment>
+            <equipment id='09009500' suit="0202">
+                <Name>循环:无尽的诞生</Name>
+                <Grade>epic</Grade>
+                <Type>辅助装备</Type>
+                <Level>95</Level>
+                <Strength>44</Strength>
+                <Intelligence>44</Intelligence>
+                <SkillLevel type="range" start="1" end="85" condition="全部">1</SkillLevel>
+                <AllDamage>10</AllDamage>
+            </equipment>
+            <equipment id='09009501' suit="0210">
+                <Name>黑翼:侵蚀的太阳(伤害)</Name>
+                <Grade>epic</Grade>
+                <Type>辅助装备</Type>
+                <Level>95</Level>
+                <FourDimension>44</FourDimension>
+                <ExtraYellow>15</ExtraYellow>
+                <SkillAtta>8</SkillAtta>
+            </equipment>
+            <equipment id='09009502' suit="0211">
+                <Name>黑翼:侵蚀的大地(技能等级)</Name>
+                <Grade>epic</Grade>
+                <Type>辅助装备</Type>
+                <Level>95</Level>
+                <FourDimension>44</FourDimension>
+                <ExtraYellow>10</ExtraYellow>
+                <SkillAtta>8</SkillAtta>
+                <SkillLevel type="range" start="48" end="70" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='09009503' suit="0212">
+                <Name>黑翼:侵蚀的天空(减CD)</Name>
+                <Grade>epic</Grade>
+                <Type>辅助装备</Type>
+                <Level>95</Level>
+                <FourDimension>44</FourDimension>
+                <ExtraYellow>11</ExtraYellow>
+                <SkillAtta>8</SkillAtta>
+            </equipment>
+
+            <equipment id='09009504' suit="0203">
+                <Name>超时间的流速</Name>
+                <Grade>epic</Grade>
+                <Type>辅助装备</Type>
+                <Level>95</Level>
+                <FourDimension>105</FourDimension>
+                <White>18</White>
+            </equipment>
+            <equipment id='09009505' suit="0204">
+                <Name>正义的执行:公正</Name>
+                <Grade>epic</Grade>
+                <Type>辅助装备</Type>
+                <Level>95</Level>
+                <FourDimension>44</FourDimension>
+                <SkillLevel type="range" start="1" end="45" condition="全部">1</SkillLevel>
+                <SkillLevel type="range" start="60" end="80" condition="全部">1</SkillLevel>
+                <AllDamage>8</AllDamage>
+            </equipment>
+        </assistant>
+        <earrings>
+            <equipment id='10009000' suit="0200">
+                <Name>黑暗祭礼(光)</Name>
+                <Grade>epic</Grade>
+                <Type>耳环</Type>
+                <Level>90</Level>
+                <Strength>118</Strength>
+                <Intelligence>118</Intelligence>
+                <TriAttaPercent>22</TriAttaPercent>
+            </equipment>
+            <equipment id='10009001' suit="0201">
+                <Name>黑暗祭礼(暗)</Name>
+                <Grade>epic</Grade>
+                <Type>耳环</Type>
+                <Level>90</Level>
+                <Strength>118</Strength>
+                <Intelligence>118</Intelligence>
+                <TriAttaPercent>22</TriAttaPercent>
+            </equipment>
+            <equipment id='10009500' suit="0202">
+                <Name>转世:回溯的生命</Name>
+                <Grade>epic</Grade>
+                <Type>耳环</Type>
+                <Level>95</Level>
+                <Strength>66</Strength>
+                <Intelligence>66</Intelligence>
+                <ExtraYellow>12</ExtraYellow>
+                <ExtraCrit>12</ExtraCrit>
+            </equipment>
+            <equipment id='10009501' suit="0210">
+                <Name>黑孽:吞噬的太阳(伤害)</Name>
+                <Grade>epic</Grade>
+                <Type>耳环</Type>
+                <Level>95</Level>
+                <Strength>66</Strength>
+                <Intelligence>66</Intelligence>
+                <ExtraYellow>16</ExtraYellow>
+                <White>16</White>
+            </equipment>
+            <equipment id='10009502' suit="0211">
+                <Name>黑孽:吞噬的大地(技能等级)</Name>
+                <Grade>epic</Grade>
+                <Type>耳环</Type>
+                <Level>95</Level>
+                <Strength>66</Strength>
+                <Intelligence>66</Intelligence>
+                <ExtraYellow>14</ExtraYellow>
+                <White>14</White>
+                <SkillLevel type="range" start="60" end="80" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='10009503' suit="0212">
+                <Name>黑孽:吞噬的天空(减CD)</Name>
+                <Grade>epic</Grade>
+                <Type>耳环</Type>
+                <Level>95</Level>
+                <Strength>66</Strength>
+                <Intelligence>66</Intelligence>
+                <ExtraYellow>14</ExtraYellow>
+                <White>14</White>
+            </equipment>
+
+            <equipment id='10009504' suit="0203">
+                <Name>异空间的轨迹</Name>
+                <Grade>epic</Grade>
+                <Type>耳环</Type>
+                <Level>95</Level>
+                <AllAtta>200</AllAtta>
+                <FourDimension>66</FourDimension>
+                <AllDamage>8</AllDamage>
+            </equipment>
+            <equipment id='10009505' suit="0204">
+                <Name>正义的执行:自由</Name>
+                <Grade>epic</Grade>
+                <Type>耳环</Type>
+                <Level>95</Level>
+                <FourDimension>66</FourDimension>
+                <ExtraYellow>8</ExtraYellow>
+                <AllDamage>10</AllDamage>
+            </equipment>
+        </earrings>
+        <magicstone>
+            <equipment id='11009000' suit="0200">
+                <Name>王座本源(光)</Name>
+                <Grade>epic</Grade>
+                <Type>魔法石</Type>
+                <Level>90</Level>
+                <Strength>63</Strength>
+                <Intelligence>63</Intelligence>
+                <SkillLevel type="range" start="1" end="85" condition="全部">1</SkillLevel>
+                <SkillAtta>10</SkillAtta>
+            </equipment>
+            <equipment id='11009001' suit="0201">
+                <Name>王座本源(暗)</Name>
+                <Grade>epic</Grade>
+                <Type>魔法石</Type>
+                <Level>90</Level>
+                <Strength>63</Strength>
+                <Intelligence>63</Intelligence>
+                <SkillLevel type="range" start="1" end="85" condition="全部">1</SkillLevel>
+                <SkillAtta>10</SkillAtta>
+            </equipment>
+            <equipment id='11009500' suit="0202">
+                <Name>轮回:周而复始的时间</Name>
+                <Grade>epic</Grade>
+                <Type>魔法石</Type>
+                <Level>95</Level>
+                <Strength>66</Strength>
+                <Intelligence>66</Intelligence>
+                <AllStrengthen>50</AllStrengthen>
+                <SkillAtta>10</SkillAtta>
+            </equipment>
+            <equipment id='11009501' suit="0210">
+                <Name>黑风:分裂的太阳(伤害)</Name>
+                <Grade>epic</Grade>
+                <Type>魔法石</Type>
+                <Level>95</Level>
+                <Strength>66</Strength>
+                <Intelligence>66</Intelligence>
+                <ExtraCrit>15</ExtraCrit>
+                <SkillAtta>15</SkillAtta>
+            </equipment>
+            <equipment id='11009502' suit="0211">
+                <Name>黑风:分裂的太阳(技能等级)</Name>
+                <Grade>epic</Grade>
+                <Type>魔法石</Type>
+                <Level>95</Level>
+                <Strength>66</Strength>
+                <Intelligence>66</Intelligence>
+                <ExtraCrit>10</ExtraCrit>
+                <SkillAtta>15</SkillAtta>
+                <SkillLevel type="range" start="35" end="50" condition="全部">1</SkillLevel>
+            </equipment>
+            <equipment id='11009503' suit="0212">
+                <Name>黑风:分裂的太阳(减CD)</Name>
+                <Grade>epic</Grade>
+                <Type>魔法石</Type>
+                <Level>95</Level>
+                <Strength>66</Strength>
+                <Intelligence>66</Intelligence>
+                <ExtraCrit>11</ExtraCrit>
+                <SkillAtta>15</SkillAtta>
+            </equipment>
+
+            <equipment id='11009504' suit="0203">
+                <Name>异次元的魔方</Name>
+                <Grade>epic</Grade>
+                <Type>魔法石</Type>
+                <Level>95</Level>
+                <FourDimension>146</FourDimension>
+                <AllStrengthen>18</AllStrengthen>
+                <SkillAtta>12</SkillAtta>
+            </equipment>
+            <equipment id='11009505' suit="0204">
+                <Name>正义的执行:平等</Name>
+                <Grade>epic</Grade>
+                <Type>魔法石</Type>
+                <Level>95</Level>
+                <FourDimension>66</FourDimension>
+                <AllStrengthen>45</AllStrengthen>
+                <SkillLevel type="range" start="48" end="50" condition="全部">1</SkillLevel>
+                <SkillLevel type="range" start="85" end="85" condition="全部">1</SkillLevel>
+            </equipment>
+        </magicstone>
+    </special>
+    <titles>
+        <title>
+            <equipment id='12000100'>
+                <Name>龙之挑战</Name>
+                <Grade>稀有</Grade>
+                <Type>称号</Type>
+                <Level>1</Level>
+                <Strength>60</Strength>
+                <Intelligence>60</Intelligence>
+                <PhyAtta>30</PhyAtta>
+                <MagAtta>30</MagAtta>
+                <IndAtta>50</IndAtta>
+                <AllStrengthen>15</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <White>10</White>
+                <!--<Strength>35</Strength>-->
+                <!--<Intelligence>35</Intelligence>-->
+            </equipment>
+            <equipment id='12000101'>
+                <Name>龙之威仪</Name>
+                <Grade>神器</Grade>
+                <Type>称号</Type>
+                <Level>1</Level>
+                <Strength>65</Strength>
+                <Intelligence>65</Intelligence>
+                <PhyAtta>35</PhyAtta>
+                <MagAtta>35</MagAtta>
+                <IndAtta>55</IndAtta>
+                <AllStrengthen>15</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <White>12</White>
+                <!--<Strength>35</Strength>-->
+                <!--<Intelligence>35</Intelligence>-->
+            </equipment>
+            <equipment id='12000102'>
+                <Name>兽人守护神</Name>
+                <Grade>稀有</Grade>
+                <Type>称号</Type>
+                <Level>1</Level>
+                <Strength>70</Strength>
+                <Intelligence>70</Intelligence>
+                <PhyAtta>30</PhyAtta>
+                <MagAtta>30</MagAtta>
+                <IndAtta>50</IndAtta>
+                <AllStrengthen>15</AllStrengthen>
+                <PhyCrit>12</PhyCrit>
+                <MagCrit>12</MagCrit>
+                <White>10</White>
+                <!--<Strength>35</Strength>-->
+                <!--<Intelligence>35</Intelligence>-->
+            </equipment>
+            <equipment id='12000103'>
+                <Name>天选之人</Name>
+                <Grade>传说</Grade>
+                <Type>称号</Type>
+                <Level>1</Level>
+                <Strength>75</Strength>
+                <Intelligence>75</Intelligence>
+                <PhyAtta>35</PhyAtta>
+                <MagAtta>35</MagAtta>
+                <IndAtta>55</IndAtta>
+                <AllStrengthen>20</AllStrengthen>
+                <PhyCrit>15</PhyCrit>
+                <MagCrit>15</MagCrit>
+                <AllDamage>12</AllDamage>
+                <!--<Strength>35</Strength>-->
+                <!--<Intelligence>35</Intelligence>-->
+            </equipment>
+            <equipment id='12000104'>
+                <Name>秘境迷踪</Name>
+                <Grade>稀有</Grade>
+                <Type>称号</Type>
+                <Level>1</Level>
+                <Strength>70</Strength>
+                <Intelligence>70</Intelligence>
+                <PhyAtta>40</PhyAtta>
+                <MagAtta>40</MagAtta>
+                <IndAtta>60</IndAtta>
+                <AllStrengthen>15</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <White>10</White>
+                <!--<Strength>35</Strength>-->
+                <!--<Intelligence>35</Intelligence>-->
+            </equipment>
+            <equipment id='12000105'>
+                <Name>神选之英杰</Name>
+                <Grade>传说</Grade>
+                <Type>称号</Type>
+                <Level>1</Level>
+                <Strength>75</Strength>
+                <Intelligence>75</Intelligence>
+                <PhyAtta>45</PhyAtta>
+                <MagAtta>45</MagAtta>
+                <IndAtta>65</IndAtta>
+                <AllStrengthen>20</AllStrengthen>
+                <PhyCrit>15</PhyCrit>
+                <MagCrit>15</MagCrit>
+                <ExtraCrit>18</ExtraCrit>
+                <!--<Strength>35</Strength>-->
+                <!--<Intelligence>35</Intelligence>-->
+            </equipment>
+            <equipment id='12000106'>
+                <Name>神之试炼的奖赏</Name>
+                <Grade>稀有</Grade>
+                <Type>称号</Type>
+                <Level>1</Level>
+                <Strength>55</Strength>
+                <Intelligence>55</Intelligence>
+                <AllStrengthen>15</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <CritDamage>15</CritDamage>
+            </equipment>
+        </title>
+    </titles>
+
+
+    <suits>
+        <suit id="0000">
+            <Name>光怪陆离的人生 套装</Name>
+            <property num="3">
+                <PhyCrit>5</PhyCrit>
+                <MagCrit>5</MagCrit>
+                <StrengthPercent>20</StrengthPercent>
+                <IntelligencePercent>20</IntelligencePercent>
+            </property>
+            <property num="5">
+                <AllDamage>35</AllDamage>
+            </property>
+        </suit>
+        <suit id="0001">
+            <Name>深渊恶魔 套装</Name>
+            <property num="3">
+                <AllStrengthen>35</AllStrengthen>
+                <TriAttaPercent>10</TriAttaPercent>
+            </property>
+            <property num="5">
+                <PhyCrit>5</PhyCrit>
+                <MagCrit>5</MagCrit>
+                <PropertyWhite>25</PropertyWhite>
+            </property>
+        </suit>
+        <suit id="0002">
+            <Name>超大陆的坍塌 套装</Name>
+            <property num="3">
+                <White>22</White>
+            </property>
+            <property num="5">
+                <AllDamage>35</AllDamage>
+            </property>
+        </suit>
+        <suit id="0003">
+            <Name>娜迦王的贪食 套装</Name>
+            <property num="3">
+                <PhyCrit>3</PhyCrit>
+                <MagCrit>3</MagCrit>
+                <AllDamage>25</AllDamage>
+            </property>
+            <property num="5">
+                <PhyCrit>7</PhyCrit>
+                <MagCrit>7</MagCrit>
+                <SkillAtta>35</SkillAtta>
+            </property>
+        </suit>
+        <suit id="0004">
+            <Name>堕落的七宗罪 套装</Name>
+            <property num="3">
+                <ExtraCrit>25</ExtraCrit>
+            </property>
+            <property num="5">
+                <PhyCrit>12</PhyCrit>
+                <MagCrit>12</MagCrit>
+                <SkillAtta>35</SkillAtta>
+            </property>
+        </suit>
+
+        <suit id="0100">
+            <Name>黑洞湮灭 套装</Name>
+            <property num="3">
+                <ExtraYellow>19</ExtraYellow>
+                <ExtraCrit>19</ExtraCrit>
+            </property>
+            <property num="5">
+            </property>
+        </suit>
+
+        <suit id="0200">
+            <Name>海伯伦的君主(光) 套装</Name>
+            <property num="3">
+                <Strength>200</Strength>
+                <Intelligence>200</Intelligence>
+                <PropertyWhite>15</PropertyWhite>
+            </property>
+        </suit>
+
+        <suit id="0201">
+            <Name>海伯伦的君主(暗) 套装</Name>
+            <property num="3">
+                <Strength>200</Strength>
+                <Intelligence>200</Intelligence>
+                <SkillAtta>20</SkillAtta>
+            </property>
+        </suit>
+
+
+        <!--95级-->
+
+        <suit id="0010" higher="0020">
+            <Name>苍穹之云 套装</Name>
+            <property num="3">
+                <SkillLevel type="range" start="50" end="50" condition="全部">1</SkillLevel>
+                <SkillLevel type="range" start="85" end="85" condition="全部">1</SkillLevel>
+                <StrengthPercent>10</StrengthPercent>
+                <IntelligencePercent>10</IntelligencePercent>
+                <ExtraYellow>10</ExtraYellow>
+            </property>
+            <property num="5">
+                <SkillLevel type="range" start="50" end="50" condition="全部">2</SkillLevel>
+                <SkillLevel type="range" start="85" end="85" condition="全部">2</SkillLevel>
+                <ExtraCrit>26</ExtraCrit>
+            </property>
+        </suit>
+        <suit id="0020" bind="0010">
+            <Name>超界·苍穹之云 套装</Name>
+            <property num="3">
+                <SkillLevel type="range" start="50" end="50" condition="全部">2</SkillLevel>
+                <SkillLevel type="range" start="85" end="85" condition="全部">2</SkillLevel>
+                <StrengthPercent>10</StrengthPercent>
+                <IntelligencePercent>10</IntelligencePercent>
+                <ExtraYellow>13</ExtraYellow>
+            </property>
+            <property num="5">
+                <PhyCrit>5</PhyCrit>
+                <MagCrit>5</MagCrit>
+                <SkillLevel type="range" start="50" end="50" condition="全部">2</SkillLevel>
+                <SkillLevel type="range" start="85" end="85" condition="全部">2</SkillLevel>
+                <ExtraCrit>36</ExtraCrit>
+            </property>
+        </suit>
+        <suit id="0011" higher="0021">
+            <Name>永恒的季节 套装</Name>
+            <property num="3">
+                <PhyCrit>5</PhyCrit>
+                <MagCrit>5</MagCrit>
+                <SkillAtta>10</SkillAtta>
+                <AllDamage>20</AllDamage>
+            </property>
+            <property num="5">
+                <White>40</White>
+            </property>
+        </suit>
+        <suit id="0021" bind="0011">
+            <Name>超界·永恒的季节 套装</Name>
+            <property num="3">
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <SkillAtta>12</SkillAtta>
+                <AllDamage>25</AllDamage>
+            </property>
+            <property num="5">
+                <White>48</White>
+            </property>
+        </suit>
+        <suit id="0012" higher="0022">
+            <Name>亿万年的星光 套装</Name>
+            <property num="3">
+                <SkillLevel type="range" start="50" end="50" condition="全部">1</SkillLevel>
+                <SkillLevel type="range" start="85" end="85" condition="全部">1</SkillLevel>
+                <AllDamage>20</AllDamage>
+            </property>
+            <property num="5">
+                <PropertyWhite>30</PropertyWhite>
+            </property>
+        </suit>
+        <suit id="0022" bind="0012">
+            <Name>超界·亿万年的星光 套装</Name>
+            <property num="3">
+                <SkillLevel type="range" start="50" end="50" condition="全部">2</SkillLevel>
+                <SkillLevel type="range" start="85" end="85" condition="全部">1</SkillLevel>
+                <AllDamage>25</AllDamage>
+            </property>
+            <property num="5">
+                <SkillLevel type="range" start="85" end="85" condition="全部">1</SkillLevel>
+                <PropertyWhite>35</PropertyWhite>
+            </property>
+        </suit>
+        <suit id="0013" higher="0023">
+            <Name>精灵的荣耀 套装</Name>
+            <property num="3">
+                <StrengthPercent>27</StrengthPercent>
+                <IntelligencePercent>27</IntelligencePercent>
+            </property>
+            <property num="5">
+                <PhyCrit>5</PhyCrit>
+                <MagCrit>5</MagCrit>
+                <TriAttaPercent>37</TriAttaPercent>
+            </property>
+        </suit>
+        <suit id="0023" bind="0013">
+            <Name>超界·精灵的荣耀 套装</Name>
+            <property num="3">
+                <StrengthPercent>35</StrengthPercent>
+                <IntelligencePercent>35</IntelligencePercent>
+            </property>
+            <property num="5">
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <TriAttaPercent>45</TriAttaPercent>
+            </property>
+        </suit>
+        <suit id="0014" higher="0024">
+            <Name>幸运的五彩石 套装</Name>
+            <property num="3">
+                <AllStrengthen>20</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <AllDamage>20</AllDamage>
+            </property>
+            <property num="5">
+                <PropertyWhite>30</PropertyWhite>
+            </property>
+        </suit>
+        <suit id="0024" bind="0014">
+            <Name>超界·幸运的五彩石 套装</Name>
+            <property num="3">
+                <AllStrengthen>25</AllStrengthen>
+                <PhyCrit>10</PhyCrit>
+                <MagCrit>10</MagCrit>
+                <AllDamage>25</AllDamage>
+            </property>
+            <property num="5">
+                <PropertyWhite>35</PropertyWhite>
+            </property>
+        </suit>
+        <suit id="0015">
+            <Name>百鬼夜行 套装</Name>
+            <property num="3">
+                <SkillLevel type="range" start="1" end="48" condition="全部">1</SkillLevel>
+                <White>20</White>
+            </property>
+            <property num="5">
+                <PhyCrit>8</PhyCrit>
+                <MagCrit>8</MagCrit>
+                <AllStrengthen>18</AllStrengthen>
+                <SkillLevel type="range" start="50" end="85" condition="全部">1</SkillLevel>
+                <ExtraCrit>30</ExtraCrit>
+            </property>
+        </suit>
+        <suit id="0016">
+            <Name>神龙九子 套装</Name>
+            <property num="3">
+                <AllAtta>100</AllAtta>
+                <TriAttaPercent>22</TriAttaPercent>
+            </property>
+            <property num="5">
+                <AllStrengthen>30</AllStrengthen>
+                <TriAttaPercent>10</TriAttaPercent>
+                <PropertyWhite>15</PropertyWhite>
+            </property>
+        </suit>
+        <suit id="0017">
+            <Name>灵魂拷问 套装</Name>
+            <property num="3">
+                <ExtraCrit>25</ExtraCrit>
+            </property>
+            <property num="5">
+                <AllDamage>40</AllDamage>
+            </property>
+        </suit>
+        <suit id="0018">
+            <Name>失落的宏图 套装</Name>
+            <property num="3">
+                <AllDamage>28</AllDamage>
+            </property>
+            <property num="5">
+                <ExtraYellow>45</ExtraYellow>
+            </property>
+        </suit>
+        <suit id="0019">
+            <Name>冻逝的时光 套装</Name>
+            <property num="3">
+                <TriAttaPercent>24</TriAttaPercent>
+            </property>
+            <property num="5">
+                <ExtraCrit>40</ExtraCrit>
+            </property>
+        </suit>
+        <suit id="0102">
+            <Name>贤者之欲 套装</Name>
+            <property num="3">
+                <ExtraCrit>35</ExtraCrit>
+            </property>
+        </suit>
+        <suit id="0103">
+            <Name>梦的设计师 套装</Name>
+            <property num="3">
+                <ExtraYellow>15</ExtraYellow>
+                <StrengthPercent>10</StrengthPercent>
+                <IntelligencePercent>10</IntelligencePercent>
+                <SkillAtta>10</SkillAtta>
+            </property>
+        </suit>
+        <suit id="0101" higher="0110">
+            <Name>江山如画 套装</Name>
+            <property num="3">
+                <SkillAtta>10</SkillAtta>
+                <White>20</White>
+            </property>
+        </suit>
+        <suit id="0203">
+            <Name>虚幻空间 套装</Name>
+            <property num="3">
+                <White>10</White>
+                <StrengthPercent>20</StrengthPercent>
+                <IntelligencePercent>20</IntelligencePercent>
+            </property>
+        </suit>
+        <suit id="0204">
+            <Name>正义裁决 套装</Name>
+            <property num="3">
+                <SkillLevel type="range" start="1" end="80" condition="全部">1</SkillLevel>
+                <ExtraCrit>24</ExtraCrit>
+            </property>
+        </suit>
+        <suit id="0202" higher="0210" editable="true">
+            <Name>万物的生灭 套装</Name>
+            <property num="2">
+                <DarkStrengthen>233</DarkStrengthen>
+                <Edit>
+                    <Selection index="0" default="0" title="测试属性2套装:">
+                        <Option value="0" title="一:">
+                            <MagCrit>233</MagCrit>
+                        </Option>
+                        <Option value="1" title="二:">
+                            <MagCrit>2333</MagCrit>
+                        </Option>
+                    </Selection>
+                </Edit>
+            </property>
+            <property num="3">
+                <PhyCrit>5</PhyCrit>
+                <MagCrit>5</MagCrit>
+                <AllDamage>12</AllDamage>
+                <SkillAtta>20</SkillAtta>
+                <Edit>
+                    <Selection index="1" default="0" title="阴气/阳气:">
+                        <Option value="0" title="阴气:">
+                            <PhyCrit>233</PhyCrit>
+                        </Option>
+                        <Option value="1" title="阳气:">
+                            <PhyCrit>2333</PhyCrit>
+                        </Option>
+                    </Selection>
+                </Edit>
+            </property>
+        </suit>
+        <suit id="0110">
+            <Name>原初暗黑之力(伤害) 套装</Name>
+            <property num="3">
+                <White>12</White>
+                <StrengthPercent>12</StrengthPercent>
+                <IntelligencePercent>12</IntelligencePercent>
+                <SkillAtta>8</SkillAtta>
+            </property>
+        </suit>
+        <suit id="0111" link="0110">
+            <Name>原初暗黑之力(技能等级) 套装</Name>
+        </suit>
+        <suit id="0112" link="0110">
+            <Name>原初暗黑之力(减CD) 套装</Name>
+        </suit>
+
+        <suit id="0210">
+            <Name>暗黑权能再现(伤害) 套装</Name>
+            <property num="3">
+                <PhyCrit>5</PhyCrit>
+                <MagCrit>5</MagCrit>
+                <ExtraCrit>10</ExtraCrit>
+                <StrengthPercent>8</StrengthPercent>
+                <IntelligencePercent>8</IntelligencePercent>
+                <SkillAtta>15</SkillAtta>
+            </property>
+        </suit>
+        <suit id="0211" link="0210">
+            <Name>暗黑权能再现(技能等级) 套装</Name>
+        </suit>
+        <suit id="0212" link="0210">
+            <Name>暗黑权能再现(减CD) 套装</Name>
+        </suit>
+    </suits>
+</equipments>

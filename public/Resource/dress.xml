@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--编码原则
+第一位代表稀有度 0 普通 1高级 2稀有 3节日
+第2 3位代表部位
+第4 5位为编号
+
+-->
+<dresses>
+    <hair_d>
+        <dress id="00000" type="普通">
+            <Name>普通装扮头部</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Intelligence>20</Intelligence>
+            </Property>
+        </dress>
+        <dress id="10000" suit="00" type="高级">
+            <Name>高级装扮头部</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Intelligence>45</Intelligence>
+            </Property>
+        </dress>
+        <dress id="20000" suit="01" type="稀有">
+            <Name>稀有装扮头部</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Intelligence>55</Intelligence>
+            </Property>
+        </dress>
+        <dress id="30000" suit="02" type="节日">
+            <Name>节日装扮头部</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Intelligence>45</Intelligence>
+            </Property>
+        </dress>
+    </hair_d>
+    <cap_d>
+        <dress id="00100" type="普通">
+            <Name>普通装扮帽子</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Intelligence>20</Intelligence>
+            </Property>
+        </dress>
+        <dress id="10100" suit="00" type="高级">
+            <Name>高级装扮帽子</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Intelligence>45</Intelligence>
+            </Property>
+        </dress>
+        <dress id="20100" suit="01" type="稀有">
+            <Name>稀有装扮帽子</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Intelligence>55</Intelligence>
+            </Property>
+        </dress>
+        <dress id="30100" suit="02" type="节日">
+            <Name>节日装扮帽子</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Intelligence>45</Intelligence>
+            </Property>
+        </dress>
+    </cap_d>
+    <face_d>
+        <dress id="00200" type="普通">
+            <Name>普通装扮脸部</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="10200" suit="00" type="高级">
+            <Name>高级装扮脸部</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="20200" suit="01" type="稀有">
+            <Name>稀有装扮脸部</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="30200" suit="02" type="节日">
+            <Name>节日装扮脸部</Name>
+            <Grade>dress</Grade>
+        </dress>
+    </face_d>
+    <neck_d>
+        <dress id="00300" type="普通">
+            <Name>普通装扮胸部</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="10300" suit="00" type="高级">
+            <Name>高级装扮胸部</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="20300" suit="01" type="稀有">
+            <Name>稀有装扮胸部</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="30300" suit="02" type="节日">
+            <Name>节日装扮胸部</Name>
+            <Grade>dress</Grade>
+        </dress>
+    </neck_d>
+    <coat_d>
+        <dress id="00400" type="普通">
+            <Name>普通装扮上衣</Name>
+            <Grade>dress</Grade>
+            <Fix>
+            </Fix>
+        </dress>
+        <dress id="10400" suit="00" type="高级">
+            <Name>高级装扮上衣</Name>
+            <Grade>dress</Grade>
+            <Fix>
+            </Fix>
+        </dress>
+        <dress id="20400" suit="01" type="稀有">
+            <Name>稀有装扮上衣</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <SkillLevel type="single">
+                    <SkillId value="1" grow="0">00000500</SkillId>
+                </SkillLevel>
+            </Fix>
+        </dress>
+        <dress id="30400" suit="02" type="节日">
+            <Name>节日装扮上衣</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="30401" suit="02" type="节日">
+            <Name>节日装扮上衣(5属强)</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <AllStrengthen>5</AllStrengthen>
+            </Fix>
+        </dress>
+        <dress id="30402" suit="02" type="节日">
+            <Name>节日装扮上衣(6属强)</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <AllStrengthen>6</AllStrengthen>
+            </Fix>
+        </dress>
+    </coat_d>
+    <skin_d>
+        <dress id="00500" type="普通">
+            <Name>普通装扮皮肤</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="00501" type="普通">
+            <Name>节日装扮皮肤(5属强)</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <AllStrengthen>5</AllStrengthen>
+            </Fix>
+        </dress>
+        <dress id="00502" type="普通">
+            <Name>节日装扮皮肤(6属强)</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <AllStrengthen>6</AllStrengthen>
+            </Fix>
+        </dress>
+    </skin_d>
+    <belt_d>
+        <dress id="00600" type="普通">
+            <Name>普通装扮腰带</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="10600" suit="00" type="高级">
+            <Name>高级装扮腰带</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="20600" suit="01" type="稀有">
+            <Name>稀有装扮腰带</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="30600" suit="02" type="节日">
+            <Name>节日装扮腰带</Name>
+            <Grade>dress</Grade>
+        </dress>
+    </belt_d>
+    <pants_d>
+        <dress id="00700" type="普通">
+            <Name>普通装扮下装</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="10700" suit="00" type="高级">
+            <Name>高级装扮下装</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="20700" suit="01" type="稀有">
+            <Name>稀有装扮下装</Name>
+            <Grade>dress</Grade>
+        </dress>
+        <dress id="30700" suit="02" type="节日">
+            <Name>节日装扮下装</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Strength>20</Strength>
+            </Property>
+            <Property index="01">
+                <Intelligence>20</Intelligence>
+            </Property>
+        </dress>
+    </pants_d>
+    <shoes_d>
+        <dress id="00800" type="普通">
+            <Name>普通装扮鞋子</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Strength>20</Strength>
+            </Property>
+        </dress>
+        <dress id="10800" suit="00" type="高级">
+            <Name>高级装扮鞋子</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Strength>45</Strength>
+            </Property>
+        </dress>
+        <dress id="20800" suit="01" type="稀有">
+            <Name>稀有装扮鞋子</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Strength>55</Strength>
+            </Property>
+        </dress>
+        <dress id="30800" suit="02" type="节日">
+            <Name>节日装扮鞋子</Name>
+            <Grade>dress</Grade>
+            <Property index="00">
+                <Strength>45</Strength>
+            </Property>
+        </dress>
+    </shoes_d>
+    <weapon_d>
+        <dress id="00900" type="普通">
+            <Name>梦幻克隆武器装扮</Name>
+            <Grade>dress</Grade>
+            <Property>
+            </Property>
+        </dress>
+    </weapon_d>
+    <aura_d>
+        <dress id="01000">
+            <Name>赤红纵众神之佑</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <PhyAtta>25</PhyAtta>
+                <MagAtta>25</MagAtta>
+                <IndAtta>40</IndAtta>
+                <AllStrengthen>5</AllStrengthen>
+                <SkillLevel type="range" start="1" end="30" condition="全部">1</SkillLevel>
+            </Fix>
+        </dress>
+        <dress id="01001">
+            <Name>骑士精神之英勇</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <PhyAtta>30</PhyAtta>
+                <MagAtta>30</MagAtta>
+                <IndAtta>45</IndAtta>
+                <PhyCrit>3</PhyCrit>
+                <MagCrit>3</MagCrit>
+                <SkillLevel type="range" start="1" end="30" condition="全部">1</SkillLevel>
+            </Fix>
+        </dress>
+        <dress id="01002">
+            <Name>领峻的海军指挥</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <PhyAtta>30</PhyAtta>
+                <MagAtta>30</MagAtta>
+                <IndAtta>45</IndAtta>
+                <PhyCrit>3</PhyCrit>
+                <MagCrit>3</MagCrit>
+                <SkillLevel type="range" start="1" end="30" condition="全部">1</SkillLevel>
+            </Fix>
+        </dress>
+        <dress id="01003">
+            <Name>战神之庇佑</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <PhyAtta>30</PhyAtta>
+                <MagAtta>30</MagAtta>
+                <IndAtta>45</IndAtta>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+            </Fix>
+        </dress>
+        <dress id="01004">
+            <Name>闪耀的聚光灯[赤]</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <FourDimension>15</FourDimension>
+                <FireStrengthen>15</FireStrengthen>
+            </Fix>
+        </dress>
+        <dress id="01005">
+            <Name>闪耀的聚光灯[青]</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <FourDimension>15</FourDimension>
+                <IceStrengthen>15</IceStrengthen>
+            </Fix>
+        </dress>
+        <dress id="01006">
+            <Name>闪耀的聚光灯[金]</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <FourDimension>15</FourDimension>
+                <LightStrengthen>15</LightStrengthen>
+            </Fix>
+        </dress>
+        <dress id="01007">
+            <Name>闪耀的聚光灯[紫]</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <FourDimension>15</FourDimension>
+                <DarkStrengthen>15</DarkStrengthen>
+            </Fix>
+        </dress>
+        <dress id="01008">
+            <Name>腾龙光环</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <FourDimension>5</FourDimension>
+                <PhyAtta>15</PhyAtta>
+                <MagAtta>15</MagAtta>
+                <IndAtta>25</IndAtta>
+                <SkillLevel type="range" start="20" end="30" condition="全部">1</SkillLevel>
+            </Fix>
+        </dress>
+        <dress id="01009">
+            <Name>火精灵的庇护</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <FourDimension>20</FourDimension>
+                <AllStrengthen>5</AllStrengthen>
+                <SkillLevel type="range" start="20" end="30" condition="全部">1</SkillLevel>
+            </Fix>
+        </dress>
+        <dress id="01010">
+            <Name>无敌之境</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <AllAtta>45</AllAtta>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+            </Fix>
+        </dress>
+        <dress id="01011">
+            <Name>超越之境</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <FourDimension>50</FourDimension>
+                <AllAtta>15</AllAtta>
+                <SkillLevel type="range" start="1" end="50" condition="全部">1</SkillLevel>
+            </Fix>
+        </dress>
+        <dress id="01012">
+            <Name>北国之雷电</Name>
+            <Grade>dress</Grade>
+            <Fix>
+                <AllAtta>45</AllAtta>
+            </Fix>
+        </dress>
+    </aura_d>
+    <suits>
+        <suit id="00">
+            <Name>高级装扮</Name>
+            <property num="3">
+                <Strength>10</Strength>
+                <Intelligence>10</Intelligence>
+            </property>
+            <property num="5">
+            </property>
+            <property num="8">
+                <Strength>10</Strength>
+                <Intelligence>10</Intelligence>
+            </property>
+        </suit>
+        <suit id="01">
+            <Name>稀有装扮</Name>
+            <property num="3">
+                <Strength>30</Strength>
+                <Intelligence>30</Intelligence>
+            </property>
+            <property num="5">
+            </property>
+            <property num="8">
+                <Strength>30</Strength>
+                <Intelligence>30</Intelligence>
+            </property>
+        </suit>
+        <suit id="02">
+            <Name>节日装扮</Name>
+            <property num="8">
+                <Strength>25</Strength>
+                <Intelligence>25</Intelligence>
+            </property>
+        </suit>
+    </suits>
+</dresses>

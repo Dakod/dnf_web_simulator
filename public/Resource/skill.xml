@@ -1,0 +1,2432 @@
+<?xml version="1.0" encoding="UTF-8" ?><!--
+技能编码规则
+前两位代表职业大系列:男鬼 (00) 女鬼 (01)...
+第三位代表转职  通用(000) 鬼泣(001)   ... 特殊位 999代表全职业通用技能  998代表特殊加成
+之后三位表示技能学习等级
+最后两位表示顺序号
+例如: 00108500 鬼泣二觉
+
+00男鬼剑
+0通用
+1鬼泣
+2红眼
+3修罗
+4剑魂
+5剑鬼
+999 全职通用
+-->
+<skills>
+    <allgeneral id="999">
+        <skill id="9990001" type="被动" df="BUFF">
+            <Name>基础防具精通</Name>
+
+            <MasterLevel>1</MasterLevel>
+            <LimitLevel>1</LimitLevel>
+            <MinLevel>1</MinLevel>
+            <Property>   <!--神话目前当作史诗算 实际待测试-->
+                <Special>              <!-- 特殊标签 -->
+                    <shoulder>
+                        <epic>
+                            <item level="90">
+                                <MainProperty grow="0.2" step="3">23</MainProperty>
+                                <Crit>1</Crit>
+                            </item>
+                            <item level="95">
+                                <MainProperty grow="0.2" step="3">24</MainProperty>
+                                <Crit>1</Crit>
+                            </item>
+                            <item level="100">
+                                <MainProperty grow="0.2" step="3">25</MainProperty>
+                                <Crit>1</Crit>
+                            </item>
+                        </epic>
+                    </shoulder>
+                    <coat>
+                        <epic>
+                            <item level="90">
+                                <MainProperty grow="0.3" step="3">34.5</MainProperty>
+                                <Crit>1.5</Crit>
+                            </item>
+                            <item level="95">
+                                <MainProperty grow="0.3" step="3">36</MainProperty>
+                                <Crit>1.5</Crit>
+                            </item>
+                            <item level="100">
+                                <MainProperty grow="0.3" step="3">37.5</MainProperty>
+                                <Crit>1.5</Crit>
+                            </item>
+                        </epic>
+                    </coat>
+                    <pants>
+                        <epic>
+                            <item level="90">
+                                <MainProperty grow="0.25" step="3">28.75</MainProperty>
+                                <Crit>1.25</Crit>
+                            </item>
+                            <item level="95">
+                                <MainProperty grow="0.25" step="3">30</MainProperty>
+                                <Crit>1.25</Crit>
+                            </item>
+                            <item level="100">
+                                <MainProperty grow="0.25" step="3">31.25</MainProperty>
+                                <Crit>1.25</Crit>
+                            </item>
+                        </epic>
+                    </pants>
+                    <belt>
+                        <epic>
+                            <item level="90">
+                                <MainProperty grow="0.1" step="3">11.5</MainProperty>
+                                <Crit>0.5</Crit>
+                            </item>
+                            <item level="95">
+                                <MainProperty grow="0.1" step="3">12</MainProperty>
+                                <Crit>0.5</Crit>
+                            </item>
+                            <item level="100">
+                                <MainProperty grow="0.1" step="3">12.5</MainProperty>
+                                <Crit>0.5</Crit>
+                            </item>
+                        </epic>
+                    </belt>
+                    <shoes>
+                        <epic>
+                            <item level="90">
+                                <MainProperty grow="0.15" step="3">17.25</MainProperty>
+                                <Crit>0.75</Crit>
+                            </item>
+                            <item level="95">
+                                <MainProperty grow="0.15" step="3">18</MainProperty>
+                                <Crit>0.75</Crit>
+                            </item>
+                            <item level="100">
+                                <MainProperty grow="0.15" step="3">18.75</MainProperty>
+                                <Crit>0.75</Crit>
+                            </item>
+                        </epic>
+                    </shoes>
+                </Special>
+            </Property>
+        </skill>
+        <skill id="9990002" type="被动" df="BUFF">
+            <Name>基础精通</Name>
+            <Level>1</Level>
+            <MasterLevel>1</MasterLevel>
+            <LimitLevel>105</LimitLevel>
+            <DefaultLevel>100</DefaultLevel>
+            <Property>
+                <BaseAtta>
+                    <Value>59.8</Value>
+                    <Grow>9.8</Grow>
+                </BaseAtta>
+            </Property>
+        </skill>
+        <skill id="9990003" type="被动" df="BUFF">
+            <Name>物理暴击</Name>
+            <Level>20</Level>
+            <MasterLevel>10</MasterLevel>
+            <LimitLevel>20</LimitLevel>
+            <Property>
+                <PhyCrit>
+                    <Value>1</Value>
+                    <Grow>1</Grow>
+                </PhyCrit>
+            </Property>
+        </skill>
+        <skill id="9990004" type="被动" df="BUFF">
+            <Name>魔法暴击</Name>
+            <Level>20</Level>
+            <MasterLevel>10</MasterLevel>
+            <LimitLevel>20</LimitLevel>
+            <Property>
+                <MagCrit>
+                    <Value>1</Value>
+                    <Grow>1</Grow>
+                </MagCrit>
+            </Property>
+        </skill>
+        <skill id="9990005" type="主动" df="BUFF">
+            <Name>远古记忆</Name>
+            <Level>15</Level>
+            <MasterLevel>10</MasterLevel>
+            <LimitLevel>20</LimitLevel>
+            <DefaultLevel>0</DefaultLevel>
+            <Property>
+                <Intelligence isOutEffective="false">
+                    <Value>15</Value>
+                    <Grow>15</Grow>
+                </Intelligence>
+            </Property>
+        </skill>
+        <skill id="9990006" type="特殊加成" df="BUFF">
+            <Name>公会属性</Name>
+            <MasterLevel>1</MasterLevel>
+            <LimitLevel>2</LimitLevel>
+            <DefaultLevel>2</DefaultLevel>
+            <Property>
+                <FourDimension>
+                    <Value>60</Value>
+                    <Grow>60</Grow>
+                </FourDimension>
+            </Property>
+        </skill>
+        <skill id="9990007" type="特殊加成" df="BUFF">
+            <Name>冒险团</Name>
+
+            <MasterLevel>1</MasterLevel>
+            <LimitLevel>40</LimitLevel>
+            <DefaultLevel>40</DefaultLevel>
+            <Property>
+                <FourDimension growType="fix">
+                    <Value level="1">0</Value>
+                    <Value level="2">10</Value>
+                    <Value level="3">30</Value>
+                    <Value level="4">50</Value>
+                    <Value level="5">70</Value>
+                    <Value level="6">90</Value>
+                    <Value level="7">110</Value>
+                    <Value level="8">125</Value>
+                    <Value level="9">140</Value>
+                    <Value level="10">155</Value>
+                    <Value level="11">170</Value>
+                    <Value level="12">185</Value>
+                    <Value level="13">185</Value>
+                    <Value level="14">185</Value>
+                    <Value level="15">185</Value>
+                    <Value level="16">200</Value>
+                    <Value level="17">200</Value>
+                    <Value level="18">215</Value>
+                    <Value level="19">215</Value>
+                    <Value level="20">230</Value>
+                    <Value level="21">230</Value>
+                    <Value level="22">230</Value>
+                    <Value level="23">230</Value>
+                    <Value level="24">230</Value>
+                    <Value level="25">245</Value>
+                    <Value level="26">245</Value>
+                    <Value level="27">245</Value>
+                    <Value level="28">245</Value>
+                    <Value level="29">245</Value>
+                    <Value level="30">260</Value>
+                    <Value level="31">260</Value>
+                    <Value level="32">260</Value>
+                    <Value level="33">260</Value>
+                    <Value level="34">260</Value>
+                    <Value level="35">275</Value>
+                    <Value level="36">275</Value>
+                    <Value level="37">275</Value>
+                    <Value level="38">275</Value>
+                    <Value level="39">275</Value>
+                    <Value level="40">290</Value>
+                </FourDimension>
+            </Property>
+        </skill>
+        <skill id="9990008" type="特殊加成" df="BUFF">
+            <Name>婚房属性</Name>
+
+            <MasterLevel>1</MasterLevel>
+            <LimitLevel>7</LimitLevel>
+            <DefaultLevel>7</DefaultLevel>
+            <Property>
+                <AllStrengthen growType="fix">
+                    <Value level="4">1</Value>
+                    <Value level="5">3</Value>
+                    <Value level="6">5</Value>
+                    <Value level="7">8</Value>
+                </AllStrengthen>
+                <PhyAtta growType="fix">
+                    <Value level="6">5</Value>
+                    <Value level="7">10</Value>
+                </PhyAtta>
+                <MagAtta growType="fix">
+                    <Value level="6">5</Value>
+                    <Value level="7">10</Value>
+                </MagAtta>
+                <IndAtta growType="fix">
+                    <Value level="6">5</Value>
+                    <Value level="7">20</Value>
+                </IndAtta>
+            </Property>
+        </skill>
+        <skill id="9990009" type="特殊加成" df="BUFF">
+            <Name>婚戒属性</Name>
+
+            <MasterLevel>1</MasterLevel>
+            <LimitLevel>6</LimitLevel>
+            <DefaultLevel>6</DefaultLevel>
+            <Property>
+                <Strength growType="fix">
+                    <Value level="2">15</Value>
+                    <Value level="3">15</Value>
+                    <Value level="4">15</Value>
+                    <Value level="5">15</Value>
+                    <Value level="6">15</Value>
+                </Strength>
+                <Intelligence growType="fix">
+                    <Value level="2">15</Value>
+                    <Value level="3">15</Value>
+                    <Value level="4">15</Value>
+                    <Value level="5">15</Value>
+                    <Value level="6">15</Value>
+                </Intelligence>
+                <PhyCrit growType="fix">
+                    <Value level="5">2</Value>
+                    <Value level="6">2</Value>
+                </PhyCrit>
+                <MagCrit growType="fix">
+                    <Value level="5">2</Value>
+                    <Value level="6">2</Value>
+                </MagCrit>
+            </Property>
+        </skill>
+        <skill id="9990010" type="特殊加成" df="BUFF">
+            <Name>收集箱</Name>
+            <MasterLevel>9</MasterLevel>
+            <LimitLevel>9</LimitLevel>
+            <DefaultLevel>9</DefaultLevel>
+            <Property>
+                <PhyAtta>
+                    <Value>12</Value>
+                    <Grow>12</Grow>
+                </PhyAtta>
+                <MagAtta>
+                    <Value>12</Value>
+                    <Grow>12</Grow>
+                </MagAtta>
+                <IndAtta>
+                    <Value>12</Value>
+                    <Grow>12</Grow>
+                </IndAtta>
+            </Property>
+        </skill>
+    </allgeneral>
+    <swordman id="00">
+        <general id="000">
+            <skill id="0000052" type="主动" df="BUFF">
+                <Name>刀魂之卡赞</Name>
+                <Level>5</Level>
+                <MasterLevel>10</MasterLevel>
+                <LimitLevel>20</LimitLevel>
+                <DefaultLevel>10</DefaultLevel>
+                <MinLevel>1</MinLevel>
+                <Property>
+                    <Condition first="occupationId" mid="!=" last="'001'">
+                        <Strength isOutEffective="false" growType="fix">
+                            <Value level="1">31</Value>
+                            <Value level="2">40</Value>
+                            <Value level="3">48</Value>
+                            <Value level="4">58</Value>
+                            <Value level="5">67</Value>
+                            <Value level="6">79</Value>
+                            <Value level="7">90</Value>
+                            <Value level="8">103</Value>
+                            <Value level="9">116</Value>
+                            <Value level="10">131</Value>
+                            <Value level="11">145</Value>
+                            <Value level="12">161</Value>
+                            <Value level="13">178</Value>
+                            <Value level="14">194</Value>
+                            <Value level="15">212</Value>
+                            <Value level="16">230</Value>
+                            <Value level="17">250</Value>
+                            <Value level="18">270</Value>
+                            <Value level="19">292</Value>
+                            <Value level="20">313</Value>
+                        </Strength>
+                        <Intelligence isOutEffective="false" growType="fix">
+                            <Value level="1">31</Value>
+                            <Value level="2">40</Value>
+                            <Value level="3">48</Value>
+                            <Value level="4">58</Value>
+                            <Value level="5">67</Value>
+                            <Value level="6">79</Value>
+                            <Value level="7">90</Value>
+                            <Value level="8">103</Value>
+                            <Value level="9">116</Value>
+                            <Value level="10">131</Value>
+                            <Value level="11">145</Value>
+                            <Value level="12">161</Value>
+                            <Value level="13">178</Value>
+                            <Value level="14">194</Value>
+                            <Value level="15">212</Value>
+                            <Value level="16">230</Value>
+                            <Value level="17">250</Value>
+                            <Value level="18">270</Value>
+                            <Value level="19">292</Value>
+                            <Value level="20">313</Value>
+                        </Intelligence>
+                    </Condition>
+                    <Condition first="occupationId" mid="==" last="'001'">
+                        <SkillAtta>
+                            <Value>5</Value>
+                            <Grow>1</Grow>
+                        </SkillAtta>
+                    </Condition>
+                </Property>
+            </skill>
+        </general>
+
+        <soulBringer id="001">
+            <skill id="0010204" type="被动" df="BUFF">
+                <Name>鬼泣布甲专精(转甲开关)</Name>
+<!--                <Level>1</Level>-->
+                <MasterLevel>1</MasterLevel>
+                <LimitLevel>1</LimitLevel>
+                <MinLevel>1</MinLevel>
+                <Property>
+                    <EquipmentType>布甲</EquipmentType>
+                    <MainPropertyType>Intelligence</MainPropertyType>
+                </Property>
+            </skill>
+
+            <skill id="0000034" type="被动" df="BUFF">
+                <Name>太刀精通</Name>
+                <Level>15</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>30</DefaultLevel>
+                <Property>
+                    <Condition first="getWeaponType()" mid="==" last="'太刀'">
+                        <PhyAttaPercent abandonNum="1" growType="break" breakpoint="22">
+                            <Value>5.2</Value>
+                            <Grow>1.5</Grow>
+                            <Grow2>2</Grow2>
+                        </PhyAttaPercent>
+                        <MagAttaPercent abandonNum="1" growType="fix">
+                            <Value level="1">1.3</Value>
+                            <Value level="2">2.8</Value>
+                            <Value level="3">4.1</Value>
+                            <Value level="4">5.4</Value>
+                            <Value level="5">6.8</Value>
+                            <Value level="6">8.2</Value>
+                            <Value level="7">9.6</Value>
+                            <Value level="8">10.9</Value>
+                            <Value level="9">12.3</Value>
+                            <Value level="10">13.7</Value>
+                            <Value level="11">15</Value>
+                            <Value level="12">16.4</Value>
+                            <Value level="13">17.7</Value>
+                            <Value level="14">19.1</Value>
+                            <Value level="15">20.5</Value>
+                            <Value level="16">21.9</Value>
+                            <Value level="17">23.3</Value>
+                            <Value level="18">24.5</Value>
+                            <Value level="19">25.9</Value>
+                            <Value level="20">27.3</Value>
+                            <Value level="21">28.7</Value>
+                            <Value level="22">30.1</Value>
+                            <Value level="23">31.4</Value>
+                            <Value level="24">32.8</Value>
+                            <Value level="25">34.1</Value>
+                            <Value level="26">35.5</Value>
+                            <Value level="27">36.9</Value>
+                            <Value level="28">38.2</Value>
+                            <Value level="29">39.6</Value>
+                            <Value level="30">41</Value>
+                            <Value level="31">42.4</Value>
+                            <Value level="32">43.7</Value>
+                            <Value level="33">45</Value>
+                            <Value level="34">46.4</Value>
+                            <Value level="35">47.8</Value>
+                            <Value level="36">49.2</Value>
+                            <Value level="37">50.6</Value>
+                            <Value level="38">52</Value>
+                            <Value level="39">53.2</Value>
+                            <Value level="40">54.6</Value>
+                        </MagAttaPercent>
+                    </Condition>
+                </Property>
+            </skill>
+            <skill id="0000038" type="被动" df="BUFF">
+                <Name>短剑精通</Name>
+                <Level>15</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>30</DefaultLevel>
+                <Property>
+                    <Condition first="getWeaponType()" mid="==" last="'短剑'">
+                        <PhyAttaPercent abandonNum="1" growType="break" breakpoint="22">
+                            <Value>12.7</Value>
+                            <Grow>1.5</Grow>
+                            <Grow2>2</Grow2>
+                        </PhyAttaPercent>
+                        <MagAttaPercent abandonNum="1" growType="fix">
+                            <Value level="1">1.2</Value>
+                            <Value level="2">2.6</Value>
+                            <Value level="3">3.9</Value>
+                            <Value level="4">5.1</Value>
+                            <Value level="5">6.4</Value>
+                            <Value level="6">7.7</Value>
+                            <Value level="7">9</Value>
+                            <Value level="8">10.3</Value>
+                            <Value level="9">11.6</Value>
+                            <Value level="10">12.9</Value>
+                            <Value level="11">14.1</Value>
+                            <Value level="12">15.4</Value>
+                            <Value level="13">16.7</Value>
+                            <Value level="14">18</Value>
+                            <Value level="15">19.3</Value>
+                            <Value level="16">20.6</Value>
+                            <Value level="17">21.9</Value>
+                            <Value level="18">23.1</Value>
+                            <Value level="19">24.4</Value>
+                            <Value level="20">25.7</Value>
+                            <Value level="21">27</Value>
+                            <Value level="22">28.3</Value>
+                            <Value level="23">29.6</Value>
+                            <Value level="24">30.9</Value>
+                            <Value level="25">32.1</Value>
+                            <Value level="26">33.4</Value>
+                            <Value level="27">34.7</Value>
+                            <Value level="28">36</Value>
+                            <Value level="29">37.3</Value>
+                            <Value level="30">38.6</Value>
+                            <Value level="31">39.9</Value>
+                            <Value level="32">41.1</Value>
+                            <Value level="33">42.4</Value>
+                            <Value level="34">43.7</Value>
+                            <Value level="35">45</Value>
+                            <Value level="36">46.3</Value>
+                            <Value level="37">47.6</Value>
+                            <Value level="38">48.9</Value>
+                            <Value level="39">50.1</Value>
+                            <Value level="40">51.4</Value>
+                        </MagAttaPercent>
+                    </Condition>
+                </Property>
+            </skill>
+
+            <skill id="0010080" type="被动" df="BUFF">
+                <Name>封印解除</Name>
+                <Level>15</Level>
+                <MasterLevel>10</MasterLevel>
+                <LimitLevel>20</LimitLevel>
+                <DefaultLevel>10</DefaultLevel>
+                <Property>
+                    <MagCrit abandonNum="1">
+                        <Value>1.5</Value>
+                        <Grow>1.5</Grow>
+                    </MagCrit>
+                    <SkillLevel type="single">
+                        <SkillId value="1" grow="0">0010010</SkillId>
+                        <SkillId value="1" grow="0">0000052</SkillId>
+                        <SkillId value="1" grow="0">0010084</SkillId>
+                        <SkillId value="1" grow="0">0010082</SkillId>
+                        <SkillId value="1" grow="0">0010170</SkillId>
+                        <SkillId value="1" grow="0">0010178</SkillId>
+                        <SkillId value="1" grow="0">0010179</SkillId>
+                        <SkillId value="1" grow="0">0010532</SkillId>
+                    </SkillLevel>
+                </Property>
+            </skill>
+            <skill id="0010010" type="主动" pm="魔法" df="伤害">
+                <Name>鬼斩</Name>
+                <Level>1</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>50</DefaultLevel>
+                <MinLevel>1</MinLevel>
+                <Cd>6</Cd>
+                <Sp>15</Sp>
+                <Property>
+                    <Damage index="0" pi="百分比">
+                        <Value>923</Value>
+                        <Grow>113.1</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                    <Damage index="1" pi="百分比">
+                        <Value>897</Value>
+                        <Grow>109.98</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                    <!--                    <Condition first="occupationId" mid="==" last="'001'">-->
+                    <!--                        <SkillLevel type="single">-->
+                    <!--                            <SkillId value="0" grow="1">0010047</SkillId>-->
+                    <!--                        </SkillLevel>-->
+                    <!--                    </Condition>-->
+                </Property>
+            </skill>
+            <skill id="0010084" type="主动" df="BUFF">
+                <Name>侵蚀之普戾蒙</Name>
+                <Level>15</Level>
+                <MasterLevel>1</MasterLevel>
+                <LimitLevel>11</LimitLevel>
+                <DefaultLevel>1</DefaultLevel>
+                <Property>
+<!--                    <SkillAtta type="魔法">-->
+<!--                        <Value>24</Value>-->
+<!--                        <Grow>1</Grow>-->
+<!--                    </SkillAtta>-->
+                    <SkillAtta>
+                        <Value>25</Value>
+                        <Grow>1</Grow>
+                    </SkillAtta>
+                </Property>
+            </skill>
+            <skill id="0010062" type="被动" df="BUFF">
+                <Name>暗月降临</Name>
+                <Level>15</Level>
+                <MasterLevel>10</MasterLevel>
+                <LimitLevel>20</LimitLevel>
+                <DefaultLevel>10</DefaultLevel>
+                <Property>
+                    <DarkStrengthen growType="break" breakpoint="10">
+                        <Value>3</Value>
+                        <Grow>3</Grow>
+                        <Grow2>5</Grow2>
+                    </DarkStrengthen>
+                </Property>
+            </skill>
+            <skill id="0010160" type="主动" pm="魔法" df="伤害">
+                <Name>月光斩</Name>
+                <Level>15</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>46</DefaultLevel>
+                <Cd>4</Cd>
+                <Sp>15</Sp>
+                <Property>
+                    <Damage pi="百分比" counterable="true">
+                        <Value>1826</Value>
+                        <Grow>185.2857</Grow>
+                        <Property>暗</Property>        <!--满月提升0.07460-->
+                    </Damage>
+                </Property>
+            </skill>
+            <!--            <skill id="0010174" type="被动" df="BUFF">-->
+            <!--                <Name>满月斩</Name>-->
+            <!--                <Level>20</Level>-->
+            <!--                <MasterLevel>1</MasterLevel>-->
+            <!--                <LimitLevel>1</LimitLevel>-->
+            <!--                <DefaultLevel>1</DefaultLevel>-->
+            <!--                <Property>-->
+            <!--                    <SkillUp>-->
+            <!--                        <Id>0010160</Id>-->
+            <!--                        <Value>74.63054187</Value>-->
+            <!--                        <Grow>0</Grow>-->
+            <!--                    </SkillUp>-->
+            <!--                </Property>-->
+            <!--            </skill>-->
+            <skill id="0010016" type="换装" df="BUFF">
+                <Name>残影之凯贾</Name>
+                <Level>20</Level>
+                <MasterLevel>10</MasterLevel>
+                <LimitLevel>20</LimitLevel>
+                <DefaultLevel>20</DefaultLevel>
+                <Property index="0" title="深渊之鳞+时空之渊">
+                    <SpecialCrit>
+                        <Value>31</Value>
+                        <Grow>2</Grow>
+                    </SpecialCrit>
+                </Property>
+                <Property index="1" title="深渊之鳞+堕落之渊">
+                    <SpecialCrit abandonNum="1">
+                        <Value>29.5</Value>
+                        <Grow>2</Grow>
+                    </SpecialCrit>
+                </Property>
+                <Property index="2" title="深渊之鳞+腐蚀之渊">
+                    <SpecialCrit>
+                        <Value>28</Value>
+                        <Grow>2</Grow>
+                    </SpecialCrit>
+                </Property>
+            </skill>
+            <skill id="0010046" type="被动" df="BUFF">
+                <Name>噬灵鬼斩(BUFF)</Name>
+                <Level>25</Level>
+                <MasterLevel>1</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>1</DefaultLevel>
+                <Property>
+                    <SkillUp index="0">
+                        <Id>0010010</Id>
+                        <Value>20</Value>
+                        <Grow>0</Grow>
+                    </SkillUp>
+                    <SkillUp index="1">
+                        <Id>0010010</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010332" type="主动" df="伤害" hasRune="true">
+                <Name>鬼影鞭</Name>
+                <Level>30</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>26</DefaultLevel>
+                <Cd>8</Cd>
+                <Sp>30</Sp>
+                <Property>
+                    <Damage pi="百分比">
+                        <Value>3152</Value>
+                        <Grow>502.9200</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010082" type="主动" df="伤害" hasRune="true">
+                <Name>冰霜之萨亚</Name>
+                <Level>30</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>38</DefaultLevel>
+                <Cd>15</Cd>
+                <Sp>30</Sp>
+                <Property>
+                    <Damage pi="百分比">
+                        <Value>4820</Value>
+                        <Grow>489.2105</Grow>
+                        <Property>暗</Property>
+                        <Property>冰</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010090" type="主动" df="伤害" hasRune="true">
+                <Name>死亡墓碑</Name>
+                <Level>35</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>36</DefaultLevel>
+                <Cd>18</Cd>
+                <Sp>40</Sp>
+                <Property>
+                    <Damage pi="百分比" counterable="true" changeable="false">
+                        <Value>7236</Value>
+                        <Grow>735.9428</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010170" type="主动" df="伤害" hasRune="true">
+                <Name>瘟疫之罗刹</Name>
+                <Level>35</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>36</DefaultLevel>
+                <Cd>20</Cd>
+                <SP>40</SP>
+                <Property>
+                    <Damage pi="百分比" counterable="true">
+                        <Value>6840</Value>
+                        <Grow>693.6111</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010530" type="主动" df="伤害" hasRune="true">
+                <Name>鬼斩 : 狂怒</Name>
+                <Level>40</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>33</DefaultLevel>
+                <Cd>20</Cd>
+                <SP>50</SP>
+                <Property>
+                    <Damage pi="百分比" counterable="true">
+                        <Value>7746</Value>
+                        <Grow>785.8437</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010138" type="主动" df="伤害" hasRune="true">
+                <Name>鬼影闪</Name>
+                <Level>40</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>33</DefaultLevel>
+                <Cd>20</Cd>
+                <SP>50</SP>
+                <Property>
+                    <Damage pi="百分比" counterable="true" changeable="false">
+                        <Value>6371</Value>
+                        <Grow>646.2812</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+
+            <skill id="0010178" type="主动" df="伤害">
+                <Name>冥炎之卡洛(分身攻击)</Name>
+                <Level>45</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>31</DefaultLevel>
+                <Sp>60</Sp>
+                <Cd>1</Cd>
+                <Property>
+                    <Damage pi="百分比" counterable="true" changeable="false">
+                        <Value>209</Value>
+                        <Grow>21.2580</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010179" type="主动" df="伤害">
+                <Name>冥炎之卡洛(火焰攻击)</Name>
+                <Level>45</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>31</DefaultLevel>
+                <SP>60</SP>
+                <Cd>1</Cd>
+                <Property>
+                    <Damage pi="百分比" counterable="true">
+                        <Value>128</Value>
+                        <Grow>13.0322</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010532" type="主动" df="伤害" hasRune="true">
+                <Name>冥炎剑</Name>
+                <Level>45</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>31</DefaultLevel>
+                <SP>60</SP>
+                <Cd>45</Cd>
+                <Property>
+                    <Damage pi="百分比" counterable="true">
+                        <Value>12822</Value>
+                        <Grow>1301.3225</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010196" type="被动" df="BUFF">
+                <Name>恐惧光环</Name>
+                <Level>48</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>20</DefaultLevel>
+                <MinLevel>1</MinLevel>
+                <Property>
+                    <SkillAtta abandonNum="1">
+                        <Value>12</Value>
+                        <Grow>1.5</Grow>
+                    </SkillAtta>
+                </Property>
+            </skill>
+            <skill id="0010188" type="主动" df="伤害">
+                <Name>第7鬼神 : 邪神之怖拉修</Name>
+                <Level>50</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>12</DefaultLevel>
+                <MinLevel>12</MinLevel>
+                <SP>0</SP>
+                <Cd>140</Cd>
+                <Property>
+                    <Damage pi="百分比" counterable="true" changeable="false">
+                        <Value>32535.14</Value>
+                        <Grow>7544.68</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <!--            <skill id="0010189" type="主动" df="BUFF">-->
+            <!--                <Name>第7鬼神:邪神之怖拉修(BUFF)</Name>-->
+            <!--                <Level>50</Level>-->
+            <!--                <MasterLevel>30</MasterLevel>-->
+            <!--                <LimitLevel>40</LimitLevel>-->
+            <!--                <DefaultLevel>11</DefaultLevel>-->
+            <!--                <MinLevel>11</MinLevel>-->
+            <!--                <Property>-->
+            <!--                    <Intelligence growType="fix">-->
+            <!--                        <Value level="11">180</Value>-->
+            <!--                        <Value level="12">190</Value>-->
+            <!--                        <Value level="13">200</Value>-->
+            <!--                        <Value level="14">200</Value>-->
+            <!--                        <Value level="15">200</Value>-->
+            <!--                        <Value level="16">200</Value>-->
+            <!--                        <Value level="17">200</Value>-->
+            <!--                        <Value level="18">200</Value>-->
+            <!--                        <Value level="19">200</Value>-->
+            <!--                        <Value level="20">200</Value>-->
+            <!--                        <Value level="21">200</Value>-->
+            <!--                        <Value level="22">200</Value>-->
+            <!--                        <Value level="23">200</Value>-->
+            <!--                        <Value level="24">200</Value>-->
+            <!--                        <Value level="25">200</Value>-->
+            <!--                    </Intelligence>-->
+            <!--                </Property>-->
+            <!--            </skill>-->
+            <skill id="0010536" type="主动" df="伤害" hasRune="true">
+                <Name>鬼斩 : 炼狱</Name>
+                <Level>60</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>23</DefaultLevel>
+                <Cd>30</Cd>
+                <SP>60</SP>
+                <Property>
+                    <Damage pi="百分比">  <!--刀刃攻击-->
+                        <Value>12409</Value>
+                        <Grow>1259.0454</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010542" type="主动" df="伤害" hasRune="true">
+                <Name>冥祭之沼</Name>
+                <Level>70</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>18</DefaultLevel>
+                <Cd>40</Cd>
+                <SP>70</SP>
+                <Property>
+                    <Damage pi="百分比" changeable="false">
+                        <Value>16391</Value>
+                        <Grow>1663.0588</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010420" type="主动" df="伤害" hasRune="true" hasDiffVer="true">
+                <Name>幽魂之布雷德</Name>
+                <Level>75</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>16</DefaultLevel>
+                <Cd>40</Cd>
+                <SP>80</SP>
+                <Property index="0" title="幽魂之布雷德(全部伤害)">
+                    <Damage pi="百分比" changeable="false">
+                        <Value>35775</Value>
+                        <Grow>3629.7333</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+                <Property index="1" title="幽魂之布雷德(直接终结)">
+                    <Damage pi="百分比" changeable="false">
+                        <Value>27551</Value>
+                        <Grow>2795.6</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010440" type="被动" df="BUFF">
+                <Name>御鬼之极</Name>
+                <Level>75</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>11</DefaultLevel>
+                <Property>
+                    <SkillAtta>
+                        <Value>22</Value>
+                        <Grow>2</Grow>
+                    </SkillAtta>
+                </Property>
+            </skill>
+            <skill id="0010534" type="主动" df="伤害" hasRune="true">
+                <Name>幽魂降临 : 式</Name>
+                <Level>80</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>13</DefaultLevel>
+                <Cd>45</Cd>
+                <SP>90</SP>
+                <Property>
+                    <Damage pi="百分比" changeable="false">
+                        <Value>35713</Value>
+                        <Grow>3623.0833</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010434" type="主动" df="伤害">
+                <Name>王者号令 : 吉格降临</Name>
+                <Level>85</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Cd>180</Cd>
+                <SP>0</SP>
+                <Property>
+                    <Damage pi="百分比" changeable="false"> <!--可破招部分-->
+                        <Value>65962.2</Value>
+                        <Grow>15299.2</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010658" type="被动" df="BUFF">
+                <Name>鬼神冠冕</Name>
+                <Level>95</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>4</DefaultLevel>
+                <Property>
+                    <SkillAtta>
+                        <Value>20</Value>
+                        <Grow>2</Grow>
+                    </SkillAtta>
+                </Property>
+            </skill>
+            <skill id="0010660" type="主动" df="伤害">
+                <Name>鬼神剑·黄泉摆渡</Name>
+                <Level>95</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>6</DefaultLevel>
+                <Cd>60</Cd>
+                <Sp>100</Sp>
+                <Property>
+                    <Damage pi="百分比">
+                        <Value>75855</Value>
+                        <Grow>7695.4</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010662" type="主动" df="伤害">
+                <Name>黄泉之门 : 万鬼度灵</Name>
+                <Level>100</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>2</DefaultLevel>
+                <Cd>290</Cd>
+                <Sp>200</Sp>
+                <Property>
+                    <Damage pi="百分比">
+                        <Value>274025</Value>
+                        <Grow>63551</Grow>
+                        <Property>暗</Property>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0010226" type="EX" df="BUFF">
+                <Name>强化-鬼斩</Name>
+                <Level>50</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp index="0">
+                        <Id>0010010</Id>
+                        <Value>8</Value>
+                        <Grow>8</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010266" type="EX" df="BUFF">
+                <Name>强化-月光斩</Name>
+                <Level>50</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0010160</Id>
+                        <Value>8</Value>
+                        <Grow>8</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010316" type="EX" df="BUFF">
+                <Name>强化-冰霜之萨亚</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp growType="fix">
+                        <Id>0010082</Id>
+                        <Value level="1">10</Value>
+                        <Value level="2">20</Value>
+                        <Value level="3">30</Value>
+                        <Value level="4">40</Value>
+                        <Value level="5">60</Value>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010334" type="EX" df="BUFF">
+                <Name>强化-鬼影鞭</Name>
+                <Level>55</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0010332</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010326" type="EX" df="BUFF">
+                <Name>强化-死亡墓碑</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0010090</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010276" type="EX" df="BUFF">
+                <Name>强化-瘟疫之罗刹</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0010170</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010538" type="EX" df="BUFF">
+                <Name>强化-鬼斩 : 狂怒</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0010530</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010314" type="EX" df="BUFF">
+                <Name>强化-鬼影闪</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0010138</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010330" type="EX" df="BUFF">
+                <Name>强化-冥炎之卡洛</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0010178</Id>
+                        <Id>0010179</Id>
+                        <Id>0010532</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010552" type="EX" df="BUFF">
+                <Name>强化-鬼斩 : 炼狱</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0010536</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0010554" type="EX" df="BUFF">
+                <Name>强化-冥祭之沼</Name>
+                <Level>70</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0010542</Id>
+                        <Value>15</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+        </soulBringer>
+
+        <berserker id="002">
+            <skill id="0020126" type="被动" df="BUFF">
+                <Name>狂战士重甲专精(转甲开关)</Name>
+<!--                <Level>1</Level>-->
+                <MasterLevel>1</MasterLevel>
+                <LimitLevel>1</LimitLevel>
+                <MinLevel>1</MinLevel>
+                <Property>
+                    <EquipmentType>重甲</EquipmentType>
+                    <MainPropertyType>Strength</MainPropertyType>
+                </Property>
+            </skill>
+            <skill id="0020134" type="主动" df="BUFF">
+                <Name>血之狂暴</Name>
+                <Level>15</Level>
+                <MasterLevel>20</MasterLevel>
+                <LimitLevel>30</LimitLevel>
+                <MinLevel>1</MinLevel>
+                <DefaultLevel>20</DefaultLevel>
+                <Property>
+                    <SkillAtta>
+                        <Value>1</Value>
+                        <Grow>1</Grow>
+                    </SkillAtta>
+                    <Cd>
+                        <Id>0020132</Id>
+                        <Id>0020098</Id>
+                        <Id>0020048</Id>
+                        <Value>-20</Value>
+                    </Cd>
+                </Property>
+            </skill>
+            <skill id="0020044" type="被动" df="BUFF">
+                <Name>血气唤醒</Name>
+                <Level>15</Level>
+                <MasterLevel>10</MasterLevel>
+                <LimitLevel>20</LimitLevel>
+                <DefaultLevel>10</DefaultLevel>
+                <Property>
+                    <SkillAtta abandonNum="1">
+                        <Value>28.7</Value>
+                        <Grow>2</Grow>
+                    </SkillAtta>
+                </Property>
+            </skill>
+            <skill id="0020154" type="主动" pm="物理" df="伤害">
+                <Name>崩山击</Name>
+                <Level>10</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>48</DefaultLevel>
+                <Cd>4</Cd>
+                <Sp>15</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>11.2892</Value>
+                        <Grow>1.1461</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020132" type="主动" pm="物理" df="伤害">
+                <Name>十字斩</Name>
+                <Level>15</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>46</DefaultLevel>
+                <Cd>3</Cd>
+                <Sp>15</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>9.5897</Value>
+                        <Grow>0.9747</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020098" type="主动" pm="物理" df="伤害" hasDiffVer="true" hasRune="true">
+                <Name>嗜魂之手</Name>
+                <Level>25</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>41</DefaultLevel>
+                <Cd>6</Cd>
+                <Sp>15</Sp>
+                <Property index="0" title="嗜魂之手(可抓取)">
+                    <Damage pi="固伤">
+                        <Value>21.8000</Value>
+                        <Grow>2.2123</Grow>
+                    </Damage>
+                </Property>
+                <Property index="1" title="嗜魂之手(不可抓取)">
+                    <Damage pi="固伤">
+                        <Value>18.9296</Value>
+                        <Grow>1.9210</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020078" type="换装" df="BUFF">
+                <Name>暴走</Name>
+                <Level>25</Level>
+                <MasterLevel>10</MasterLevel>
+                <LimitLevel>20</LimitLevel>
+                <DefaultLevel>20</DefaultLevel>
+                <Property index="0" title="深渊之鳞+时空之渊">
+                    <SkillAtta>
+                        <Value>37</Value>
+                        <Grow>2</Grow>
+                    </SkillAtta>
+                </Property>
+                <Property index="1" title="深渊之鳞+堕落之渊">
+                    <SkillAtta abandonNum="1">
+                        <Value>35.5</Value>
+                        <Grow>2</Grow>
+                    </SkillAtta>
+                </Property>
+                <Property index="2" title="深渊之鳞+腐蚀之渊">
+                    <SkillAtta>
+                        <Value>34</Value>
+                        <Grow>2</Grow>
+                    </SkillAtta>
+                </Property>
+            </skill>
+            <skill id="0020048" type="主动" pm="物理" df="伤害" hasRune="true">
+                <Name>怒气爆发</Name>
+                <Level>30</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>38</DefaultLevel>
+                <Cd>16</Cd>
+                <Sp>30</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>40.1531</Value>
+                        <Grow>4.0827</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020564" type="主动" pm="物理" df="伤害" hasRune="true">
+                <Name>暴怒狂斩</Name>
+                <Level>35</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>36</DefaultLevel>
+                <Cd>20</Cd>
+                <Sp>40</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>70.2432</Value>
+                        <Grow>7.1319</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020282" type="主动" df="BUFF">
+                <Name>嗜血</Name>
+                <Level>35</Level>
+                <MasterLevel>10</MasterLevel>
+                <LimitLevel>20</LimitLevel>
+                <DefaultLevel>10</DefaultLevel>
+                <Property>
+                    <SkillAtta>
+                        <Value>11</Value>
+                        <Grow>1</Grow>
+                    </SkillAtta>
+                </Property>
+            </skill>
+            <skill id="0020176" type="主动" pm="物理" df="伤害" hasRune="true">
+                <Name>嗜魂封魔斩</Name>
+                <Level>35</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>36</DefaultLevel>
+                <Cd>30</Cd>
+                <Sp>40</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>82.7502</Value>
+                        <Grow>8.3960</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020252" type="主动" pm="物理" df="伤害" hasRune="true">
+                <Name>血气之刃</Name>
+                <Level>40</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>33</DefaultLevel>
+                <Cd>20</Cd>
+                <Sp>50</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>63.7897</Value>
+                        <Grow>6.4722</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020172" type="主动" pm="物理" df="伤害" hasRune="true">
+                <Name>崩山裂地斩</Name>
+                <Level>45</Level>
+                <MasterLevel>50</MasterLevel>
+                <LimitLevel>60</LimitLevel>
+                <DefaultLevel>31</DefaultLevel>
+                <Cd>40</Cd>
+                <Sp>60</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>107.2085</Value>
+                        <Grow>10.8781</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020198" type="被动" df="BUFF">
+                <Name>鲜血之忆</Name>
+                <Level>48</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>20</DefaultLevel>
+                <Property>
+                    <IndAttaPercent isOutEffective="false" abandonNum="1">
+                        <Value>12.9</Value>
+                        <Grow>1.5</Grow>
+                    </IndAttaPercent>
+                    <PhyCrit isOutEffective="false">
+                        <Value>3</Value>
+                        <Grow>0.6</Grow>
+                    </PhyCrit>
+                </Property>
+            </skill>
+            <skill id="0020190" type="主动" pm="物理" df="伤害">
+                <Name>魔狱血刹</Name>
+                <Level>50</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>12</DefaultLevel>
+                <Cd>145</Cd>
+                <Sp>0</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>328.5936571</Value>
+                        <Grow>75.9889831</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020568" type="主动" pm="物理" df="伤害" hasRune="true">
+                <Name>鲜血暴掠</Name>
+                <Level>60</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>23</DefaultLevel>
+                <Cd>30</Cd>
+                <Sp>60</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>120.5399</Value>
+                        <Grow>12.2291</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020210" type="主动" pm="物理" df="伤害" hasRune="true">
+                <Name>血气爆发</Name>
+                <Level>70</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>18</DefaultLevel>
+                <Cd>50</Cd>
+                <Sp>70</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>232.3099</Value>
+                        <Grow>23.5665</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020426" type="被动" df="BUFF">
+                <Name>汲血之力</Name>
+                <Level>75</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>11</DefaultLevel>
+                <Property>
+                    <SkillAtta>
+                        <Value>24</Value>
+                        <Grow>2</Grow>
+                    </SkillAtta>
+                </Property>
+            </skill>
+            <skill id="0020412" type="主动" pm="物理" df="伤害" hasRune="true">
+                <Name>浴血之怒</Name>
+                <Level>75</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>13</DefaultLevel>
+                <Cd>40</Cd>
+                <Sp>80</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>328.6103</Value>
+                        <Grow>33.3380</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020654" type="主动" pm="物理" df="伤害" hasRune="true">
+                <Name>致命血陨</Name>
+                <Level>80</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>13</DefaultLevel>
+                <Cd>50</Cd>
+                <Sp>90</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>327.9033</Value>
+                        <Grow>48.8822</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020432" type="主动" pm="物理" df="伤害">
+                <Name>血魔·弑天</Name>
+                <Level>85</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Cd>180</Cd>
+                <Sp>0</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>775.5530</Value>
+                        <Grow>179.8394</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020664" type="被动" df="BUFF">
+                <Name>血气限界</Name>
+                <Level>95</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>4</DefaultLevel>
+                <Property>
+                    <SkillAtta>
+                        <Value>20</Value>
+                        <Grow>2</Grow>
+                    </SkillAtta>
+                </Property>
+            </skill>
+            <skill id="0020666" type="主动" pm="物理" df="伤害">
+                <Name>疯魔血魂斩</Name>
+                <Level>95</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>6</DefaultLevel>
+                <Cd>60</Cd>
+                <Sp>100</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>678.9286</Value>
+                        <Grow>68.8723</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+            <skill id="0020668" type="主动" pm="物理" df="伤害">
+                <Name>血魔极道 : 灭世</Name>
+                <Level>100</Level>
+                <MasterLevel>30</MasterLevel>
+                <LimitLevel>40</LimitLevel>
+                <DefaultLevel>2</DefaultLevel>
+                <Cd>290</Cd>
+                <Sp>0</Sp>
+                <Property>
+                    <Damage pi="固伤">
+                        <Value>2234.9548</Value>
+                        <Grow>518.2582</Grow>
+                    </Damage>
+                </Property>
+            </skill>
+
+            <skill id="0020222" type="EX" df="BUFF">
+                <Name>强化-十字斩</Name>
+                <Level>50</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0020132</Id>
+                        <Value>8</Value>
+                        <Grow>8</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0020278" type="EX" df="BUFF">
+                <Name>强化-崩山击</Name>
+                <Level>50</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0020154</Id>
+                        <Value>8</Value>
+                        <Grow>8</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0020292" type="EX" df="BUFF">
+                <Name>强化-嗜魂之手</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0020098</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0020286" type="EX" df="BUFF">
+                <Name>强化-怒气爆发</Name>
+                <Level>55</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0020048</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0020270" type="EX" df="BUFF">
+                <Name>强化-嗜魂封魔斩</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0020176</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0020566" type="EX" df="BUFF">
+                <Name>强化-暴怒狂斩</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0020564</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0020294" type="EX" df="BUFF">
+                <Name>强化-血气之刃</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0020252</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0020298" type="EX" df="BUFF">
+                <Name>强化-崩山裂地斩</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0020172</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0020570" type="EX" df="BUFF">
+                <Name>强化-鲜血暴掠</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0020568</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+            <skill id="0020562" type="EX" df="BUFF">
+                <Name>强化-血气爆发</Name>
+                <Level>65</Level>
+                <MasterLevel>5</MasterLevel>
+                <LimitLevel>5</LimitLevel>
+                <DefaultLevel>5</DefaultLevel>
+                <Property>
+                    <SkillUp>
+                        <Id>0020210</Id>
+                        <Value>10</Value>
+                        <Grow>10</Grow>
+                    </SkillUp>
+                </Property>
+            </skill>
+        </berserker>
+
+<!--        <swordMaster id="004">-->
+<!--            <skill id="0020126" type="被动" df="BUFF">-->
+<!--                <Name>剑魂轻甲专精(转甲开关)</Name>-->
+<!--                <Level>1</Level>-->
+<!--                <MasterLevel>1</MasterLevel>-->
+<!--                <LimitLevel>1</LimitLevel>-->
+<!--                <MinLevel>1</MinLevel>-->
+<!--                <Property>-->
+<!--                    <EquipmentType>轻甲</EquipmentType>-->
+<!--                    <MainPropertyType>Strength</MainPropertyType>-->
+<!--                </Property>-->
+<!--            </skill>-->
+
+<!--            <skill id="0000034" type="被动" df="BUFF">-->
+<!--                <Name>太刀精通</Name>-->
+<!--                <Level>15</Level>-->
+<!--                <MasterLevel>1</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>1</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <Condition first="getWeaponType()" mid="==" last="'太刀'">-->
+<!--                        <PhyAttaPercent abandonNum="1" growType="break" breakpoint="22">-->
+<!--                            <Value>5.2</Value>-->
+<!--                            <Grow>1.5</Grow>-->
+<!--                            <Grow2>2</Grow2>-->
+<!--                        </PhyAttaPercent>-->
+<!--                        <MagAttaPercent abandonNum="1" growType="fix">-->
+<!--                            <Value level="1">1.3</Value>-->
+<!--                            <Value level="2">2.8</Value>-->
+<!--                            <Value level="3">4.1</Value>-->
+<!--                            <Value level="4">5.4</Value>-->
+<!--                            <Value level="5">6.8</Value>-->
+<!--                            <Value level="6">8.2</Value>-->
+<!--                            <Value level="7">9.6</Value>-->
+<!--                            <Value level="8">10.9</Value>-->
+<!--                            <Value level="9">12.3</Value>-->
+<!--                            <Value level="10">13.7</Value>-->
+<!--                            <Value level="11">15</Value>-->
+<!--                            <Value level="12">16.4</Value>-->
+<!--                            <Value level="13">17.7</Value>-->
+<!--                            <Value level="14">19.1</Value>-->
+<!--                            <Value level="15">20.5</Value>-->
+<!--                            <Value level="16">21.9</Value>-->
+<!--                            <Value level="17">23.3</Value>-->
+<!--                            <Value level="18">24.5</Value>-->
+<!--                            <Value level="19">25.9</Value>-->
+<!--                            <Value level="20">27.3</Value>-->
+<!--                            <Value level="21">28.7</Value>-->
+<!--                            <Value level="22">30.1</Value>-->
+<!--                            <Value level="23">31.4</Value>-->
+<!--                            <Value level="24">32.8</Value>-->
+<!--                            <Value level="25">34.1</Value>-->
+<!--                            <Value level="26">35.5</Value>-->
+<!--                            <Value level="27">36.9</Value>-->
+<!--                            <Value level="28">38.2</Value>-->
+<!--                            <Value level="29">39.6</Value>-->
+<!--                            <Value level="30">41</Value>-->
+<!--                            <Value level="31">42.4</Value>-->
+<!--                            <Value level="32">43.7</Value>-->
+<!--                            <Value level="33">45</Value>-->
+<!--                            <Value level="34">46.4</Value>-->
+<!--                            <Value level="35">47.8</Value>-->
+<!--                            <Value level="36">49.2</Value>-->
+<!--                            <Value level="37">50.6</Value>-->
+<!--                            <Value level="38">52</Value>-->
+<!--                            <Value level="39">53.2</Value>-->
+<!--                            <Value level="40">54.6</Value>-->
+<!--                        </MagAttaPercent>-->
+<!--                    </Condition>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0000038" type="被动" df="BUFF">-->
+<!--                <Name>短剑精通</Name>-->
+<!--                <Level>15</Level>-->
+<!--                <MasterLevel>1</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>1</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <Condition first="getWeaponType()" mid="==" last="'短剑'">-->
+<!--                        <PhyAttaPercent abandonNum="1" growType="break" breakpoint="22">-->
+<!--                            <Value>12.7</Value>-->
+<!--                            <Grow>1.5</Grow>-->
+<!--                            <Grow2>2</Grow2>-->
+<!--                        </PhyAttaPercent>-->
+<!--                        <MagAttaPercent abandonNum="1" growType="fix">-->
+<!--                            <Value level="1">1.2</Value>-->
+<!--                            <Value level="2">2.6</Value>-->
+<!--                            <Value level="3">3.9</Value>-->
+<!--                            <Value level="4">5.1</Value>-->
+<!--                            <Value level="5">6.4</Value>-->
+<!--                            <Value level="6">7.7</Value>-->
+<!--                            <Value level="7">9</Value>-->
+<!--                            <Value level="8">10.3</Value>-->
+<!--                            <Value level="9">11.6</Value>-->
+<!--                            <Value level="10">12.9</Value>-->
+<!--                            <Value level="11">14.1</Value>-->
+<!--                            <Value level="12">15.4</Value>-->
+<!--                            <Value level="13">16.7</Value>-->
+<!--                            <Value level="14">18</Value>-->
+<!--                            <Value level="15">19.3</Value>-->
+<!--                            <Value level="16">20.6</Value>-->
+<!--                            <Value level="17">21.9</Value>-->
+<!--                            <Value level="18">23.1</Value>-->
+<!--                            <Value level="19">24.4</Value>-->
+<!--                            <Value level="20">25.7</Value>-->
+<!--                            <Value level="21">27</Value>-->
+<!--                            <Value level="22">28.3</Value>-->
+<!--                            <Value level="23">29.6</Value>-->
+<!--                            <Value level="24">30.9</Value>-->
+<!--                            <Value level="25">32.1</Value>-->
+<!--                            <Value level="26">33.4</Value>-->
+<!--                            <Value level="27">34.7</Value>-->
+<!--                            <Value level="28">36</Value>-->
+<!--                            <Value level="29">37.3</Value>-->
+<!--                            <Value level="30">38.6</Value>-->
+<!--                            <Value level="31">39.9</Value>-->
+<!--                            <Value level="32">41.1</Value>-->
+<!--                            <Value level="33">42.4</Value>-->
+<!--                            <Value level="34">43.7</Value>-->
+<!--                            <Value level="35">45</Value>-->
+<!--                            <Value level="36">46.3</Value>-->
+<!--                            <Value level="37">47.6</Value>-->
+<!--                            <Value level="38">48.9</Value>-->
+<!--                            <Value level="39">50.1</Value>-->
+<!--                            <Value level="40">51.4</Value>-->
+<!--                        </MagAttaPercent>-->
+<!--                    </Condition>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0000040" type="被动" df="BUFF">-->
+<!--                <Name>钝器精通</Name>-->
+<!--                <Level>15</Level>-->
+<!--                <MasterLevel>1</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>1</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <Condition first="getWeaponType()" mid="==" last="'短剑'">-->
+<!--                        <PhyAttaPercent abandonNum="1" growType="break" breakpoint="22">-->
+<!--                            <Value>7.3</Value>-->
+<!--                            <Grow>1.5</Grow>-->
+<!--                            <Grow2>2</Grow2>-->
+<!--                        </PhyAttaPercent>-->
+<!--                        <MagAttaPercent abandonNum="1" growType="fix">-->
+<!--                            <Value level="1">1.4</Value>-->
+<!--                            <Value level="2">2.9</Value>-->
+<!--                            <Value level="3">4.4</Value>-->
+<!--                            <Value level="4">5.8</Value>-->
+<!--                            <Value level="5">7.3</Value>-->
+<!--                            <Value level="6">8.7</Value>-->
+<!--                            <Value level="7">10.2</Value>-->
+<!--                            <Value level="8">11.7</Value>-->
+<!--                            <Value level="9">13.2</Value>-->
+<!--                            <Value level="10">14.6</Value>-->
+<!--                            <Value level="11">16</Value>-->
+<!--                            <Value level="12">17.5</Value>-->
+<!--                            <Value level="13">18.9</Value>-->
+<!--                            <Value level="14">20.4</Value>-->
+<!--                            <Value level="15">21.9</Value>-->
+<!--                            <Value level="16">23.4</Value>-->
+<!--                            <Value level="17">24.8</Value>-->
+<!--                            <Value level="18">26.2</Value>-->
+<!--                            <Value level="19">27.7</Value>-->
+<!--                            <Value level="20">29.1</Value>-->
+<!--                            <Value level="21">30.6</Value>-->
+<!--                            <Value level="22">32.1</Value>-->
+<!--                            <Value level="23">33.6</Value>-->
+<!--                            <Value level="24">35</Value>-->
+<!--                            <Value level="25">36.4</Value>-->
+<!--                            <Value level="26">37.9</Value>-->
+<!--                            <Value level="27">39.3</Value>-->
+<!--                            <Value level="28">40.8</Value>-->
+<!--                            <Value level="29">42.3</Value>-->
+<!--                            <Value level="30">43.8</Value>-->
+<!--                            <Value level="31">45.2</Value>-->
+<!--                            <Value level="32">46.6</Value>-->
+<!--                            <Value level="33">48.1</Value>-->
+<!--                            <Value level="34">49.6</Value>-->
+<!--                            <Value level="35">51</Value>-->
+<!--                        </MagAttaPercent>-->
+<!--                    </Condition>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0000036" type="被动" df="BUFF">-->
+<!--                <Name>巨剑精通</Name>-->
+<!--                <Level>15</Level>-->
+<!--                <MasterLevel>1</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>1</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <Condition first="getWeaponType()" mid="==" last="'短剑'">-->
+<!--                        <PhyAttaPercent abandonNum="1" growType="break" breakpoint="22">-->
+<!--                            <Value>6.9</Value>-->
+<!--                            <Grow>1.5</Grow>-->
+<!--                            <Grow2>2</Grow2>-->
+<!--                        </PhyAttaPercent>-->
+<!--                        <MagAttaPercent abandonNum="1" growType="fix">-->
+<!--                            <Value level="1">1.4</Value>-->
+<!--                            <Value level="2">3.1</Value>-->
+<!--                            <Value level="3">4.6</Value>-->
+<!--                            <Value level="4">6</Value>-->
+<!--                            <Value level="5">7.5</Value>-->
+<!--                            <Value level="6">9</Value>-->
+<!--                            <Value level="7">10.6</Value>-->
+<!--                            <Value level="8">12.1</Value>-->
+<!--                            <Value level="9">13.6</Value>-->
+<!--                            <Value level="10">15.1</Value>-->
+<!--                            <Value level="11">16.5</Value>-->
+<!--                            <Value level="12">18.1</Value>-->
+<!--                            <Value level="13">19.6</Value>-->
+<!--                            <Value level="14">21.1</Value>-->
+<!--                            <Value level="15">22.6</Value>-->
+<!--                            <Value level="16">24.2</Value>-->
+<!--                            <Value level="17">25.7</Value>-->
+<!--                            <Value level="18">27.1</Value>-->
+<!--                            <Value level="19">28.6</Value>-->
+<!--                            <Value level="20">30.2</Value>-->
+<!--                            <Value level="21">31.7</Value>-->
+<!--                            <Value level="22">33.2</Value>-->
+<!--                            <Value level="23">34.7</Value>-->
+<!--                            <Value level="24">36.3</Value>-->
+<!--                            <Value level="25">37.7</Value>-->
+<!--                            <Value level="26">39.2</Value>-->
+<!--                            <Value level="27">40.7</Value>-->
+<!--                            <Value level="28">42.2</Value>-->
+<!--                            <Value level="29">43.8</Value>-->
+<!--                            <Value level="30">45.3</Value>-->
+<!--                            <Value level="31">46.8</Value>-->
+<!--                            <Value level="32">48.2</Value>-->
+<!--                            <Value level="33">49.8</Value>-->
+<!--                            <Value level="34">51.3</Value>-->
+<!--                            <Value level="35">52.8</Value>-->
+<!--                        </MagAttaPercent>-->
+<!--                    </Condition>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0000096" type="被动" df="BUFF">-->
+<!--                <Name>光剑精通</Name>-->
+<!--                <Level>15</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>30</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <Condition first="getWeaponType()" mid="==" last="'短剑'">-->
+<!--                        <PhyAttaPercent abandonNum="1" growType="break" breakpoint="22">-->
+<!--                            <Value>9.5</Value>-->
+<!--                            <Grow>1.5</Grow>-->
+<!--                            <Grow2>2</Grow2>-->
+<!--                        </PhyAttaPercent>-->
+<!--                    </Condition>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0000066" type="被动" df="BUFF">-->
+<!--                <Name>武器奥义</Name>-->
+<!--                <Level>15</Level>-->
+<!--                <MasterLevel>20</MasterLevel>-->
+<!--                <LimitLevel>30</LimitLevel>-->
+<!--                <DefaultLevel>20</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillLevel type="single">-->
+<!--                        <SkillId value="2" grow="1">0000034</SkillId>-->
+<!--                        <SkillId value="2" grow="1">0000038</SkillId>-->
+<!--                        <SkillId value="2" grow="1">0000040</SkillId>-->
+<!--                        <SkillId value="2" grow="1">0000036</SkillId>-->
+<!--                        <SkillId value="2" grow="1">0000096</SkillId>-->
+<!--                    </SkillLevel>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020134" type="主动" pm="物理" df="伤害">-->
+<!--                <Name>三段斩</Name>-->
+<!--                <Level>15</Level>-->
+<!--                <MasterLevel>50</MasterLevel>-->
+<!--                <LimitLevel>60</LimitLevel>-->
+<!--                <DefaultLevel>46</DefaultLevel>-->
+<!--                <Cd>6</Cd>-->
+<!--                <Sp>15</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="百分比" counterable="true">-->
+<!--                        <Value>1826</Value>-->
+<!--                        <Grow>185.2857</Grow>-->
+<!--                        <Property>暗</Property>        &lt;!&ndash;满月提升0.07460&ndash;&gt;-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020044" type="被动" df="BUFF">-->
+<!--                <Name>无我剑气</Name>-->
+<!--                <Level>20</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>15</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillAtta>-->
+<!--                        <Value>2</Value>-->
+<!--                        <Grow>2</Grow>-->
+<!--                    </SkillAtta>-->
+<!--                </Property>-->
+<!--            </skill>-->
+
+<!--            <skill id="0020132" type="主动" pm="物理" df="伤害">-->
+<!--                <Name>十字斩</Name>-->
+<!--                <Level>15</Level>-->
+<!--                <MasterLevel>50</MasterLevel>-->
+<!--                <LimitLevel>60</LimitLevel>-->
+<!--                <DefaultLevel>46</DefaultLevel>-->
+<!--                <Cd>3</Cd>-->
+<!--                <Sp>15</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>9.5897</Value>-->
+<!--                        <Grow>0.9747</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            -->
+<!--            <skill id="0020098" type="主动" pm="物理" df="伤害" hasDiffVer="true" hasRune="true">-->
+<!--                <Name>嗜魂之手</Name>-->
+<!--                <Level>25</Level>-->
+<!--                <MasterLevel>50</MasterLevel>-->
+<!--                <LimitLevel>60</LimitLevel>-->
+<!--                <DefaultLevel>41</DefaultLevel>-->
+<!--                <Cd>6</Cd>-->
+<!--                <Sp>15</Sp>-->
+<!--                <Property index="0" title="嗜魂之手(可抓取)">-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>21.8000</Value>-->
+<!--                        <Grow>2.2123</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--                <Property index="1" title="嗜魂之手(不可抓取)">-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>18.9296</Value>-->
+<!--                        <Grow>1.9210</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020078" type="换装" df="BUFF">-->
+<!--                <Name>暴走</Name>-->
+<!--                <Level>25</Level>-->
+<!--                <MasterLevel>10</MasterLevel>-->
+<!--                <LimitLevel>20</LimitLevel>-->
+<!--                <DefaultLevel>20</DefaultLevel>-->
+<!--                <Property index="0" title="深渊之鳞+时空之渊">-->
+<!--                    <SkillAtta>-->
+<!--                        <Value>37</Value>-->
+<!--                        <Grow>2</Grow>-->
+<!--                    </SkillAtta>-->
+<!--                </Property>-->
+<!--                <Property index="1" title="深渊之鳞+堕落之渊">-->
+<!--                    <SkillAtta abandonNum="1">-->
+<!--                        <Value>35.5</Value>-->
+<!--                        <Grow>2</Grow>-->
+<!--                    </SkillAtta>-->
+<!--                </Property>-->
+<!--                <Property index="2" title="深渊之鳞+腐蚀之渊">-->
+<!--                    <SkillAtta>-->
+<!--                        <Value>34</Value>-->
+<!--                        <Grow>2</Grow>-->
+<!--                    </SkillAtta>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020048" type="主动" pm="物理" df="伤害" hasRune="true">-->
+<!--                <Name>怒气爆发</Name>-->
+<!--                <Level>30</Level>-->
+<!--                <MasterLevel>50</MasterLevel>-->
+<!--                <LimitLevel>60</LimitLevel>-->
+<!--                <DefaultLevel>38</DefaultLevel>-->
+<!--                <Cd>16</Cd>-->
+<!--                <Sp>30</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>40.1531</Value>-->
+<!--                        <Grow>4.0827</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020564" type="主动" pm="物理" df="伤害" hasRune="true">-->
+<!--                <Name>暴怒狂斩</Name>-->
+<!--                <Level>35</Level>-->
+<!--                <MasterLevel>50</MasterLevel>-->
+<!--                <LimitLevel>60</LimitLevel>-->
+<!--                <DefaultLevel>36</DefaultLevel>-->
+<!--                <Cd>20</Cd>-->
+<!--                <Sp>40</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>70.2432</Value>-->
+<!--                        <Grow>7.1319</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020282" type="主动" df="BUFF">-->
+<!--                <Name>嗜血</Name>-->
+<!--                <Level>35</Level>-->
+<!--                <MasterLevel>10</MasterLevel>-->
+<!--                <LimitLevel>20</LimitLevel>-->
+<!--                <DefaultLevel>10</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillAtta>-->
+<!--                        <Value>11</Value>-->
+<!--                        <Grow>1</Grow>-->
+<!--                    </SkillAtta>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020176" type="主动" pm="物理" df="伤害" hasRune="true">-->
+<!--                <Name>嗜魂封魔斩</Name>-->
+<!--                <Level>35</Level>-->
+<!--                <MasterLevel>50</MasterLevel>-->
+<!--                <LimitLevel>60</LimitLevel>-->
+<!--                <DefaultLevel>36</DefaultLevel>-->
+<!--                <Cd>30</Cd>-->
+<!--                <Sp>40</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>82.7502</Value>-->
+<!--                        <Grow>8.3960</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020252" type="主动" pm="物理" df="伤害" hasRune="true">-->
+<!--                <Name>血气之刃</Name>-->
+<!--                <Level>40</Level>-->
+<!--                <MasterLevel>50</MasterLevel>-->
+<!--                <LimitLevel>60</LimitLevel>-->
+<!--                <DefaultLevel>33</DefaultLevel>-->
+<!--                <Cd>20</Cd>-->
+<!--                <Sp>50</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>63.7897</Value>-->
+<!--                        <Grow>6.4722</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020172" type="主动" pm="物理" df="伤害" hasRune="true">-->
+<!--                <Name>崩山裂地斩</Name>-->
+<!--                <Level>45</Level>-->
+<!--                <MasterLevel>50</MasterLevel>-->
+<!--                <LimitLevel>60</LimitLevel>-->
+<!--                <DefaultLevel>31</DefaultLevel>-->
+<!--                <Cd>40</Cd>-->
+<!--                <Sp>60</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>107.2085</Value>-->
+<!--                        <Grow>10.8781</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020198" type="被动" df="BUFF">-->
+<!--                <Name>鲜血之忆</Name>-->
+<!--                <Level>48</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>20</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <IndAttaPercent isOutEffective="false" abandonNum="1">-->
+<!--                        <Value>12.9</Value>-->
+<!--                        <Grow>1.5</Grow>-->
+<!--                    </IndAttaPercent>-->
+<!--                    <PhyCrit isOutEffective="false">-->
+<!--                        <Value>3</Value>-->
+<!--                        <Grow>0.6</Grow>-->
+<!--                    </PhyCrit>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020190" type="主动" pm="物理" df="伤害">-->
+<!--                <Name>魔狱血刹</Name>-->
+<!--                <Level>50</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>12</DefaultLevel>-->
+<!--                <Cd>145</Cd>-->
+<!--                <Sp>0</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>328.5936571</Value>-->
+<!--                        <Grow>75.9889831</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020568" type="主动" pm="物理" df="伤害" hasRune="true">-->
+<!--                <Name>鲜血暴掠</Name>-->
+<!--                <Level>60</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>23</DefaultLevel>-->
+<!--                <Cd>30</Cd>-->
+<!--                <Sp>60</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>120.5399</Value>-->
+<!--                        <Grow>12.2291</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020210" type="主动" pm="物理" df="伤害" hasRune="true">-->
+<!--                <Name>血气爆发</Name>-->
+<!--                <Level>70</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>18</DefaultLevel>-->
+<!--                <Cd>50</Cd>-->
+<!--                <Sp>70</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>232.3099</Value>-->
+<!--                        <Grow>23.5665</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020426" type="被动" df="BUFF">-->
+<!--                <Name>汲血之力</Name>-->
+<!--                <Level>75</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>11</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillAtta>-->
+<!--                        <Value>24</Value>-->
+<!--                        <Grow>2</Grow>-->
+<!--                    </SkillAtta>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020412" type="主动" pm="物理" df="伤害" hasRune="true">-->
+<!--                <Name>浴血之怒</Name>-->
+<!--                <Level>75</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>13</DefaultLevel>-->
+<!--                <Cd>40</Cd>-->
+<!--                <Sp>80</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>328.6103</Value>-->
+<!--                        <Grow>33.3380</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020654" type="主动" pm="物理" df="伤害" hasRune="true">-->
+<!--                <Name>致命血陨</Name>-->
+<!--                <Level>80</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>13</DefaultLevel>-->
+<!--                <Cd>50</Cd>-->
+<!--                <Sp>90</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>327.9033</Value>-->
+<!--                        <Grow>48.8822</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020432" type="主动" pm="物理" df="伤害">-->
+<!--                <Name>血魔·弑天</Name>-->
+<!--                <Level>85</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Cd>180</Cd>-->
+<!--                <Sp>0</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>775.5530</Value>-->
+<!--                        <Grow>179.8394</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020664" type="被动" df="BUFF">-->
+<!--                <Name>血气限界</Name>-->
+<!--                <Level>95</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>4</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillAtta>-->
+<!--                        <Value>20</Value>-->
+<!--                        <Grow>2</Grow>-->
+<!--                    </SkillAtta>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020666" type="主动" pm="物理" df="伤害">-->
+<!--                <Name>疯魔血魂斩</Name>-->
+<!--                <Level>95</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>6</DefaultLevel>-->
+<!--                <Cd>60</Cd>-->
+<!--                <Sp>100</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>678.9286</Value>-->
+<!--                        <Grow>68.8723</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020668" type="主动" pm="物理" df="伤害">-->
+<!--                <Name>血魔极道 : 灭世</Name>-->
+<!--                <Level>100</Level>-->
+<!--                <MasterLevel>30</MasterLevel>-->
+<!--                <LimitLevel>40</LimitLevel>-->
+<!--                <DefaultLevel>2</DefaultLevel>-->
+<!--                <Cd>290</Cd>-->
+<!--                <Sp>0</Sp>-->
+<!--                <Property>-->
+<!--                    <Damage pi="固伤">-->
+<!--                        <Value>2234.9548</Value>-->
+<!--                        <Grow>518.2582</Grow>-->
+<!--                    </Damage>-->
+<!--                </Property>-->
+<!--            </skill>-->
+
+<!--            <skill id="0020222" type="EX" df="BUFF">-->
+<!--                <Name>强化-十字斩</Name>-->
+<!--                <Level>50</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>5</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillUp>-->
+<!--                        <Id>0020132</Id>-->
+<!--                        <Value>8</Value>-->
+<!--                        <Grow>8</Grow>-->
+<!--                    </SkillUp>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020278" type="EX" df="BUFF">-->
+<!--                <Name>强化-崩山击</Name>-->
+<!--                <Level>50</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>5</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillUp>-->
+<!--                        <Id>0020154</Id>-->
+<!--                        <Value>8</Value>-->
+<!--                        <Grow>8</Grow>-->
+<!--                    </SkillUp>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020292" type="EX" df="BUFF">-->
+<!--                <Name>强化-嗜魂之手</Name>-->
+<!--                <Level>65</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>5</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillUp>-->
+<!--                        <Id>0020098</Id>-->
+<!--                        <Value>10</Value>-->
+<!--                        <Grow>10</Grow>-->
+<!--                    </SkillUp>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020286" type="EX" df="BUFF">-->
+<!--                <Name>强化-怒气爆发</Name>-->
+<!--                <Level>55</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>5</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillUp>-->
+<!--                        <Id>0020048</Id>-->
+<!--                        <Value>10</Value>-->
+<!--                        <Grow>10</Grow>-->
+<!--                    </SkillUp>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020270" type="EX" df="BUFF">-->
+<!--                <Name>强化-嗜魂封魔斩</Name>-->
+<!--                <Level>65</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>5</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillUp>-->
+<!--                        <Id>0020176</Id>-->
+<!--                        <Value>10</Value>-->
+<!--                        <Grow>10</Grow>-->
+<!--                    </SkillUp>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020566" type="EX" df="BUFF">-->
+<!--                <Name>强化-暴怒狂斩</Name>-->
+<!--                <Level>65</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>5</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillUp>-->
+<!--                        <Id>0020564</Id>-->
+<!--                        <Value>10</Value>-->
+<!--                        <Grow>10</Grow>-->
+<!--                    </SkillUp>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020294" type="EX" df="BUFF">-->
+<!--                <Name>强化-血气之刃</Name>-->
+<!--                <Level>65</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>5</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillUp>-->
+<!--                        <Id>0020252</Id>-->
+<!--                        <Value>10</Value>-->
+<!--                        <Grow>10</Grow>-->
+<!--                    </SkillUp>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020298" type="EX" df="BUFF">-->
+<!--                <Name>强化-崩山裂地斩</Name>-->
+<!--                <Level>65</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>5</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillUp>-->
+<!--                        <Id>0020172</Id>-->
+<!--                        <Value>10</Value>-->
+<!--                        <Grow>10</Grow>-->
+<!--                    </SkillUp>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020570" type="EX" df="BUFF">-->
+<!--                <Name>强化-鲜血暴掠</Name>-->
+<!--                <Level>65</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>5</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillUp>-->
+<!--                        <Id>0020568</Id>-->
+<!--                        <Value>10</Value>-->
+<!--                        <Grow>10</Grow>-->
+<!--                    </SkillUp>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--            <skill id="0020562" type="EX" df="BUFF">-->
+<!--                <Name>强化-血气爆发</Name>-->
+<!--                <Level>65</Level>-->
+<!--                <MasterLevel>5</MasterLevel>-->
+<!--                <LimitLevel>5</LimitLevel>-->
+<!--                <DefaultLevel>5</DefaultLevel>-->
+<!--                <Property>-->
+<!--                    <SkillUp>-->
+<!--                        <Id>0020210</Id>-->
+<!--                        <Value>10</Value>-->
+<!--                        <Grow>10</Grow>-->
+<!--                    </SkillUp>-->
+<!--                </Property>-->
+<!--            </skill>-->
+<!--        </swordMaster>-->
+    </swordman>
+</skills>

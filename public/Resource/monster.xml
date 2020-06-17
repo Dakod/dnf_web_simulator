@@ -1,0 +1,29 @@
+<monsters>
+    <monster id="000">
+        <Name>沙袋 120级</Name>
+        <Level>120</Level>
+        <Defence>443243</Defence>
+        <DarkStrengthen>0</DarkStrengthen>
+        <LightStrengthen>0</LightStrengthen>.
+        <IceStrengthen>0</IceStrengthen>
+        <FireStrengthen>0</FireStrengthen>
+    </monster>
+    <monster id="001">
+        <Name>沙袋 125级</Name>
+        <Level>125</Level>
+        <Defence>474627</Defence>
+        <DarkStrengthen>0</DarkStrengthen>
+        <LightStrengthen>0</LightStrengthen>.
+        <IceStrengthen>0</IceStrengthen>
+        <FireStrengthen>0</FireStrengthen>
+    </monster>
+    <monster id="002">
+        <Name>漩涡罗什本体</Name>
+        <Level>125</Level>
+        <Defence>827003</Defence>
+        <DarkStrengthen>50</DarkStrengthen>
+        <LightStrengthen>50</LightStrengthen>.
+        <IceStrengthen>50</IceStrengthen>
+        <FireStrengthen>50</FireStrengthen>
+    </monster>
+</monsters>

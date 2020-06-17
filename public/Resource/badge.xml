@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<badges>
+    <green class="coat pants skin_d aura_d weapon_d">
+        <badge id="000">
+            <PhyCrit>1.2</PhyCrit>
+        </badge>
+        <badge id="001">
+            <PhyCrit>2.2</PhyCrit>
+        </badge>
+        <badge id="002">
+            <PhyCrit>3</PhyCrit>
+        </badge>
+        <badge id="010">
+            <MagCrit>1.2</MagCrit>
+        </badge>
+        <badge id="011">
+            <MagCrit>2.2</MagCrit>
+        </badge>
+        <badge id="012">
+            <MagCrit>3</MagCrit>
+        </badge>
+    </green>
+    <red class="belt ring skin_d aura_d weapon_d">
+        <badge id="100">
+            <Strength>10</Strength>
+        </badge>
+        <badge id="101">
+            <Strength>17</Strength>
+        </badge>
+        <badge id="102">
+            <Strength>25</Strength>
+        </badge>
+        <badge id="110">
+            <Intelligence>10</Intelligence>
+        </badge>
+        <badge id="111">
+            <Intelligence>17</Intelligence>
+        </badge>
+        <badge id="112">
+            <Intelligence>25</Intelligence>
+        </badge>
+    </red>
+    <greenred class="coat pants belt ring  skin_d aura_d weapon_d">
+        <badge id="200">
+            <Strength>10</Strength>
+            <PhyCrit>1.1</PhyCrit>
+        </badge>
+        <badge id="201">
+            <Strength>15</Strength>
+            <PhyCrit>1.5</PhyCrit>
+        </badge>
+        <badge id="210">
+            <Intelligence>10</Intelligence>
+            <MagCrit>1.1</MagCrit>
+        </badge>
+        <badge id="211">
+            <Intelligence>15</Intelligence>
+            <MagCrit>1.5</MagCrit>
+        </badge>
+    </greenred>
+    <white class="magicstone assistant">
+        <badge id="300">
+            <Strength>6</Strength>
+            <Intelligence>6</Intelligence>
+        </badge>
+        <badge id="301">
+            <Strength>8</Strength>
+            <Intelligence>8</Intelligence>
+        </badge>
+    </white>
+    <yellow class="shoulder necklace">
+        <badge id="400">
+            <Strength>10</Strength>
+        </badge>
+        <badge id="401">
+            <Strength>15</Strength>
+        </badge>
+    </yellow>
+    <blue></blue>
+</badges>

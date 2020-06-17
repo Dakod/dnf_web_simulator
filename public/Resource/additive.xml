@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<additive>
+    <strengthen>
+        <鬼剑士>
+            <太刀>
+                <lv95>
+                    <strength value="1">
+                        <PhyAtta>43</PhyAtta>
+                        <MagAtta>43</MagAtta>
+                    </strength>
+                    <strength value="2">
+                        <PhyAtta>56</PhyAtta>
+                        <MagAtta>56</MagAtta>
+                    </strength>
+                    <strength value="3">
+                        <PhyAtta>77</PhyAtta>
+                        <MagAtta>78</MagAtta>
+                    </strength>
+                    <strength value="4">
+                        <PhyAtta>101</PhyAtta>
+                        <MagAtta>102</MagAtta>
+                    </strength>
+                    <strength value="5">
+                        <PhyAtta>125</PhyAtta>
+                        <MagAtta>126</MagAtta>
+                    </strength>
+                    <strength value="6">
+                        <PhyAtta>149</PhyAtta>
+                        <MagAtta>150</MagAtta>
+                    </strength>
+                    <strength value="7">
+                        <PhyAtta>177</PhyAtta>
+                        <MagAtta>179</MagAtta>
+                    </strength>
+                    <strength value="8">
+                        <PhyAtta>237</PhyAtta>
+                        <MagAtta>240</MagAtta>
+                    </strength>
+                    <strength value="9">
+                        <PhyAtta>315</PhyAtta>
+                        <MagAtta>318</MagAtta>
+                    </strength>
+                    <strength value="10">
+                        <PhyAtta>404</PhyAtta>
+                        <MagAtta>408</MagAtta>
+                    </strength>
+                    <strength value="11">
+                        <PhyAtta>581</PhyAtta>
+                        <MagAtta>587</MagAtta>
+                    </strength>
+                    <strength value="12">
+                        <PhyAtta>793</PhyAtta>
+                        <MagAtta>801</MagAtta>
+                    </strength>
+                    <strength value="13">
+                        <PhyAtta>930</PhyAtta>
+                        <MagAtta>938</MagAtta>
+                    </strength>
+                    <strength value="14">
+                        <PhyAtta>1064</PhyAtta>
+                        <MagAtta>1074</MagAtta>
+                    </strength>
+                    <strength value="15">
+                        <PhyAtta>1198</PhyAtta>
+                        <MagAtta>1209</MagAtta>
+                    </strength>
+                    <strength value="16">
+                        <PhyAtta>1334</PhyAtta>
+                        <MagAtta>1346</MagAtta>
+                    </strength>
+                    <strength value="17">
+                        <PhyAtta>1471</PhyAtta>
+                        <MagAtta>1484</MagAtta>
+                    </strength>
+                    <strength value="18">
+                        <PhyAtta>1607</PhyAtta>
+                        <MagAtta>1622</MagAtta>
+                    </strength>
+                    <strength value="19">
+                        <PhyAtta>1743</PhyAtta>
+                        <MagAtta>1759</MagAtta>
+                    </strength>
+                    <strength value="20">
+                        <PhyAtta>1879</PhyAtta>
+                        <MagAtta>1897</MagAtta>
+                    </strength>
+                </lv95>
+                <lv100>
+                    <strength value="1">
+                        <PhyAtta>45</PhyAtta>
+                        <MagAtta>45</MagAtta>
+                    </strength>
+                    <strength value="2">
+                        <PhyAtta>58</PhyAtta>
+                        <MagAtta>59</MagAtta>
+                    </strength>
+                    <strength value="3">
+                        <PhyAtta>81</PhyAtta>
+                        <MagAtta>82</MagAtta>
+                    </strength>
+                    <strength value="4">
+                        <PhyAtta>106</PhyAtta>
+                        <MagAtta>107</MagAtta>
+                    </strength>
+                    <strength value="5">
+                        <PhyAtta>131</PhyAtta>
+                        <MagAtta>131</MagAtta>
+                    </strength>
+                    <strength value="6">
+                        <PhyAtta>156</PhyAtta>
+                        <MagAtta>157</MagAtta>
+                    </strength>
+                    <strength value="7">
+                        <PhyAtta>185</PhyAtta>
+                        <MagAtta>187</MagAtta>
+                    </strength>
+                    <strength value="8">
+                        <PhyAtta>248</PhyAtta>
+                        <MagAtta>251</MagAtta>
+                    </strength>
+                    <strength value="9">
+                        <PhyAtta>330</PhyAtta>
+                        <MagAtta>333</MagAtta>
+                    </strength>
+                    <strength value="10">
+                        <PhyAtta>423</PhyAtta>
+                        <MagAtta>426</MagAtta>
+                    </strength>
+                    <strength value="11">
+                        <PhyAtta>608</PhyAtta>
+                        <MagAtta>614</MagAtta>
+                    </strength>
+                    <strength value="12">
+                        <PhyAtta>830</PhyAtta>
+                        <MagAtta>837</MagAtta>
+                    </strength>
+                    <strength value="13">
+                        <PhyAtta>972</PhyAtta>
+                        <MagAtta>981</MagAtta>
+                    </strength>
+                    <strength value="14">
+                        <PhyAtta>1113</PhyAtta>
+                        <MagAtta>1123</MagAtta>
+                    </strength>
+                    <strength value="15">
+                        <PhyAtta>1253</PhyAtta>
+                        <MagAtta>1264</MagAtta>
+                    </strength>
+                    <strength value="16">
+                        <PhyAtta>1395</PhyAtta>
+                        <MagAtta>1408</MagAtta>
+                    </strength>
+                    <strength value="17">
+                        <PhyAtta>1538</PhyAtta>
+                        <MagAtta>1552</MagAtta>
+                    </strength>
+                    <strength value="18">
+                        <PhyAtta>1681</PhyAtta>
+                        <MagAtta>1696</MagAtta>
+                    </strength>
+                    <strength value="19">
+                        <PhyAtta>1823</PhyAtta>
+                        <MagAtta>1840</MagAtta>
+                    </strength>
+                    <strength value="20">
+                        <PhyAtta>1966</PhyAtta>
+                        <MagAtta>1984</MagAtta>
+                    </strength>
+                </lv100>
+            </太刀>
+
+            <短剑>
+                <lv95>
+                    <strength value="1">
+                        <PhyAtta>43</PhyAtta>
+                        <MagAtta>43</MagAtta>
+                    </strength>
+                    <strength value="2">
+                        <PhyAtta>56</PhyAtta>
+                        <MagAtta>57</MagAtta>
+                    </strength>
+                    <strength value="3">
+                        <PhyAtta>77</PhyAtta>
+                        <MagAtta>79</MagAtta>
+                    </strength>
+                    <strength value="4">
+                        <PhyAtta>101</PhyAtta>
+                        <MagAtta>103</MagAtta>
+                    </strength>
+                    <strength value="5">
+                        <PhyAtta>125</PhyAtta>
+                        <MagAtta>127</MagAtta>
+                    </strength>
+                    <strength value="6">
+                        <PhyAtta>149</PhyAtta>
+                        <MagAtta>151</MagAtta>
+                    </strength>
+                    <strength value="7">
+                        <PhyAtta>177</PhyAtta>
+                        <MagAtta>180</MagAtta>
+                    </strength>
+                    <strength value="8">
+                        <PhyAtta>237</PhyAtta>
+                        <MagAtta>242</MagAtta>
+                    </strength>
+                    <strength value="9">
+                        <PhyAtta>315</PhyAtta>
+                        <MagAtta>321</MagAtta>
+                    </strength>
+                    <strength value="10">
+                        <PhyAtta>404</PhyAtta>
+                        <MagAtta>411</MagAtta>
+                    </strength>
+                    <strength value="11">
+                        <PhyAtta>581</PhyAtta>
+                        <MagAtta>592</MagAtta>
+                    </strength>
+                    <strength value="12">
+                        <PhyAtta>793</PhyAtta>
+                        <MagAtta>808</MagAtta>
+                    </strength>
+                    <strength value="13">
+                        <PhyAtta>930</PhyAtta>
+                        <MagAtta>947</MagAtta>
+                    </strength>
+                    <strength value="14">
+                        <PhyAtta>1064</PhyAtta>
+                        <MagAtta>1083</MagAtta>
+                    </strength>
+                    <strength value="15">
+                        <PhyAtta>1198</PhyAtta>
+                        <MagAtta>1220</MagAtta>
+                    </strength>
+                    <strength value="16">
+                        <PhyAtta>1334</PhyAtta>
+                        <MagAtta>1359</MagAtta>
+                    </strength>
+                    <strength value="17">
+                        <PhyAtta>1471</PhyAtta>
+                        <MagAtta>1497</MagAtta>
+                    </strength>
+                    <strength value="18">
+                        <PhyAtta>1607</PhyAtta>
+                        <MagAtta>1636</MagAtta>
+                    </strength>
+                    <strength value="19">
+                        <PhyAtta>1743</PhyAtta>
+                        <MagAtta>1775</MagAtta>
+                    </strength>
+                    <strength value="20">
+                        <PhyAtta>1879</PhyAtta>
+                        <MagAtta>1914</MagAtta>
+                    </strength>
+                </lv95>
+                <lv100>
+                    <strength value="1">
+                        <PhyAtta>45</PhyAtta>
+                        <MagAtta>46</MagAtta>
+                    </strength>
+                    <strength value="2">
+                        <PhyAtta>58</PhyAtta>
+                        <MagAtta>59</MagAtta>
+                    </strength>
+                    <strength value="3">
+                        <PhyAtta>81</PhyAtta>
+                        <MagAtta>82</MagAtta>
+                    </strength>
+                    <strength value="4">
+                        <PhyAtta>106</PhyAtta>
+                        <MagAtta>108</MagAtta>
+                    </strength>
+                    <strength value="5">
+                        <PhyAtta>131</PhyAtta>
+                        <MagAtta>133</MagAtta>
+                    </strength>
+                    <strength value="6">
+                        <PhyAtta>156</PhyAtta>
+                        <MagAtta>158</MagAtta>
+                    </strength>
+                    <strength value="7">
+                        <PhyAtta>185</PhyAtta>
+                        <MagAtta>188</MagAtta>
+                    </strength>
+                    <strength value="8">
+                        <PhyAtta>248</PhyAtta>
+                        <MagAtta>253</MagAtta>
+                    </strength>
+                    <strength value="9">
+                        <PhyAtta>330</PhyAtta>
+                        <MagAtta>336</MagAtta>
+                    </strength>
+                    <strength value="10">
+                        <PhyAtta>423</PhyAtta>
+                        <MagAtta>430</MagAtta>
+                    </strength>
+                    <strength value="11">
+                        <PhyAtta>608</PhyAtta>
+                        <MagAtta>619</MagAtta>
+                    </strength>
+                    <strength value="12">
+                        <PhyAtta>830</PhyAtta>
+                        <MagAtta>845</MagAtta>
+                    </strength>
+                    <strength value="13">
+                        <PhyAtta>972</PhyAtta>
+                        <MagAtta>990</MagAtta>
+                    </strength>
+                    <strength value="14">
+                        <PhyAtta>1113</PhyAtta>
+                        <MagAtta>1133</MagAtta>
+                    </strength>
+                    <strength value="15">
+                        <PhyAtta>1253</PhyAtta>
+                        <MagAtta>1276</MagAtta>
+                    </strength>
+                    <strength value="16">
+                        <PhyAtta>1395</PhyAtta>
+                        <MagAtta>1421</MagAtta>
+                    </strength>
+                    <strength value="17">
+                        <PhyAtta>1538</PhyAtta>
+                        <MagAtta>1566</MagAtta>
+                    </strength>
+                    <strength value="18">
+                        <PhyAtta>1681</PhyAtta>
+                        <MagAtta>1711</MagAtta>
+                    </strength>
+                    <strength value="19">
+                        <PhyAtta>1823</PhyAtta>
+                        <MagAtta>1856</MagAtta>
+                    </strength>
+                    <strength value="20">
+                        <PhyAtta>1966</PhyAtta>
+                        <MagAtta>2002</MagAtta>
+                    </strength>
+                </lv100>
+            </短剑>
+            <光剑>
+                <lv95>
+                    <strength value="12">
+                        <PhyAtta>792</PhyAtta>
+                        <MagAtta>790</MagAtta>
+                    </strength>
+                </lv95>
+            </光剑>
+            <钝器>
+                <lv95>
+                    <strength value="12">
+                        <PhyAtta>804</PhyAtta>
+                        <MagAtta>793</MagAtta>
+                    </strength>
+                </lv95>
+            </钝器>
+            <巨剑>
+            </巨剑>
+        </鬼剑士>
+
+        <耳环>
+            <lv95>
+                <strength value="1">
+                    <AllAtta>6</AllAtta>
+                </strength>
+                <strength value="2">
+                    <AllAtta>9</AllAtta>
+                </strength>
+                <strength value="3">
+                    <AllAtta>12</AllAtta>
+                </strength>
+                <strength value="4">
+                    <AllAtta>15</AllAtta>
+                </strength>
+                <strength value="5">
+                    <AllAtta>18</AllAtta>
+                </strength>
+                <strength value="6">
+                    <AllAtta>23</AllAtta>
+                </strength>
+                <strength value="7">
+                    <AllAtta>27</AllAtta>
+                </strength>
+                <strength value="8">
+                    <AllAtta>32</AllAtta>
+                </strength>
+                <strength value="9">
+                    <AllAtta>36</AllAtta>
+                </strength>
+                <strength value="10">
+                    <AllAtta>47</AllAtta>
+                </strength>
+                <strength value="11">
+                    <AllAtta>73</AllAtta>
+                </strength>
+                <strength value="12">
+                    <AllAtta>109</AllAtta>
+                </strength>
+                <strength value="13">
+                    <AllAtta>146</AllAtta>
+                </strength>
+                <strength value="14">
+                    <AllAtta>219</AllAtta>
+                </strength>
+                <strength value="15">
+                    <AllAtta>305</AllAtta>
+                </strength>
+                <strength value="16">
+                    <AllAtta>391</AllAtta>
+                </strength>
+                <strength value="17">
+                    <AllAtta>537</AllAtta>
+                </strength>
+                <strength value="18">
+                    <AllAtta>683</AllAtta>
+                </strength>
+                <strength value="19">
+                    <AllAtta>830</AllAtta>
+                </strength>
+                <strength value="20">
+                    <AllAtta>989</AllAtta>
+                </strength>
+            </lv95>
+            <lv100>
+                <strength value="1">
+                    <AllAtta>6</AllAtta>
+                </strength>
+                <strength value="2">
+                    <AllAtta>9</AllAtta>
+                </strength>
+                <strength value="3">
+                    <AllAtta>13</AllAtta>
+                </strength>
+                <strength value="4">
+                    <AllAtta>16</AllAtta>
+                </strength>
+                <strength value="5">
+                    <AllAtta>19</AllAtta>
+                </strength>
+                <strength value="6">
+                    <AllAtta>24</AllAtta>
+                </strength>
+                <strength value="7">
+                    <AllAtta>29</AllAtta>
+                </strength>
+                <strength value="8">
+                    <AllAtta>33</AllAtta>
+                </strength>
+                <strength value="9">
+                    <AllAtta>37</AllAtta>
+                </strength>
+                <strength value="10">
+                    <AllAtta>48</AllAtta>
+                </strength>
+                <strength value="11">
+                    <AllAtta>76</AllAtta>
+                </strength>
+                <strength value="12">
+                    <AllAtta>113</AllAtta>
+                </strength>
+                <strength value="13">
+                    <AllAtta>152</AllAtta>
+                </strength>
+                <strength value="14">
+                    <AllAtta>228</AllAtta>
+                </strength>
+                <strength value="15">
+                    <AllAtta>317</AllAtta>
+                </strength>
+                <strength value="16">
+                    <AllAtta>407</AllAtta>
+                </strength>
+                <strength value="17">
+                    <AllAtta>558</AllAtta>
+                </strength>
+                <strength value="18">
+                    <AllAtta>711</AllAtta>
+                </strength>
+                <strength value="19">
+                    <AllAtta>863</AllAtta>
+                </strength>
+                <strength value="20">
+                    <AllAtta>1028</AllAtta>
+                </strength>
+            </lv100>
+        </耳环>
+        <辅助装备>
+            <lv95>
+                <strength value="1">
+                    <FourDimension>4</FourDimension>
+                </strength>
+                <strength value="2">
+                    <FourDimension>6</FourDimension>
+                </strength>
+                <strength value="3">
+                    <FourDimension>9</FourDimension>
+                </strength>
+                <strength value="4">
+                    <FourDimension>11</FourDimension>
+                </strength>
+                <strength value="5">
+                    <FourDimension>13</FourDimension>
+                </strength>
+                <strength value="6">
+                    <FourDimension>15</FourDimension>
+                </strength>
+                <strength value="7">
+                    <FourDimension>18</FourDimension>
+                </strength>
+                <strength value="8">
+                    <FourDimension>21</FourDimension>
+                </strength>
+                <strength value="9">
+                    <FourDimension>24</FourDimension>
+                </strength>
+                <strength value="10">
+                    <FourDimension>27</FourDimension>
+                </strength>
+                <strength value="11">
+                    <FourDimension>50</FourDimension>
+                </strength>
+                <strength value="12">
+                    <FourDimension>76</FourDimension>
+                </strength>
+                <strength value="13">
+                    <FourDimension>101</FourDimension>
+                </strength>
+                <strength value="14">
+                    <FourDimension>152</FourDimension>
+                </strength>
+                <strength value="15">
+                    <FourDimension>212</FourDimension>
+                </strength>
+                <strength value="16">
+                    <FourDimension>271</FourDimension>
+                </strength>
+                <strength value="17">
+                    <FourDimension>373</FourDimension>
+                </strength>
+                <strength value="18">
+                    <FourDimension>475</FourDimension>
+                </strength>
+                <strength value="19">
+                    <FourDimension>554</FourDimension>
+                </strength>
+                <strength value="20">
+                    <FourDimension>660</FourDimension>
+                </strength>
+            </lv95>
+            <lv100>
+                <strength value="1">
+                    <FourDimension>4</FourDimension>
+                </strength>
+                <strength value="2">
+                    <FourDimension>7</FourDimension>
+                </strength>
+                <strength value="3">
+                    <FourDimension>9</FourDimension>
+                </strength>
+                <strength value="4">
+                    <FourDimension>11</FourDimension>
+                </strength>
+                <strength value="5">
+                    <FourDimension>14</FourDimension>
+                </strength>
+                <strength value="6">
+                    <FourDimension>16</FourDimension>
+                </strength>
+                <strength value="7">
+                    <FourDimension>19</FourDimension>
+                </strength>
+                <strength value="8">
+                    <FourDimension>22</FourDimension>
+                </strength>
+                <strength value="9">
+                    <FourDimension>25</FourDimension>
+                </strength>
+                <strength value="10">
+                    <FourDimension>28</FourDimension>
+                </strength>
+                <strength value="11">
+                    <FourDimension>53</FourDimension>
+                </strength>
+                <strength value="12">
+                    <FourDimension>79</FourDimension>
+                </strength>
+                <strength value="13">
+                    <FourDimension>106</FourDimension>
+                </strength>
+                <strength value="14">
+                    <FourDimension>159</FourDimension>
+                </strength>
+                <strength value="15">
+                    <FourDimension>220</FourDimension>
+                </strength>
+                <strength value="16">
+                    <FourDimension>282</FourDimension>
+                </strength>
+                <strength value="17">
+                    <FourDimension>388</FourDimension>
+                </strength>
+                <strength value="18">
+                    <FourDimension>494</FourDimension>
+                </strength>
+                <strength value="19">
+                    <FourDimension>600</FourDimension>
+                </strength>
+                <strength value="20">
+                    <FourDimension>715</FourDimension>
+                </strength>
+            </lv100>
+        </辅助装备>
+        <魔法石>
+            <lv95>
+                <strength value="1">
+                    <FourDimension>4</FourDimension>
+                </strength>
+                <strength value="2">
+                    <FourDimension>6</FourDimension>
+                </strength>
+                <strength value="3">
+                    <FourDimension>9</FourDimension>
+                </strength>
+                <strength value="4">
+                    <FourDimension>11</FourDimension>
+                </strength>
+                <strength value="5">
+                    <FourDimension>13</FourDimension>
+                </strength>
+                <strength value="6">
+                    <FourDimension>15</FourDimension>
+                </strength>
+                <strength value="7">
+                    <FourDimension>18</FourDimension>
+                </strength>
+                <strength value="8">
+                    <FourDimension>21</FourDimension>
+                </strength>
+                <strength value="9">
+                    <FourDimension>24</FourDimension>
+                </strength>
+                <strength value="10">
+                    <FourDimension>27</FourDimension>
+                </strength>
+                <strength value="11">
+                    <FourDimension>50</FourDimension>
+                </strength>
+                <strength value="12">
+                    <FourDimension>76</FourDimension>
+                </strength>
+                <strength value="13">
+                    <FourDimension>101</FourDimension>
+                </strength>
+                <strength value="14">
+                    <FourDimension>152</FourDimension>
+                </strength>
+                <strength value="15">
+                    <FourDimension>212</FourDimension>
+                </strength>
+                <strength value="16">
+                    <FourDimension>271</FourDimension>
+                </strength>
+                <strength value="17">
+                    <FourDimension>373</FourDimension>
+                </strength>
+                <strength value="18">
+                    <FourDimension>475</FourDimension>
+                </strength>
+                <strength value="19">
+                    <FourDimension>554</FourDimension>
+                </strength>
+                <strength value="20">
+                    <FourDimension>660</FourDimension>
+                </strength>
+            </lv95>
+            <lv100>
+                <strength value="1">
+                    <FourDimension>4</FourDimension>
+                </strength>
+                <strength value="2">
+                    <FourDimension>7</FourDimension>
+                </strength>
+                <strength value="3">
+                    <FourDimension>9</FourDimension>
+                </strength>
+                <strength value="4">
+                    <FourDimension>11</FourDimension>
+                </strength>
+                <strength value="5">
+                    <FourDimension>14</FourDimension>
+                </strength>
+                <strength value="6">
+                    <FourDimension>16</FourDimension>
+                </strength>
+                <strength value="7">
+                    <FourDimension>19</FourDimension>
+                </strength>
+                <strength value="8">
+                    <FourDimension>22</FourDimension>
+                </strength>
+                <strength value="9">
+                    <FourDimension>25</FourDimension>
+                </strength>
+                <strength value="10">
+                    <FourDimension>28</FourDimension>
+                </strength>
+                <strength value="11">
+                    <FourDimension>53</FourDimension>
+                </strength>
+                <strength value="12">
+                    <FourDimension>79</FourDimension>
+                </strength>
+                <strength value="13">
+                    <FourDimension>106</FourDimension>
+                </strength>
+                <strength value="14">
+                    <FourDimension>159</FourDimension>
+                </strength>
+                <strength value="15">
+                    <FourDimension>220</FourDimension>
+                </strength>
+                <strength value="16">
+                    <FourDimension>282</FourDimension>
+                </strength>
+                <strength value="17">
+                    <FourDimension>388</FourDimension>
+                </strength>
+                <strength value="18">
+                    <FourDimension>494</FourDimension>
+                </strength>
+                <strength value="19">
+                    <FourDimension>600</FourDimension>
+                </strength>
+                <strength value="20">
+                    <FourDimension>715</FourDimension>
+                </strength>
+            </lv100>
+        </魔法石>
+
+        <勋章>
+            <传说>
+                <strength value="1">
+                    <FourDimension>4</FourDimension>
+                </strength>
+                <strength value="2">
+                    <FourDimension>5</FourDimension>
+                </strength>
+                <strength value="3">
+                    <FourDimension>6</FourDimension>
+                </strength>
+                <strength value="4">
+                    <FourDimension>7</FourDimension>
+                </strength>
+                <strength value="5">
+                    <FourDimension>9</FourDimension>
+                </strength>
+                <strength value="6">
+                    <FourDimension>11</FourDimension>
+                </strength>
+                <strength value="7">
+                    <FourDimension>13</FourDimension>
+                </strength>
+                <strength value="8">
+                    <FourDimension>14</FourDimension>
+                </strength>
+                <strength value="9">
+                    <FourDimension>15</FourDimension>
+                </strength>
+                <strength value="10">
+                    <FourDimension>17</FourDimension>
+                </strength>
+                <strength value="11">
+                    <FourDimension>27</FourDimension>
+                </strength>
+                <strength value="12">
+                    <FourDimension>54</FourDimension>
+                </strength>
+                <strength value="13">
+                    <FourDimension>108</FourDimension>
+                </strength>
+                <strength value="14">
+                    <FourDimension>119</FourDimension>
+                </strength>
+                <strength value="15">
+                    <FourDimension>131</FourDimension>
+                </strength>
+            </传说>
+        </勋章>
+    </strengthen>
+
+    <amplitude>
+        <lv95>
+            <num value="0">7</num>
+            <num value="1">9</num>
+            <num value="2">11</num>
+            <num value="3">13</num>
+            <num value="4">15</num>
+            <num value="5">19</num>
+            <num value="6">23</num>
+            <num value="7">28</num>
+            <num value="8">32</num>
+            <num value="9">34</num>
+            <num value="10">42</num>
+            <num value="11">76</num>
+            <num value="12">112</num>
+            <num value="13">148</num>
+            <num value="14">235</num>
+            <num value="15">324</num>
+            <num value="16">413</num>
+            <num value="17">572</num>
+            <num value="18">730</num>
+            <num value="19">888</num>
+            <num value="20">1064</num>
+        </lv95>
+        <lv100>
+            <num value="0">7</num>
+            <num value="1">9</num>
+            <num value="2">11</num>
+            <num value="3">13</num>
+            <num value="4">15</num>
+            <num value="5">20</num>
+            <num value="6">24</num>
+            <num value="7">28</num>
+            <num value="8">33</num>
+            <num value="9">35</num>
+            <num value="10">44</num>
+            <num value="11">79</num>
+            <num value="12">116</num>
+            <num value="13">153</num>
+            <num value="14">243</num>
+            <num value="15">335</num>
+            <num value="16">427</num>
+            <num value="17">591</num>
+            <num value="18">755</num>
+            <num value="19">920</num>
+            <num value="20">1101</num>
+        </lv100>
+    </amplitude>
+
+    <forging>
+        <lv95>
+            <num value="1">40</num>
+            <num value="2">59</num>
+            <num value="3">79</num>
+            <num value="4">119</num>
+            <num value="5">158</num>
+            <num value="6">257</num>
+            <num value="7">356</num>
+            <num value="8">494</num>
+        </lv95>
+        <lv100>
+            <num value="1">41</num>
+            <num value="2">62</num>
+            <num value="3">83</num>
+            <num value="4">124</num>
+            <num value="5">165</num>
+            <num value="6">269</num>
+            <num value="7">372</num>
+            <num value="8">517</num>
+        </lv100>
+    </forging>
+</additive>

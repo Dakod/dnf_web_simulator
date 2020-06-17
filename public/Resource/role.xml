@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<roles>
+    <role id="001">
+        <Name>鬼泣</Name>
+        <armorMasterSkillId>0010204</armorMasterSkillId>
+        <buffSkillId>0010016</buffSkillId>
+        <mainProperty>Intelligence</mainProperty>
+        <pi>百分比</pi>
+        <Property>
+            <Level>100</Level>
+            <PhyAtta>65</PhyAtta>
+            <MagAtta>65</MagAtta>
+            <IndAtta>1045</IndAtta>
+            <Strength>796</Strength>
+            <Intelligence>954</Intelligence>
+            <PhyCrit>0.08</PhyCrit>
+            <MagCrit>0.08</MagCrit>
+            <DarkStrengthen>13</DarkStrengthen>
+            <LightStrengthen>13</LightStrengthen>
+            <FireStrengthen>13</FireStrengthen>
+            <IceStrengthen>13</IceStrengthen>
+            <RealPhyAtta>0</RealPhyAtta>
+            <RealMagAtta>0</RealMagAtta>
+            <RealIndAtta>0</RealIndAtta>
+        </Property>
+    </role>
+    <role id="002">
+        <Name>狂战士</Name>
+        <armorMasterSkillId>0020126</armorMasterSkillId>
+        <buffSkillId>0020078</buffSkillId>
+        <mainProperty>Strength</mainProperty>
+        <pi>固伤</pi>
+        <Property>
+            <Level>100</Level>
+            <PhyAtta>65</PhyAtta>
+            <MagAtta>65</MagAtta>
+            <IndAtta>1045</IndAtta>
+            <Strength>966</Strength>
+            <Intelligence>784</Intelligence>
+            <PhyCrit>0.08</PhyCrit>
+            <MagCrit>0.08</MagCrit>
+            <DarkStrengthen>13</DarkStrengthen>
+            <LightStrengthen>13</LightStrengthen>
+            <FireStrengthen>13</FireStrengthen>
+            <IceStrengthen>13</IceStrengthen>
+            <RealPhyAtta>0</RealPhyAtta>
+            <RealMagAtta>0</RealMagAtta>
+            <RealIndAtta>0</RealIndAtta>
+        </Property>
+    </role>
+    <role id="004">
+        <Name>剑魂</Name>
+        <armorMasterSkillId>0020126</armorMasterSkillId>
+        <buffSkillId>0020078</buffSkillId>
+        <mainProperty>Strength</mainProperty>
+        <pi>百分比</pi>
+        <Property>
+            <Level>100</Level>
+            <PhyAtta>65</PhyAtta>
+            <MagAtta>65</MagAtta>
+            <IndAtta>1045</IndAtta>
+            <Strength>923</Strength>
+            <Intelligence>827</Intelligence>
+            <PhyCrit>0.08</PhyCrit>
+            <MagCrit>0.08</MagCrit>
+            <DarkStrengthen>13</DarkStrengthen>
+            <LightStrengthen>13</LightStrengthen>
+            <FireStrengthen>13</FireStrengthen>
+            <IceStrengthen>13</IceStrengthen>
+            <RealPhyAtta>0</RealPhyAtta>
+            <RealMagAtta>0</RealMagAtta>
+            <RealIndAtta>0</RealIndAtta>
+        </Property>
+    </role>
+
+</roles>

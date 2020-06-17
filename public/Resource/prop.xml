@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--前两位代表类型 00 普通消耗品 -->
+<props>
+    <prop id="004">
+        <Grade>rare</Grade>
+        <Name>顶级力量灵药</Name>
+        <Strength>175</Strength>
+    </prop>
+    <prop id="000">
+        <Grade>rare</Grade>
+        <Name>顶级智力灵药</Name>
+        <Intelligence>175</Intelligence>
+    </prop>
+    <prop id="009">
+        <Grade>artifact</Grade>
+        <Name>魔界战力释放秘药</Name>
+        <Strength>150</Strength>
+        <Intelligence>150</Intelligence>
+    </prop>
+    <prop id="001">
+        <Grade>senior</Grade>
+        <Name>斗神之吼秘药</Name>
+        <FighterAndPet>12</FighterAndPet>
+    </prop>
+    <prop id="002">
+        <Grade>rare</Grade>
+        <Name>潜能爆发药剂</Name>
+        <Strength>175</Strength>
+        <Intelligence>175</Intelligence>
+        <TriAttaPercent>12</TriAttaPercent>
+    </prop>
+    <prop id="003">
+        <Grade>normal</Grade>
+        <Name>无色晶体契约</Name>
+        <AllAtta>40</AllAtta>
+    </prop>
+    <prop id="005">
+        <Grade>normal</Grade>
+        <Name>红色晶体契约</Name>
+        <PropertyAtta>0</PropertyAtta>
+    </prop>
+    <prop id="006">
+        <Grade>normal</Grade>
+        <Name>蓝色晶体契约</Name>
+        <PropertyAtta>1</PropertyAtta>
+    </prop>
+    <prop id="007">
+        <Grade>normal</Grade>
+        <Name>白色晶体契约</Name>
+        <PropertyAtta>2</PropertyAtta>
+    </prop>
+    <prop id="008">
+        <Grade>normal</Grade>
+        <Name>黑色晶体契约</Name>
+        <PropertyAtta>3</PropertyAtta>
+    </prop>
+    <prop id="100">
+        <Grade>rare</Grade>
+        <Name>海阔天空纹章(20四维)</Name>
+        <FourDimension>20</FourDimension>
+    </prop>
+    <prop id="101">
+        <Grade>rare</Grade>
+        <Name>龙宫人鱼的印章(25四维)</Name>
+        <FourDimension>25</FourDimension>
+    </prop>
+    <prop id="102">
+        <Grade>rare</Grade>
+        <Name>街舞达人(30四维)</Name>
+        <FourDimension>30</FourDimension>
+    </prop>
+    <prop id="104">
+        <Grade>rare</Grade>
+        <Name>完美妆扮(30四维)</Name>
+        <FourDimension>30</FourDimension>
+    </prop>
+    <prop id="103">
+        <Grade>rare</Grade>
+        <Name>神圣符咒(飓风)[白字部分只有狂战士有效]</Name>
+        <FourDimension>5</FourDimension>
+        <Condition first="occupationId" mid="==" last="'002'">
+            <White>8</White>
+        </Condition>
+    </prop>
+    <prop id="105">
+        <Grade>rare</Grade>
+        <Name>无畏勇者</Name>
+        <AllAtta>20</AllAtta>
+    </prop>
+
+
+</props>

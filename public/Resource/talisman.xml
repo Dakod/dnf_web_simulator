@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<talismans_runes>
+    <talismans>
+        <soulBringer occupationId="001">
+            <talisman id="00100">
+                <Name>无尽瘟疫</Name>
+                <Skill>瘟疫之罗刹</Skill>
+                <SkillId>0010170</SkillId>
+                <Grade>artifact</Grade>
+                <Property>
+                    <SkillUp>
+                        <Id>0010170</Id>
+                        <Value>5</Value>
+                    </SkillUp>
+                </Property>
+                <Property full="true">
+                    <SkillUp>
+                        <Id>0010170</Id>
+                        <Value>9</Value>
+                    </SkillUp>
+                </Property>
+            </talisman>
+            <talisman id="00101">
+                <Name>灵魂呼啸</Name>
+                <Skill>鬼斩:狂怒</Skill>
+                <SkillId>0010530</SkillId>
+                <Grade>artifact</Grade>
+                <Property>
+                    <SkillUp>
+                        <Id>0010530</Id>
+                        <Value>20</Value>
+                    </SkillUp>
+                </Property>
+                <Property full="true">
+                    <SkillUp>
+                        <Id>0010530</Id>
+                        <Value>26</Value>
+                    </SkillUp>
+                </Property>
+            </talisman>
+            <talisman id="00102">
+                <Name>速效冥炎</Name>
+                <Skill>冥炎剑</Skill>
+                <SkillId>0010532</SkillId>
+                <Grade>artifact</Grade>
+                <Property>
+                    <SkillUp>
+                        <Id>0010532</Id>
+                        <Value>11</Value>
+                    </SkillUp>
+                </Property>
+                <Property full="true">
+                    <SkillUp>
+                        <Id>0010532</Id>
+                        <Value>20</Value>
+                    </SkillUp>
+                </Property>
+            </talisman>
+            <talisman id="00103">
+                <Name>刺骨炼狱</Name>
+                <Skill>鬼斩:炼狱</Skill>
+                <SkillId>0010536</SkillId>
+                <Grade>artifact</Grade>
+                <Property>
+                    <SkillUp>
+                        <Id>0010536</Id>
+                        <Value>2.48</Value>
+                    </SkillUp>
+                </Property>
+                <Property full="true">
+                    <SkillUp>
+                        <Id>0010536</Id>
+                        <Value>20.77</Value>
+                    </SkillUp>
+                    <Cd>
+                        <Id>0010536</Id>
+                        <Value>-10</Value>
+                    </Cd>
+                </Property>
+            </talisman>
+            <talisman id="00104">
+                <Name>百鬼夜行</Name>
+                <Skill>冥祭之沼</Skill>
+                <SkillId>0010542</SkillId>
+                <Grade>artifact</Grade>
+                <Property>
+                    <SkillUp>
+                        <Id>0010542</Id>
+                        <Value>11</Value>
+                    </SkillUp>
+                </Property>
+                <Property full="true">
+                    <SkillUp>
+                        <Id>0010542</Id>
+                        <Value>20</Value>
+                    </SkillUp>
+                </Property>
+            </talisman>
+        </soulBringer>
+        <berserker occupationId="002">
+            <talisman id="00200">
+                <Name>狂暴之怒</Name>
+                <Skill>暴怒狂斩</Skill>
+                <SkillId>0020564</SkillId>
+                <Grade>artifact</Grade>
+                <Property>
+                    <SkillUp>
+                        <Id>0020564</Id>
+                        <Value>12.2</Value>
+                    </SkillUp>
+                    <Cd>
+                        <Id>0020564</Id>
+                        <Value>-10</Value>
+                    </Cd>
+                </Property>
+                <Property full="true">
+                    <SkillUp>
+                        <Id>0020564</Id>
+                        <Value>24.1</Value>
+                    </SkillUp>
+                    <Cd>
+                        <Id>0020564</Id>
+                        <Value>-10</Value>
+                    </Cd>
+                </Property>
+            </talisman>
+            <talisman id="00201">
+                <Name>嗜血战歌</Name>
+                <Skill>血气之刃</Skill>
+                <SkillId>0020252</SkillId>
+                <Grade>artifact</Grade>
+                <Property>
+                    <SkillUp>
+                        <Id>0020252</Id>
+                        <Value>16</Value>
+                    </SkillUp>
+                </Property>
+                <Property full="true">
+                    <SkillUp>
+                        <Id>0020252</Id>
+                        <Value>28</Value>
+                    </SkillUp>
+                </Property>
+            </talisman>
+            <talisman id="00202">
+                <Name>血气狂涌</Name>
+                <Skill>崩山裂地斩</Skill>
+                <SkillId>0020172</SkillId>
+                <Grade>artifact</Grade>
+                <Property>
+                    <SkillUp>
+                        <Id>0020172</Id>
+                        <Value>9</Value>
+                    </SkillUp>
+                    <Cd>
+                        <Id>0020172</Id>
+                        <Value>-5</Value>
+                    </Cd>
+                </Property>
+                <Property full="true">
+                    <SkillUp>
+                        <Id>0020172</Id>
+                        <Value>18</Value>
+                    </SkillUp>
+                    <Cd>
+                        <Id>0020172</Id>
+                        <Value>-5</Value>
+                    </Cd>
+                </Property>
+            </talisman>
+            <talisman id="00203">
+                <Name>血之连接</Name>
+                <Skill>鲜血暴掠</Skill>
+                <SkillId>0020568</SkillId>
+                <Grade>artifact</Grade>
+                <Property>
+                    <SkillUp>
+                        <Id>0020568</Id>
+                        <Value>14</Value>
+                    </SkillUp>
+                </Property>
+                <Property full="true">
+                    <SkillUp>
+                        <Id>0020568</Id>
+                        <Value>20</Value>
+                    </SkillUp>
+                </Property>
+            </talisman>
+            <talisman id="00204">
+                <Name>血之漩涡</Name>
+                <Skill>血气爆发</Skill>
+                <SkillId>0020210</SkillId>
+                <Grade>artifact</Grade>
+                <Property>
+                    <SkillUp>
+                        <Id>0020210</Id>
+                        <Value>6</Value>
+                    </SkillUp>
+                    <Cd>
+                        <Id>0020210</Id>
+                        <Value>-5</Value>
+                    </Cd>
+                </Property>
+                <Property full="true">
+                    <SkillUp>
+                        <Id>0020210</Id>
+                        <Value>17</Value>
+                    </SkillUp>
+                    <Cd>
+                        <Id>0020210</Id>
+                        <Value>-5</Value>
+                    </Cd>
+                </Property>
+            </talisman>
+        </berserker>
+    </talismans>
+</talismans_runes>

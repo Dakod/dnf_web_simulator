@@ -1,0 +1,153 @@
+{
+  "epic": {
+    "95": {
+      "布甲": {
+        "shoulder": [0,45],
+        "coat": [0,56],
+        "pants": [0,56],
+        "belt": [0,33],
+        "shoes": [0,33]
+      },
+      "皮甲": {
+        "shoulder": [37,37],
+        "coat": [46,46],
+        "pants": [46,46],
+        "belt": [28,28],
+        "shoes": [28,28]
+      },
+      "轻甲": {
+        "shoulder": [45,30],
+        "coat": [56,37],
+        "pants": [56,37],
+        "belt": [33,22],
+        "shoes": [33,22]
+      },
+      "重甲": {
+        "shoulder": [41,30],
+        "coat": [52,37],
+        "pants": [52,37],
+        "belt": [31,22],
+        "shoes": [31,22]
+      },
+      "板甲": {
+        "shoulder": [37,37],
+        "coat": [46,46],
+        "pants": [46,46],
+        "belt": [28,28],
+        "shoes": [28,28]
+      }
+    },
+    "100": {
+      "布甲": {
+        "shoulder": [100,146],
+        "coat": [100,158],
+        "pants": [100,158],
+        "belt": [100,135],
+        "shoes": [100,135]
+      },
+      "皮甲": {
+        "shoulder": [139,139],
+        "coat": [149,149],
+        "pants": [149,149],
+        "belt": [130,130],
+        "shoes": [130,130]
+      },
+      "轻甲": {
+        "shoulder": [146,131],
+        "coat": [158,139],
+        "pants": [158,139],
+        "belt": [135,123],
+        "shoes": [135,123]
+      },
+      "重甲": {
+        "shoulder": [143,131],
+        "coat": [154,139],
+        "pants": [154,139],
+        "belt": [132,123],
+        "shoes": [132,123]
+      },
+      "板甲": {
+        "shoulder": [139,139],
+        "coat": [149,149],
+        "pants": [149,149],
+        "belt": [130,130],
+        "shoes": [130,130]
+      }
+    }
+  },
+  "myth": {
+    "100": {
+      "布甲": {
+        "coat": [100,160]
+      },
+      "皮甲": {
+        "coat": [150,150]
+      },
+      "轻甲": {
+        "coat": [160,140]
+      },
+      "重甲": {
+        "coat": [155,140]
+      },
+      "板甲": {
+        "coat": [150,150]
+      }
+    }
+  },
+  "armorMaster": {
+    "95": {
+      "shoulder": {
+        "mainProperty": 24,
+        "crit": 1,
+        "grow": 0.2
+      },
+      "coat": {
+        "mainProperty": 36,
+        "crit": 1.5,
+        "grow": 0.3
+      },
+      "pants": {
+        "mainProperty": 30,
+        "crit": 1.25,
+        "grow": 0.25
+      },
+      "belt": {
+        "mainProperty": 12,
+        "crit": 0.5,
+        "grow": 0.1
+      },
+      "shoes": {
+        "mainProperty": 18,
+        "crit": 0.75,
+        "grow": 0.15
+      }
+    },
+    "100":{
+      "shoulder": {
+        "mainProperty": 25,
+        "crit": 1,
+        "grow": 0.2
+      },
+      "coat": {
+        "mainProperty": 37.5,
+        "crit": 1.5,
+        "grow": 0.3
+      },
+      "pants": {
+        "mainProperty": 31.25,
+        "crit": 1.25,
+        "grow": 0.25
+      },
+      "belt": {
+        "mainProperty": 12.5,
+        "crit": 0.5,
+        "grow": 0.1
+      },
+      "shoes": {
+        "mainProperty": 18.75,
+        "crit": 0.75,
+        "grow": 0.15
+      }
+    }
+  }
+}

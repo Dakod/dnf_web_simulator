@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3school.com.cn"
+           xmlns="http://www.w3school.com.cn" elementFormDefault="qualified">
+
+    <xs:simpleType name="grade_name">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="normal"/>
+            <xs:enumeration value="senior"/>
+            <xs:enumeration value="rare"/>
+            <xs:enumeration value="artifact"/>
+            <xs:enumeration value="legend"/>
+            <xs:enumeration value="epic"/>
+            <xs:enumeration value="myth"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="equipmentType_name">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="太刀"/>
+            <xs:enumeration value="短剑"/>
+            <xs:enumeration value="布甲"/>
+            <xs:enumeration value="皮甲"/>
+            <xs:enumeration value="轻甲"/>
+            <xs:enumeration value="重甲"/>
+            <xs:enumeration value="板甲"/>
+            <xs:enumeration value="手镯"/>
+            <xs:enumeration value="项链"/>
+            <xs:enumeration value="耳环"/>
+            <xs:enumeration value="戒指"/>
+            <xs:enumeration value="辅助装备"/>
+            <xs:enumeration value="耳环"/>
+            <xs:enumeration value="魔法石"/>
+            <xs:enumeration value="称号"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="equipment_level">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="skill_choose_type"> <!--选取某些技能的属性-->
+        <xs:simpleContent>
+            <xs:extension base="xs:integer">
+                <xs:attribute name="type">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="range"/>
+                            <xs:enumeration value="single"/>
+                            <xs:enumeration value="talisman1"/>
+                            <xs:enumeration value="talisman2"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="start" type="xs:positiveInteger"/>
+                <xs:attribute name="end" type="xs:positiveInteger"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="skill_choose_type_edit"> <!--选取某些技能的属性-->
+        <xs:simpleContent>
+            <xs:extension base="xs:integer">
+                <xs:attribute name="min" type="xs:positiveInteger"/>
+                <xs:attribute name="max" type="xs:positiveInteger"/>
+                <xs:attribute name="step" type="xs:positiveInteger"/>
+                <xs:attribute name="type">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="range"/>
+                            <xs:enumeration value="single"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="start" type="xs:positiveInteger"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:attributeGroup name="min_max_step">
+        <xs:attribute name="min" type="xs:positiveInteger"/>
+        <xs:attribute name="max" type="xs:positiveInteger"/>
+        <xs:attribute name="step" type="xs:positiveInteger"/>
+    </xs:attributeGroup>
+
+    <xs:complexType name="custom_positiveInteger">
+        <xs:simpleContent>
+            <xs:extension base="xs:positiveInteger">
+                <xs:attribute name="isOutEffective"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="custom_decimal">
+        <xs:simpleContent>
+            <xs:extension base="xs:decimal">
+                <xs:attribute name="isOutEffective"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="positiveInteger_min_max_step">
+        <xs:simpleContent>
+            <xs:extension base="xs:positiveInteger">
+                <xs:attributeGroup ref="min_max_step"/>
+                <xs:attribute name="isOutEffective"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="decimal_min_max_step">
+        <xs:simpleContent>
+            <xs:extension base="xs:decimal">
+                <xs:attributeGroup ref="min_max_step"/>
+                <xs:attribute name="isOutEffective"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+
+    <xs:group name="common_property_group">
+        <xs:choice>
+            <xs:element name="PhyAtta" type="custom_positiveInteger"/>
+            <xs:element name="MagAtta" type="custom_positiveInteger"/>
+            <xs:element name="IndAtta" type="custom_positiveInteger"/>
+            <xs:element name="Strength" type="custom_positiveInteger"/>
+            <xs:element name="Intelligence" type="custom_positiveInteger"/>
+            <xs:element name="StrengthIntelligence" type="custom_positiveInteger"/>
+            <xs:element name="FourDimension" type="custom_positiveInteger"/>
+            <xs:element name="PhyCrit" type="custom_decimal"/>
+            <xs:element name="MagCrit" type="custom_decimal"/>
+            <xs:element name="AllDamage" type="xs:positiveInteger"/>
+            <xs:element name="AllAtta" type="custom_positiveInteger"/>
+            <xs:element name="PropertyAtta">
+                <xs:simpleType>
+                    <xs:restriction base="xs:nonNegativeInteger">
+                        <xs:minInclusive value="0"/>
+                        <xs:maxInclusive value="5"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="SkillAtta" type="xs:positiveInteger"/>
+            <xs:element name="TriAttaPercent" type="xs:integer"/>
+            <xs:element name="StrengthPercent" type="xs:positiveInteger"/>
+            <xs:element name="IntelligencePercent" type="xs:positiveInteger"/>
+            <xs:element name="StrengthIntelligencePercent" type="xs:positiveInteger" minOccurs="0"
+                        maxOccurs="unbounded"/>
+            <xs:element name="ExtraYellow" type="xs:positiveInteger"/>
+            <xs:element name="CritDamage" type="xs:positiveInteger"/>
+            <xs:element name="ExtraCrit" type="xs:positiveInteger"/>
+            <xs:element name="White" type="xs:positiveInteger"/>
+            <xs:element name="AllStrengthen" type="custom_positiveInteger"/>
+            <xs:element name="LightStrengthen" type="custom_positiveInteger"/>
+            <xs:element name="DarkStrengthen" type="custom_positiveInteger"/>
+            <xs:element name="IceStrengthen" type="custom_positiveInteger"/>
+            <xs:element name="FireStrengthen" type="custom_positiveInteger"/>
+            <xs:element name="Dot" type="xs:positiveInteger"/>
+            <xs:element name="PropertyWhite" type="xs:positiveInteger"/>
+            <xs:element name="SkillUp" type="skill_choose_type"/>
+            <xs:element name="SkillLevel">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="skill_choose_type">
+                            <xs:attribute name="condition">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="全部"/>
+                                        <xs:enumeration value="主动"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:attribute>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Cd" type="skill_choose_type"/>
+        </xs:choice>
+    </xs:group>
+
+    <xs:group name="edit_property_group">
+        <xs:choice>
+            <xs:element name="PhyAtta" type="positiveInteger_min_max_step"/>
+            <xs:element name="MagAtta" type="positiveInteger_min_max_step"/>
+            <xs:element name="IndAtta" type="positiveInteger_min_max_step"/>
+            <xs:element name="Strength" type="positiveInteger_min_max_step"/>
+            <xs:element name="Intelligence" type="positiveInteger_min_max_step"/>
+            <xs:element name="StrengthIntelligence" type="positiveInteger_min_max_step"/>
+            <xs:element name="FourDimension" type="positiveInteger_min_max_step"/>
+            <xs:element name="PhyCrit" type="xs:decimal"/>
+            <xs:element name="MagCrit" type="xs:decimal"/>
+            <xs:element name="AllDamage" type="positiveInteger_min_max_step"/>
+            <xs:element name="AllAtta" type="positiveInteger_min_max_step"/>
+            <xs:element name="SkillAtta" type="positiveInteger_min_max_step"/>
+            <xs:element name="TriAttaPercent" type="positiveInteger_min_max_step"/>
+            <xs:element name="StrengthPercent" type="positiveInteger_min_max_step"/>
+            <xs:element name="IntelligencePercent" type="positiveInteger_min_max_step"/>
+            <xs:element name="StrengthIntelligencePercent" type="positiveInteger_min_max_step"/>
+            <xs:element name="ExtraYellow" type="positiveInteger_min_max_step"/>
+            <xs:element name="CritDamage" type="positiveInteger_min_max_step"/>
+            <xs:element name="ExtraCrit" type="positiveInteger_min_max_step"/>
+            <xs:element name="White" type="positiveInteger_min_max_step"/>
+            <xs:element name="AllStrengthen" type="positiveInteger_min_max_step"/>
+            <xs:element name="LightStrengthen" type="positiveInteger_min_max_step"/>
+            <xs:element name="DarkStrengthen" type="positiveInteger_min_max_step"/>
+            <xs:element name="IceStrengthen" type="positiveInteger_min_max_step"/>
+            <xs:element name="FireStrengthen" type="positiveInteger_min_max_step"/>
+            <xs:element name="Dot" type="positiveInteger_min_max_step"/>
+
+            <!--            <xs:element name="SkillUp" type="skill_choose_type_edit"/>-->
+            <xs:element name="SkillLevel">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="skill_choose_type_edit">
+                            <xs:attribute name="condition" use="required">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="全部"/>
+                                        <xs:enumeration value="主动"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:attribute>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <!--            <xs:element name="Cd" type="skill_choose_type_edit"/>-->
+        </xs:choice>
+    </xs:group>
+
+    <xs:complexType name="edit">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Input">
+                <xs:complexType>
+                    <xs:group ref="edit_property_group"/>
+                    <xs:attribute name="index" type="xs:nonNegativeInteger"/>
+                    <xs:attribute name="title" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Selection">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Option" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                    <xs:group ref="common_property_group"/>
+                                    <xs:element name="Condition">
+                                        <xs:complexType>
+                                            <xs:group ref="common_property_group" maxOccurs="unbounded"/>
+                                            <xs:attribute name="first" type="xs:string"/>
+                                            <xs:attribute name="mid" type="xs:string"/>
+                                            <xs:attribute name="last" type="xs:string"/>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:choice>
+                                <xs:attribute name="value" type="xs:nonNegativeInteger"/>
+                                <xs:attribute name="title" type="xs:string"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="index" type="xs:nonNegativeInteger"/>
+                    <xs:attribute name="default" type="xs:nonNegativeInteger"/>
+                    <xs:attribute name="title" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="equipment_property">
+        <xs:sequence>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:group ref="common_property_group"/>
+                <xs:element name="StrengthNumUp">
+                    <xs:complexType>
+                        <xs:group ref="common_property_group"/>
+                        <xs:attribute name="max" type="xs:positiveInteger"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Condition">
+                    <xs:complexType>
+                        <xs:group ref="common_property_group" maxOccurs="unbounded"/>
+                        <xs:attribute name="first" type="xs:string"/>
+                        <xs:attribute name="mid" type="xs:string"/>
+                        <xs:attribute name="last" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+            <xs:element name="Edit" type="edit" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="equipment">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Grade" type="grade_name"/>
+            <xs:element name="Type" type="equipmentType_name"/>
+            <xs:element name="Level" type="equipment_level"/>
+            <xs:element name="Property" type="equipment_property"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string"/>
+        <xs:attribute name="suit" type="xs:integer"/>
+        <xs:attribute name="editable" type="xs:boolean"/>
+        <xs:attribute name="mythOf" type="xs:string"/>
+    </xs:complexType>
+
+
+    <xs:complexType name="equipment_list">
+        <xs:sequence>
+            <xs:element name="equipment" type="equipment" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="suit">
+        <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="ShortName" type="xs:string" minOccurs="0"/>
+            <xs:element name="Property" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:complexContent>
+                        <xs:extension base="equipment_property">
+                            <xs:attribute name="num" type="xs:nonNegativeInteger"/>
+                        </xs:extension>
+                    </xs:complexContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string"/>
+        <xs:attribute name="type" type="xs:string"/>
+        <xs:attribute name="higher" type="xs:string"/>
+        <xs:attribute name="bind" type="xs:string"/>
+        <xs:attribute name="link" type="xs:string"/>
+        <xs:attribute name="editable" type="xs:boolean"/>
+        <xs:attribute name="inCollection" type="xs:boolean"/>
+    </xs:complexType>
+
+    <xs:complexType name="suit_list">
+        <xs:sequence>
+            <xs:element name="suit" type="suit" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:element name="equipments">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="weapon">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="swordman" type="equipment_list"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="armor">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="shoulder" type="equipment_list"/>
+                            <xs:element name="coat" type="equipment_list"/>
+                            <xs:element name="pants" type="equipment_list"/>
+                            <xs:element name="belt" type="equipment_list"/>
+                            <xs:element name="shoes" type="equipment_list"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="jewelry">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="bracelet" type="equipment_list"/>
+                            <xs:element name="necklace" type="equipment_list"/>
+                            <xs:element name="ring" type="equipment_list"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="special">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="assistant" type="equipment_list"/>
+                            <xs:element name="earrings" type="equipment_list"/>
+                            <xs:element name="magicstone" type="equipment_list"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="titles">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="equipment_list"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="suits" type="suit_list"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<enchantings>
+    <!--武器-->
+    <enchanting id="000001">
+        <Name>竞技场武器宝珠</Name>
+        <Type>weapon</Type>
+        <Effect level="01">
+            <DarkStrengthen>12</DarkStrengthen>
+        </Effect>
+        <Effect level="02">
+            <DarkStrengthen>15</DarkStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="000002">
+        <Name>竞技场武器宝珠</Name>
+        <Type>weapon</Type>
+        <Effect level="01">
+            <LightStrengthen>12</LightStrengthen>
+        </Effect>
+        <Effect level="02">
+            <LightStrengthen>15</LightStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="000003">
+        <Name>冰封的悲伤皇女</Name>
+        <Type>weapon</Type>
+        <Effect level="00">
+            <IceStrengthen>12</IceStrengthen>
+        </Effect>
+        <Effect level="01">
+            <IceStrengthen>15</IceStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="000004">
+        <Name>燃烧的愤怒王子</Name>
+        <Type>weapon</Type>
+        <Effect level="00">
+            <FireStrengthen>12</FireStrengthen>
+        </Effect>
+        <Effect level="01">
+            <FireStrengthen>15</FireStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="000005">
+        <Name>格陵布拉德</Name>
+        <Type>weapon</Type>
+        <Effect level="00">
+            <AllStrengthen>16</AllStrengthen>
+            <StrengthIntelligence>50</StrengthIntelligence>
+            <AllAtta>50</AllAtta>
+            <PropertyAtta>5</PropertyAtta>
+        </Effect>
+    </enchanting>
+    <enchanting id="000006">
+        <Name>艾肯</Name>
+        <Type>weapon</Type>
+        <Effect level="00">
+            <AllStrengthen>15</AllStrengthen>
+            <PhyAtta>30</PhyAtta>
+            <IndAtta>30</IndAtta>
+        </Effect>
+    </enchanting>
+    <enchanting id="000007">
+        <Name>阿古朗达</Name>
+        <Type>weapon</Type>
+        <Effect level="00">
+            <AllStrengthen>15</AllStrengthen>
+            <MagAtta>30</MagAtta>
+            <IndAtta>30</IndAtta>
+        </Effect>
+    </enchanting>
+
+    <!--武器 上衣 下装-->
+    <enchanting id="001001">
+        <Name>所有单力量</Name>
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="25">
+            <Strength>70</Strength>
+        </Effect>
+        <Effect level="26">
+            <Strength>75</Strength>
+        </Effect>
+    </enchanting>
+    <enchanting id="001000">
+        <Name>杰森·格里克(所有单智力)</Name>
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="21">
+            <Intelligence>50</Intelligence>
+        </Effect>
+        <Effect level="22">
+            <Intelligence>55</Intelligence>
+        </Effect>
+        <Effect level="23">
+            <Intelligence>60</Intelligence>
+        </Effect>
+        <Effect level="24">
+            <Intelligence>65</Intelligence>
+        </Effect>
+        <Effect level="25">
+            <Intelligence>70</Intelligence>
+        </Effect>
+        <Effect level="26">
+            <Intelligence>75</Intelligence>
+        </Effect>
+    </enchanting>
+
+    <!--<enchanting id="001000">-->
+
+    <!--</enchanting>-->
+    <enchanting id="001010">
+        <Name>所有纯物理攻击</Name>  <!--弟弟卡属性太多了 不录了 反正也用不到-->
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="05">
+            <PhyAtta>30</PhyAtta>
+        </Effect>
+        <Effect level="06">
+            <PhyAtta>35</PhyAtta>
+        </Effect>
+        <Effect level="07">
+            <PhyAtta>40</PhyAtta>
+        </Effect>
+        <Effect level="08">
+            <PhyAtta>45</PhyAtta>
+        </Effect>
+    </enchanting>
+    <!--    <enchanting id="001002">-->
+    <!--        <Name>治疗师索纳尔(以及后面的弟弟卡)</Name>  &lt;!&ndash;弟弟卡属性太多了 不录了 反正也用不到&ndash;&gt;-->
+    <!--        <Type>weapon</Type>-->
+    <!--        <Type>coat</Type>-->
+    <!--        <Type>pants</Type>-->
+    <!--    </enchanting>-->
+    <!--    <enchanting id="001003">-->
+    <!--        <Name>巨灵布鲁</Name>-->
+    <!--        <Type>weapon</Type>-->
+    <!--        <Type>coat</Type>-->
+    <!--        <Type>pants</Type>-->
+    <!--        <Effect level="06">-->
+    <!--            <MagAtta>35</MagAtta>-->
+    <!--        </Effect>-->
+    <!--    </enchanting>-->
+    <enchanting id="001004">
+        <Name>光之恶魔:欧格里</Name>
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="00">
+            <MagAtta>40</MagAtta>
+        </Effect>
+    </enchanting>
+    <enchanting id="001005">
+        <Name>全能之玛特伽</Name>
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="00">
+            <MagAtta>45</MagAtta>
+        </Effect>
+    </enchanting>
+    <enchanting id="001020">
+        <Name>三攻宝珠</Name>
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="00">
+            <AllAtta>45</AllAtta>
+        </Effect>
+        <Effect level="01">
+            <AllAtta>50</AllAtta>
+        </Effect>
+    </enchanting>
+
+    <enchanting id="001011">
+        <Name>所有物攻+力量</Name>
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="01">
+            <PhyAtta>20</PhyAtta>
+            <Strength>30</Strength>
+        </Effect>
+        <Effect level="03">
+            <PhyAtta>20</PhyAtta>
+            <Strength>50</Strength>
+        </Effect>
+        <Effect level="04">
+            <PhyAtta>45</PhyAtta>
+            <Strength>15</Strength>
+        </Effect>
+        <Effect level="05">
+            <PhyAtta>50</PhyAtta>
+            <Strength>20</Strength>
+        </Effect>
+    </enchanting>
+    <enchanting id="001006">
+        <Name>铁腕公主卡巴莉</Name>
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="01">
+            <MagAtta>20</MagAtta>
+            <Intelligence>30</Intelligence>
+        </Effect>
+    </enchanting>
+    <enchanting id="001007">
+        <Name>蓝色魔女</Name>
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="01">
+            <MagAtta>20</MagAtta>
+            <Intelligence>50</Intelligence>
+        </Effect>
+    </enchanting>
+    <!--<enchanting id="001008">-->
+    <!--<Name>魂:黑色瘟疫狄瑞吉</Name>-->
+    <!--<Type>weapon</Type>-->
+    <!--<Type>coat</Type>-->
+    <!--<Type>pants</Type>-->
+    <!--<Effect level="00">-->
+    <!--<MagAtta>20</MagAtta>-->
+    <!--<Intelligence>50</Intelligence>-->
+    <!--</Effect>-->
+    <!--</enchanting>-->
+    <enchanting id="001009">
+        <Name>被囚禁的开普洛斯</Name>
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="00">
+            <MagAtta>45</MagAtta>
+            <Intelligence>15</Intelligence>
+        </Effect>
+        <Effect level="01">
+            <MagAtta>50</MagAtta>
+            <Intelligence>20</Intelligence>
+        </Effect>
+    </enchanting>
+
+    <enchanting id="001012">
+        <Name>独立</Name>
+        <Type>weapon</Type>
+        <Type>coat</Type>
+        <Type>pants</Type>
+        <Effect level="01">
+            <IndAtta>45</IndAtta>
+            <Strength>15</Strength>
+        </Effect>
+        <Effect level="02">
+            <IndAtta>50</IndAtta>
+            <Strength>20</Strength>
+        </Effect>
+        <Effect level="03">
+            <IndAtta>45</IndAtta>
+            <Intelligence>15</Intelligence>
+        </Effect>
+        <Effect level="04">
+            <IndAtta>50</IndAtta>
+            <Intelligence>20</Intelligence>
+        </Effect>
+    </enchanting>
+    <!--首饰-->
+    <enchanting id="002000">
+        <Name>所有暗强集合</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="01">
+            <DarkStrengthen>15</DarkStrengthen>
+        </Effect>
+        <Effect level="02">
+            <DarkStrengthen>20</DarkStrengthen>
+        </Effect>
+        <Effect level="03">
+            <DarkStrengthen>23</DarkStrengthen>
+        </Effect>
+        <Effect level="4">
+            <DarkStrengthen>25</DarkStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="002005">
+        <Name>所有光强集合</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="00">
+            <LightStrengthen>15</LightStrengthen>
+        </Effect>
+        <Effect level="01">
+            <LightStrengthen>20</LightStrengthen>
+        </Effect>
+        <Effect level="02">
+            <LightStrengthen>23</LightStrengthen>
+        </Effect>
+        <Effect level="03">
+            <LightStrengthen>25</LightStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="002006">
+        <Name>所有火强集合</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="00">
+            <FireStrengthen>15</FireStrengthen>
+        </Effect>
+        <Effect level="01">
+            <IndAtta>10</IndAtta>
+            <FireStrengthen>16</FireStrengthen>
+        </Effect>
+        <Effect level="02">
+            <FireStrengthen>20</FireStrengthen>
+        </Effect>
+        <Effect level="03">
+            <FireStrengthen>23</FireStrengthen>
+        </Effect>
+        <Effect level="04">
+            <FireStrengthen>25</FireStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="002007">
+        <Name>所有冰强集合</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="00">
+            <IceStrengthen>15</IceStrengthen>
+        </Effect>
+        <Effect level="01">
+            <IceStrengthen>20</IceStrengthen>
+        </Effect>
+        <Effect level="02">
+            <IceStrengthen>23</IceStrengthen>
+        </Effect>
+        <Effect level="03">
+            <IceStrengthen>25</IceStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="002008">
+        <Name>所有属强集合</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="00">
+            <AllStrengthen>18</AllStrengthen>
+        </Effect>
+        <Effect level="01">
+            <AllStrengthen>22</AllStrengthen>
+        </Effect>
+        <Effect level="02">
+            <AllStrengthen>23</AllStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="002001">
+        <Name>崩溃的哈布</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="00">
+            <DarkStrengthen>20</DarkStrengthen>
+            <FireStrengthen>20</FireStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="002002">
+        <Name>噩梦之内尔贝</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="01">
+            <DarkStrengthen>20</DarkStrengthen>
+            <LightStrengthen>20</LightStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="002003">
+        <Name>月光漫步者亚辛</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="00">
+            <DarkStrengthen>20</DarkStrengthen>
+            <IceStrengthen>20</IceStrengthen>
+        </Effect>
+        <Effect level="01">
+            <DarkStrengthen>26</DarkStrengthen>
+            <IceStrengthen>26</IceStrengthen>
+        </Effect>
+        <Effect level="02">
+            <DarkStrengthen>30</DarkStrengthen>
+            <IceStrengthen>30</IceStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="002010">
+        <Name>钢铁巨兽</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="00">
+            <FireStrengthen>20</FireStrengthen>
+            <LightStrengthen>20</LightStrengthen>
+        </Effect>
+        <Effect level="01">
+            <FireStrengthen>26</FireStrengthen>
+            <LightStrengthen>26</LightStrengthen>
+        </Effect>
+        <Effect level="02">
+            <FireStrengthen>30</FireStrengthen>
+            <LightStrengthen>30</LightStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="002011">
+        <Name>格拉古尔</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="01">
+            <IceStrengthen>20</IceStrengthen>
+            <LightStrengthen>20</LightStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="002004">
+        <Name>火焰之行星 - 罗什</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="00">
+            <DarkStrengthen>21</DarkStrengthen>
+            <FireStrengthen>21</FireStrengthen>
+        </Effect>
+        <Effect level="01">
+            <DarkStrengthen>23</DarkStrengthen>
+            <FireStrengthen>23</FireStrengthen>
+        </Effect>
+        <Effect level="02">
+            <DarkStrengthen>25</DarkStrengthen>
+            <FireStrengthen>25</FireStrengthen>
+        </Effect>
+    </enchanting>
+
+    <enchanting id="002009">
+        <Name>寒冰之行星 - 罗什</Name>
+        <Type>bracelet</Type>
+        <Type>necklace</Type>
+        <Type>ring</Type>
+        <Effect level="00">
+            <IceStrengthen>21</IceStrengthen>
+            <LightStrengthen>21</LightStrengthen>
+        </Effect>
+        <Effect level="01">
+            <IceStrengthen>23</IceStrengthen>
+            <LightStrengthen>23</LightStrengthen>
+        </Effect>
+        <Effect level="02">
+            <IceStrengthen>25</IceStrengthen>
+            <LightStrengthen>25</LightStrengthen>
+        </Effect>
+    </enchanting>
+
+    <!--腰带鞋子-->
+    <enchanting id="003000">
+        <Name>骑士之誓约</Name>
+        <Type>belt</Type>
+        <Type>shoes</Type>
+        <Effect level="01">
+            <PhyAtta>24</PhyAtta>
+            <MagAtta>24</MagAtta>
+            <IndAtta>36</IndAtta>
+            <SkillLevel type="range" start="1" end="30" condition="主动">1</SkillLevel>
+        </Effect>
+    </enchanting>
+    <enchanting id="003001">
+        <Name>混沌之英雄凯特拉</Name>
+        <Type>shoes</Type>
+        <Effect level="00">
+            <FourDimension>45</FourDimension>
+            <SkillLevel type="range" start="1" end="30" condition="主动">1</SkillLevel>
+        </Effect>
+    </enchanting>
+    <enchanting id="003008">
+        <Name>超越极限宝珠(鞋)</Name>
+        <Type>shoes</Type>
+        <Effect level="00">
+            <AllAtta>36</AllAtta>
+            <SkillLevel type="range" start="1" end="30" condition="主动">1</SkillLevel>
+        </Effect>
+    </enchanting>
+    <enchanting id="003002">
+        <Name>2017春节宝珠</Name>
+        <Type>belt</Type>
+        <Effect level="00">
+            <FourDimension>30</FourDimension>
+            <SkillLevel type="range" start="1" end="30" condition="主动">1</SkillLevel>
+        </Effect>
+    </enchanting>
+    <enchanting id="003004">
+        <Name>2020春节宝珠</Name>
+        <Type>belt</Type>
+        <Effect level="00">
+            <FourDimension>45</FourDimension>
+            <SkillLevel type="range" start="1" end="50" condition="主动">1</SkillLevel>
+        </Effect>
+    </enchanting>
+    <enchanting id="003003">
+        <Name>巨龙石像</Name>
+        <Type>shoes</Type>
+        <Effect level="00">
+            <IndAtta>44</IndAtta>
+        </Effect>
+    </enchanting>
+    <enchanting id="003006">
+        <Name>超越极限宝珠(腰带)</Name>
+        <Type>belt</Type>
+        <Effect level="00">
+            <AllAtta>36</AllAtta>
+            <SkillLevel type="range" start="1" end="50" condition="主动">1</SkillLevel>
+        </Effect>
+    </enchanting>
+
+    <!--肩膀-->
+    <enchanting id="004000">
+        <Name>烈焰石巨人莱斯</Name>
+        <Type>shoulder</Type>
+        <Effect level="00">
+            <PhyAtta>23</PhyAtta>
+        </Effect>
+        <Effect level="01">
+            <MagAtta>23</MagAtta>
+        </Effect>
+    </enchanting>
+    <enchanting id="004001">
+        <Name>超越极限宝珠(头肩)</Name>
+        <Type>shoulder</Type>
+        <Effect level="00">
+            <AllAtta>20</AllAtta>
+            <SkillLevel type="range" start="1" end="50" condition="主动">1</SkillLevel>
+        </Effect>
+    </enchanting>
+    <enchanting id="004002">
+        <Name>春节肩膀宝珠</Name>
+        <Type>shoulder</Type>
+        <Effect level="00">
+            <Strength>75</Strength>
+            <Intelligence>75</Intelligence>
+            <PhyCrit>5</PhyCrit>
+            <MagCrit>5</MagCrit>
+            <SkillLevel type="range" start="1" end="30" condition="主动">1</SkillLevel>
+        </Effect>
+        <Effect level="01">
+            <Strength>75</Strength>
+            <Intelligence>75</Intelligence>
+            <PhyCrit>5</PhyCrit>
+            <MagCrit>5</MagCrit>
+            <SkillLevel type="range" start="1" end="50" condition="主动">1</SkillLevel>
+        </Effect>
+        <Effect level="02">
+            <Strength>75</Strength>
+            <Intelligence>75</Intelligence>
+            <AllAtta>20</AllAtta>
+            <SkillLevel type="range" start="1" end="50" condition="主动">1</SkillLevel>
+        </Effect>
+    </enchanting>
+
+
+    <!--左槽-->
+    <enchanting id="005000">
+        <Name>左槽附魔</Name>
+        <Type>assistant</Type>
+        <Effect level="00">
+            <PhyAtta>42</PhyAtta>
+        </Effect>
+        <Effect level="01">
+            <PhyAtta>42</PhyAtta>
+            <IndAtta>42</IndAtta>
+            <MagCrit>2</MagCrit>
+        </Effect>
+
+        <Effect level="02">
+            <MagAtta>42</MagAtta>
+        </Effect>
+        <Effect level="03">
+            <MagAtta>42</MagAtta>
+            <IndAtta>42</IndAtta>
+            <MagCrit>2</MagCrit>
+        </Effect>
+
+        <Effect level="04">
+            <IndAtta>42</IndAtta>
+        </Effect>
+        <Effect level="05">
+            <AllAtta>50</AllAtta>
+        </Effect>
+        <Effect level="06">
+            <AllAtta>60</AllAtta>
+        </Effect>
+        <Effect level="07">
+            <AllAtta>70</AllAtta>
+        </Effect>
+
+
+    </enchanting>
+    <enchanting id="005001">
+        <Name>宇宙恶魔:罗什(黑暗)</Name>
+        <Type>assistant</Type>
+        <Effect level="01">
+            <AllStrengthen>12</AllStrengthen>
+        </Effect>
+    </enchanting>
+    <enchanting id="005002">
+        <Name>2019春节左槽宝珠</Name>
+        <Type>assistant</Type>
+        <Effect level="00">
+            <AllStrengthen>12</AllStrengthen>
+            <AllDamage>3</AllDamage>
+            <PhyCrit>3</PhyCrit>
+            <MagCrit>3</MagCrit>
+        </Effect>
+    </enchanting>
+
+    <!--右槽-->
+    <enchanting id="006000">
+        <Name>右槽附魔</Name>
+        <Type>magicstone</Type>
+        <Effect level="00">
+            <AllStrengthen>12</AllStrengthen>
+        </Effect>
+        <Effect level="01">
+            <AllStrengthen>15</AllStrengthen>
+        </Effect>
+        <Effect level="02">
+            <AllStrengthen>20</AllStrengthen>
+        </Effect>
+    </enchanting>
+    <!--耳环-->
+    <enchanting id="007000">
+        <Name>制造者卢克</Name>
+        <Type>earrings</Type>
+        <Effect level="00">
+            <FourDimension>50</FourDimension>
+        </Effect>
+        <Effect level="01">
+            <FourDimension>75</FourDimension>
+        </Effect>
+        <Effect level="02">
+            <FourDimension>100</FourDimension>
+        </Effect>
+        <Effect level="03">
+            <FourDimension>125</FourDimension>
+        </Effect>
+        <Effect level="04">
+            <FourDimension>140</FourDimension>
+        </Effect>
+        <Effect level="05">
+            <FourDimension>150</FourDimension>
+        </Effect>
+    </enchanting>
+    <!--称号-->
+    <enchanting id="008000">
+        <Name>春节宝珠</Name>
+        <Type>title</Type>
+        <Effect level="00">
+            <PhyAtta>20</PhyAtta>
+            <MagAtta>20</MagAtta>
+            <IndAtta>30</IndAtta>
+            <AllStrengthen>15</AllStrengthen>
+            <SkillLevel type="range" start="1" end="50" condition="主动">1</SkillLevel>
+        </Effect>
+        <Effect level="01">
+            <PhyAtta>30</PhyAtta>
+            <MagAtta>30</MagAtta>
+            <IndAtta>40</IndAtta>
+            <AllStrengthen>15</AllStrengthen>
+            <SkillLevel type="range" start="1" end="50" condition="主动">1</SkillLevel>
+        </Effect>
+        <Effect level="02">
+            <AllAtta>40</AllAtta>
+            <AllStrengthen>15</AllStrengthen>
+            <SkillLevel type="range" start="1" end="50" condition="主动">1</SkillLevel>
+        </Effect>
+    </enchanting>
+
+    <!--肩膀腰带 鞋子 -->
+    <enchanting id="009000">
+        <Name>超时空宝珠</Name>
+        <Type>shoulder</Type>
+        <Type>belt</Type>
+        <Type>shoes</Type>
+        <Effect level="00">
+            <Strength>50</Strength>
+            <Intelligence>50</Intelligence>
+        </Effect>
+    </enchanting>
+
+
+    <!--宠物附魔-->
+    <enchanting id="100000">
+        <Type>pet</Type>
+        <Effect level="00">
+            <FireStrengthen>14</FireStrengthen>
+        </Effect>
+        <Effect level="01">
+            <FireStrengthen>16</FireStrengthen>
+        </Effect>
+        <Effect level="02">
+            <LightStrengthen>14</LightStrengthen>
+        </Effect>
+        <Effect level="03">
+            <LightStrengthen>16</LightStrengthen>
+        </Effect>
+        <Effect level="04">
+            <IceStrengthen>14</IceStrengthen>
+        </Effect>
+        <Effect level="05">
+            <IceStrengthen>16</IceStrengthen>
+        </Effect>
+        <Effect level="06">
+            <DarkStrengthen>14</DarkStrengthen>
+        </Effect>
+        <Effect level="07">
+            <DarkStrengthen>16</DarkStrengthen>
+        </Effect>
+    </enchanting>
+    <!--    <enchanting id="100001">-->
+    <!--        <Type>pet</Type>-->
+    <!--        <Effect level="00">-->
+    <!--            <DarkStrengthen>7</DarkStrengthen>-->
+    <!--            <MagAtta>15</MagAtta>-->
+    <!--        </Effect>-->
+    <!--        <Effect level="01">-->
+    <!--            <DarkStrengthen>8</DarkStrengthen>-->
+    <!--            <MagAtta>20</MagAtta>-->
+    <!--        </Effect>-->
+    <!--    </enchanting>-->
+    <!--    <enchanting id="100002">-->
+    <!--        <Type>pet</Type>-->
+    <!--        <Effect level="00">-->
+    <!--            <MagAtta>30</MagAtta>-->
+    <!--        </Effect>-->
+    <!--        <Effect level="01">-->
+    <!--            <MagAtta>40</MagAtta>-->
+    <!--        </Effect>-->
+    <!--        <Effect level="02">-->
+    <!--            <IndAtta>30</IndAtta>-->
+    <!--        </Effect>-->
+    <!--        <Effect level="03">-->
+    <!--            <IndAtta>40</IndAtta>-->
+    <!--        </Effect>-->
+    <!--    </enchanting>-->
+</enchantings>

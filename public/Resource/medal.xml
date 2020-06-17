@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<medals_beads>
+    <medals>
+        <medal id="000">
+            <Name>普通勋章</Name>
+            <Grade>normal</Grade>
+            <Type>普通</Type>
+            <Property index="000">
+                <Intelligence>10</Intelligence>
+                <MagAtta>5</MagAtta>
+            </Property>
+        </medal>
+        <medal id="001">
+            <Name>高级勋章</Name>
+            <Grade>senior</Grade>
+            <Type>高级</Type>
+            <Property index="000">
+                <Intelligence>20</Intelligence>
+                <MagAtta>10</MagAtta>
+            </Property>
+        </medal>
+        <medal id="002">
+            <Name>稀有勋章</Name>
+            <Grade>rare</Grade>
+            <Type>稀有</Type>
+            <Property index="000">
+                <Intelligence>20</Intelligence>
+                <MagAtta>10</MagAtta>
+            </Property>
+        </medal>
+        <medal id="003">
+            <Name>神器勋章</Name>
+            <Grade>artifact</Grade>
+            <Type>神器</Type>
+            <Property index="000">
+                <Intelligence>20</Intelligence>
+                <MagAtta>10</MagAtta>
+            </Property>
+        </medal>
+        <medal id="004">
+            <Name>传说勋章</Name>
+            <Grade>legend</Grade>
+            <Type>传说</Type>
+            <Property index="000">
+                <Strength>48</Strength>
+            </Property>
+            <Property index="001">
+                <Intelligence>48</Intelligence>
+            </Property>
+            <Property index="002">
+                <Strength>46</Strength>
+                <Intelligence>46</Intelligence>
+            </Property>
+            <Property index="003">
+                <Intelligence>44</Intelligence>
+            </Property>
+            <Property index="004">
+                <Strength>24</Strength>
+                <Intelligence>24</Intelligence>
+            </Property>
+            <Property index="005">
+                <Strength>28</Strength>
+                <Intelligence>28</Intelligence>
+            </Property>
+            <Property index="006">
+                <Strength>48</Strength>
+                <PhyAtta>30</PhyAtta>
+            </Property>
+            <Property index="007">
+                <Intelligence>48</Intelligence>
+                <MagAtta>30</MagAtta>
+            </Property>
+            <Property index="008">
+                <Strength>48</Strength>
+                <IndAtta>30</IndAtta>
+            </Property>
+            <Property index="009">
+                <Intelligence>48</Intelligence>
+                <IndAtta>30</IndAtta>
+            </Property>
+            <Property index="010">
+                <Strength>48</Strength>
+                <IndAtta>30</IndAtta>
+            </Property>
+            <Property index="011">
+                <PhyAtta>30</PhyAtta>
+                <IndAtta>30</IndAtta>
+            </Property>
+            <Property index="012">
+                <PhyAtta>30</PhyAtta>
+                <MagAtta>30</MagAtta>
+            </Property>
+        </medal>
+    </medals>
+    <beads>
+        <bead id="100" type="0">
+            <Name>暗属性强化+1</Name>
+            <Grade>normal</Grade>
+            <Property>
+                <DarkStrengthen>1</DarkStrengthen>
+            </Property>
+        </bead>
+        <bead id="101" type="0">
+            <Name>暗属性强化+3</Name>
+            <Grade>senior</Grade>
+            <Property>
+                <DarkStrengthen>3</DarkStrengthen>
+            </Property>
+        </bead>
+        <bead id="102" type="0">
+            <Name>暗属性强化+5</Name>
+            <Grade>rare</Grade>
+            <Property>
+                <DarkStrengthen>5</DarkStrengthen>
+            </Property>
+        </bead>
+        <bead id="103" type="0">
+            <Name>暗属性强化+7</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <DarkStrengthen>7</DarkStrengthen>
+            </Property>
+        </bead>
+
+        <bead id="110" type="1">
+            <Name>光属性强化+1</Name>
+            <Grade>normal</Grade>
+            <Property>
+                <LightStrengthen>1</LightStrengthen>
+            </Property>
+        </bead>
+        <bead id="111" type="1">
+            <Name>光属性强化+3</Name>
+            <Grade>senior</Grade>
+            <Property>
+                <LightStrengthen>3</LightStrengthen>
+            </Property>
+        </bead>
+        <bead id="112" type="1">
+            <Name>光属性强化+5</Name>
+            <Grade>rare</Grade>
+            <Property>
+                <LightStrengthen>5</LightStrengthen>
+            </Property>
+        </bead>
+        <bead id="113" type="1">
+            <Name>光属性强化+7</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <LightStrengthen>7</LightStrengthen>
+            </Property>
+        </bead>
+
+        <bead id="120" type="2">
+            <Name>火属性强化+1</Name>
+            <Grade>normal</Grade>
+            <Property>
+                <FireStrengthen>1</FireStrengthen>
+            </Property>
+        </bead>
+        <bead id="121" type="2">
+            <Name>火属性强化+3</Name>
+            <Grade>senior</Grade>
+            <Property>
+                <FireStrengthen>3</FireStrengthen>
+            </Property>
+        </bead>
+        <bead id="122" type="2">
+            <Name>火属性强化+5</Name>
+            <Grade>rare</Grade>
+            <Property>
+                <FireStrengthen>5</FireStrengthen>
+            </Property>
+        </bead>
+        <bead id="123" type="2">
+            <Name>火属性强化+7</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <FireStrengthen>7</FireStrengthen>
+            </Property>
+        </bead>
+
+        <bead id="130" type="3">
+            <Name>冰属性强化+1</Name>
+            <Grade>normal</Grade>
+            <Property>
+                <IceStrengthen>1</IceStrengthen>
+            </Property>
+        </bead>
+        <bead id="131" type="3">
+            <Name>冰属性强化+3</Name>
+            <Grade>senior</Grade>
+            <Property>
+                <IceStrengthen>3</IceStrengthen>
+            </Property>
+        </bead>
+        <bead id="132" type="3">
+            <Name>冰属性强化+5</Name>
+            <Grade>rare</Grade>
+            <Property>
+                <IceStrengthen>5</IceStrengthen>
+            </Property>
+        </bead>
+        <bead id="133" type="3">
+            <Name>冰属性强化+7</Name>
+            <Grade>artifact</Grade>
+            <Property>
+                <IceStrengthen>7</IceStrengthen>
+            </Property>
+        </bead>
+    </beads>
+</medals_beads>
